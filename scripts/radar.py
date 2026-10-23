@@ -34,10 +34,8 @@ MAX_CHARS = 60_000
 # Muitos sites de governo têm cadeia de certificados incompleta
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/126.0 Safari/537.36 radar-editais"
-    ),
+    # UA de navegador completo é barrado por alguns filtros anti-bot (ex.: DAAD)
+    "User-Agent": "Mozilla/5.0 (compatible; radar-editais/1.0; +https://github.com/osmarluiz/radar-editais)",
     "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
 }
 

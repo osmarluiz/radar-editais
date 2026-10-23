@@ -14,7 +14,7 @@ fontes:
   - id: cnpq
     nome: CNPq
     categoria: federal
-    url: http://memoria2.cnpq.br/web/guest/chamadas-publicas
+    url: https://www.gov.br/cnpq/pt-br/chamadas/abertas-para-submissao
   - id: capes
     nome: CAPES
     categoria: federal
@@ -23,20 +23,16 @@ fontes:
     nome: FINEP
     categoria: federal
     url: http://www.finep.gov.br/chamadas-publicas?situacao=aberta
-  - id: mcti
-    nome: MCTI
-    categoria: federal
-    url: https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/chamadas-publicas
-  - id: embrapa
-    nome: Embrapa
-    categoria: federal
-    url: https://www.embrapa.br/editais
 
   # --- FAPs ---
   - id: fapdf
     nome: FAPDF
     categoria: fap
-    url: https://www.fap.df.gov.br/editais/
+    url: https://www.fap.df.gov.br/editais-fapdf-20261  # o endereço muda todo ano
+  - id: fapdf-internacional
+    nome: FAPDF (chamadas internacionais)
+    categoria: fap
+    url: https://www.fap.df.gov.br/chamadas-internacionais-20261
   - id: fapesp
     nome: FAPESP
     categoria: fap
@@ -52,11 +48,11 @@ fontes:
   - id: fapeg
     nome: FAPEG (Goiás)
     categoria: fap
-    url: https://goias.gov.br/fapeg/editais/
+    url: https://goias.gov.br/fapeg/editais/inscricoes-abertas/
   - id: fapergs
     nome: FAPERGS
     categoria: fap
-    url: https://fapergs.rs.gov.br/editais-abertos
+    url: https://fapergs.rs.gov.br/mapa-do-site
   - id: fapesc
     nome: FAPESC
     categoria: fap
@@ -64,19 +60,23 @@ fontes:
   - id: araucaria
     nome: Fundação Araucária (PR)
     categoria: fap
-    url: https://www.fappr.pr.gov.br/Editais
+    url: https://www.fappr.pr.gov.br/Programas-Abertos
   - id: fapemat
     nome: FAPEMAT
     categoria: fap
-    url: https://www.fapemat.mt.gov.br/editais
+    url: https://www.fapemat.mt.gov.br/pt/editais_1?categoryId=73983336
   - id: fundect
     nome: FUNDECT (MS)
     categoria: fap
-    url: https://www.fundect.ms.gov.br/editais-abertos/
+    url: https://www.fundect.ms.gov.br/informativos/consultas/
   - id: fapesb
     nome: FAPESB
     categoria: fap
     url: https://www.fapesb.ba.gov.br/category/edital/
+  - id: fapema
+    nome: FAPEMA
+    categoria: fap
+    url: https://www.fapema.br/editais/
   - id: facepe
     nome: FACEPE
     categoria: fap
@@ -86,15 +86,15 @@ fontes:
   - id: embrapii
     nome: EMBRAPII
     categoria: inovacao
-    url: https://embrapii.org.br/chamadas-publicas/
+    url: https://embrapii.org.br/chamadas-publicas/feed/
   - id: bndes
     nome: BNDES
     categoria: inovacao
-    url: https://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/chamadas-publicas
-  - id: sebrae
-    nome: SEBRAE
+    url: https://www.bndes.gov.br/chamadadeinovacao
+  - id: serrapilheira
+    nome: Instituto Serrapilheira
     categoria: inovacao
-    url: https://sebrae.com.br/sites/PortalSebrae/editais
+    url: https://serrapilheira.org/todas-as-chamadas/
   - id: centelha
     nome: Programa Centelha
     categoria: inovacao
@@ -108,24 +108,28 @@ fontes:
   - id: confap
     nome: CONFAP (cooperação internacional)
     categoria: internacional
-    url: https://confap.org.br/pt/chamadas
+    url: https://confap.org.br/pt/editais
   - id: belmont
     nome: Belmont Forum
     categoria: internacional
-    url: https://www.belmontforum.org/news/funding-opportunities/
+    url: https://belmontforum.org/open-opportunities/
   - id: daad
     nome: DAAD Brasil
     categoria: internacional
-    url: https://www.daad.org.br/pt/encontrar-financiamento/banco-de-dados-de-bolsas-de-estudo/
+    url: https://www.daad-brasil.org/pt/bolsas/busca/
   - id: fulbright
     nome: Fulbright Brasil
     categoria: internacional
-    url: https://fulbright.org.br/bolsas/
+    url: https://fulbright.org.br/bolsas-para-brasileiros
   - id: google-research
     nome: Google Research
     categoria: internacional
     url: https://research.google/programs-and-events/
-  - id: wellcome
-    nome: Wellcome Trust
+  - id: idrc
+    nome: IDRC (Canadá)
     categoria: internacional
-    url: https://wellcome.org/grant-funding/schemes
+    url: https://idrc-crdi.ca/en/funding
+  - id: climatechange-ai
+    nome: Climate Change AI
+    categoria: internacional
+    url: https://www.climatechange.ai/calls
