@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-23T17:02:11-03:00",
+  "atualizado_em": "2026-10-23T17:03:01-03:00",
   "editais": [
     {
       "titulo": "Ocean 2 CRA – Towards the Ocean We Want: Biodiversity and Ecosystem Sustainability for Nature and Human Well-being",
@@ -1247,6 +1247,21 @@
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
     },
     {
+      "titulo": "Chamada CONFAP-FAPDF Marie Sklodowska-Curie Intercâmbio de Pessoal 2026 (MSCA-SE 2026)",
+      "resumo": "Chamada para intercâmbio de pessoal de pesquisa (Staff Exchange) no âmbito do programa europeu Marie Sklodowska-Curie, voltada a pesquisadores vinculados ao DF, sem restrição temática explícita no texto.",
+      "prazo": null,
+      "valor": null,
+      "link": "https://www.fap.df.gov.br/documents/d/fap/chamada-confap-fapdf-msca-se-2026-pdf",
+      "aberto": true,
+      "relevancia": "media",
+      "motivo": "Mobilidade internacional de pesquisador sem área restrita; sem resultado publicado ainda no texto, status de abertura incerto",
+      "id": "adfb967c1c96",
+      "fonte": "fapdf-internacional",
+      "fonte_nome": "FAPDF (chamadas internacionais)",
+      "categoria": "fap",
+      "primeiro_visto": "2026-10-23T17:03:01-03:00"
+    },
+    {
       "titulo": "Chamada CONFAP/ERC 2026 – Call Research Opportunities in Europe for Active PhD Researchers from Brazil",
       "resumo": "Apoia pesquisadores doutores de instituições da Bahia a buscarem colaborações com pesquisadores financiados pelo Conselho Europeu de Pesquisa (ERC).",
       "prazo": null,
@@ -1260,6 +1275,36 @@
       "fonte_nome": "FAPESB",
       "categoria": "fap",
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
+    },
+    {
+      "titulo": "Chamada CONFAP–BRASILLINOIS 2026",
+      "resumo": "Chamada de cooperação entre o CONFAP (incluindo FAPDF) e a Universidade de Illinois para intercâmbio/mobilidade de pesquisadores brasileiros, sem recorte temático definido.",
+      "prazo": null,
+      "valor": null,
+      "link": "https://www.fap.df.gov.br/documents/d/fap/sei-00193-00000714_2026-17-chamada-publica-n-44-2026-confap-brasilllinois-2026-pdf",
+      "aberto": false,
+      "relevancia": "baixa",
+      "motivo": "Resultado final já publicado (23/09/2026) e chamada genérica de mobilidade acadêmica",
+      "id": "e18fea066110",
+      "fonte": "fapdf-internacional",
+      "fonte_nome": "FAPDF (chamadas internacionais)",
+      "categoria": "fap",
+      "primeiro_visto": "2026-10-23T17:03:01-03:00"
+    },
+    {
+      "titulo": "Chamada ERC – CONFAP – 2026 (Research opportunities in Europe for active PhD researchers from Brazil)",
+      "resumo": "Chamada do CONFAP em parceria com o European Research Council (ERC) para oferecer oportunidades de pesquisa na Europa a doutorandos brasileiros em atividade, sem foco em área específica.",
+      "prazo": null,
+      "valor": null,
+      "link": "https://www.fap.df.gov.br/documents/d/fap/sei_gdf-206678124-chamada-publica-diretrizes-fapdf-pdf",
+      "aberto": false,
+      "relevancia": "baixa",
+      "motivo": "Resultado final já publicado (09/10/2026) e chamada genérica de mobilidade, não específica das áreas de interesse",
+      "id": "729b40b1c0cd",
+      "fonte": "fapdf-internacional",
+      "fonte_nome": "FAPDF (chamadas internacionais)",
+      "categoria": "fap",
+      "primeiro_visto": "2026-10-23T17:03:01-03:00"
     },
     {
       "titulo": "Chamada FAPESB/SECTI/SEMA/FGB Nº 01/2026",
@@ -1335,6 +1380,21 @@
       "fonte_nome": "FAPESB",
       "categoria": "fap",
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
+    },
+    {
+      "titulo": "Chamada MCI – Mobility CONFAP Italy 2026",
+      "resumo": "Chamada de mobilidade internacional entre CONFAP/FAPDF e instituições da Itália para pesquisadores, publicada recentemente, sem recorte temático definido no texto.",
+      "prazo": null,
+      "valor": null,
+      "link": "https://www.fap.df.gov.br/documents/d/fap/sei_216532652_chamada_publica_69-pdf",
+      "aberto": true,
+      "relevancia": "media",
+      "motivo": "Publicada muito recentemente (07/10/2026) e ainda sem resultado divulgado; oportunidade de mobilidade genérica que pode servir ao pesquisador",
+      "id": "677243468c94",
+      "fonte": "fapdf-internacional",
+      "fonte_nome": "FAPDF (chamadas internacionais)",
+      "categoria": "fap",
+      "primeiro_visto": "2026-10-23T17:03:01-03:00"
     },
     {
       "titulo": "Chamada Pública Bilateral Finep-CDTI",

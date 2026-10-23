@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-23T17:02:11-03:00",
+  "atualizado_em": "2026-10-23T17:03:01-03:00",
   "fontes": [
     {
       "id": "facepe",
@@ -9,30 +9,6 @@
       "verificado_em": "2026-10-23T16:56:52-03:00",
       "ok": false,
       "erro": "ConnectTimeout: HTTPSConnectionPool(host='www.facepe.br', port=443): Max retries exceeded with url: /editais/todos/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.facepe.br', port=443) at 0x7fb6d7642c90>, 'Connection to www.facepe.br timed out. (connect timeout=15)'))",
-      "hash": null,
-      "extraido_em": null,
-      "n_editais": 0
-    },
-    {
-      "id": "fapdf",
-      "nome": "FAPDF",
-      "url": "https://www.fap.df.gov.br/editais-fapdf-20261",
-      "categoria": "fap",
-      "verificado_em": "2026-10-23T17:02:11-03:00",
-      "ok": false,
-      "erro": "ReadTimeout: HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Read timed out. (read timeout=15)",
-      "hash": null,
-      "extraido_em": null,
-      "n_editais": 0
-    },
-    {
-      "id": "fapdf-internacional",
-      "nome": "FAPDF (chamadas internacionais)",
-      "url": "https://www.fap.df.gov.br/chamadas-internacionais-20261",
-      "categoria": "fap",
-      "verificado_em": "2026-10-23T17:02:11-03:00",
-      "ok": false,
-      "erro": "ReadTimeout: HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Read timed out. (read timeout=15)",
       "hash": null,
       "extraido_em": null,
       "n_editais": 0
@@ -156,6 +132,30 @@
       "hash": "0effa7a3de102887",
       "extraido_em": "2026-10-23T16:33:32-03:00",
       "n_editais": 0
+    },
+    {
+      "id": "fapdf",
+      "nome": "FAPDF",
+      "url": "https://www.fap.df.gov.br/editais-fapdf-20261",
+      "categoria": "fap",
+      "verificado_em": "2026-10-23T17:03:01-03:00",
+      "ok": true,
+      "erro": null,
+      "hash": "ae30756c28b826d1",
+      "extraido_em": "2026-10-23T17:03:01-03:00",
+      "n_editais": 0
+    },
+    {
+      "id": "fapdf-internacional",
+      "nome": "FAPDF (chamadas internacionais)",
+      "url": "https://www.fap.df.gov.br/chamadas-internacionais-20261",
+      "categoria": "fap",
+      "verificado_em": "2026-10-23T17:03:01-03:00",
+      "ok": true,
+      "erro": null,
+      "hash": "2b97513946dfee41",
+      "extraido_em": "2026-10-23T17:03:01-03:00",
+      "n_editais": 4
     },
     {
       "id": "fapeg",
