@@ -32,6 +32,7 @@ ARQ_STATUS = DADOS / "status.json"
 
 FUSO = timezone(timedelta(hours=-3))
 MAX_CHARS = 60_000
+LEITOR = "https://r.jina.ai/"
 # Muitos sites de governo têm cadeia de certificados incompleta
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 HEADERS = {
@@ -103,9 +104,11 @@ def salvar_json(caminho, dados):
 
 def baixar_texto(fonte):
     """Baixa a página e devolve o texto principal com os links em [texto](url)."""
+    # leitor: true busca pelo r.jina.ai, para sites que bloqueiam IPs de fora do Brasil
+    url = LEITOR + fonte["url"] if fonte.get("leitor") else fonte["url"]
     for tentativa in range(3):
         try:
-            resp = requests.get(fonte["url"], headers=HEADERS, timeout=(15, 90), verify=False)
+            resp = requests.get(url, headers=HEADERS, timeout=(15, 90), verify=False)
             break
         except (requests.ConnectionError, requests.Timeout):
             if tentativa == 2:
@@ -114,6 +117,8 @@ def baixar_texto(fonte):
     resp.raise_for_status()
     if fonte.get("formato") == "json":
         return texto_de_json(fonte, resp.json())
+    if fonte.get("leitor"):
+        return resp.text[:MAX_CHARS]  # o leitor já devolve markdown com os links
     soup = BeautifulSoup(resp.content, "html.parser")
     for tag in soup(["script", "style", "noscript", "svg", "header", "footer", "nav", "form", "iframe"]):
         tag.decompose()

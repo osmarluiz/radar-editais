@@ -52,7 +52,9 @@ python scripts/radar.py --forcar              # reextrai tudo
 Edite `config/fontes.yaml`. A URL precisa ser a página que **lista** os editais e devolver o
 conteúdo em HTML estático (sites que só montam a lista via JavaScript aparecem como
 "página quase vazia" no status). Se a página tiver muito ruído, informe um `seletor` CSS
-para o bloco de conteúdo. Teste com `python scripts/radar.py --sem-claude --fonte <id>`.
+para o bloco de conteúdo. Para sites que bloqueiam os servidores do GitHub (ex.: FAPDF),
+use `leitor: true` (busca via r.jina.ai). Para uma API JSON (ex.: FINEP), use
+`formato: json` e `link_modelo`. Teste com `python scripts/radar.py --sem-claude --fonte <id>`.
 
 Para mudar o que conta como relevante, edite o `perfil` no topo do mesmo arquivo; a próxima
 execução reavalia todas as fontes.

@@ -9,6 +9,7 @@ perfil: |
 
 # Cada fonte: id único, nome, categoria (federal | fap | inovacao | internacional),
 # url da página que lista os editais e, opcionalmente, um seletor CSS do conteúdo.
+# leitor: true busca a página via r.jina.ai (sites que bloqueiam IP estrangeiro).
 # Para APIs JSON: formato: json e, se quiser, link_modelo com campos do item ({id}).
 fontes:
   # --- Federais ---
@@ -33,10 +34,12 @@ fontes:
     nome: FAPDF
     categoria: fap
     url: https://www.fap.df.gov.br/editais-fapdf-20261  # o endereço muda todo ano
+    leitor: true  # o site do GDF bloqueia os servidores do GitHub
   - id: fapdf-internacional
     nome: FAPDF (chamadas internacionais)
     categoria: fap
     url: https://www.fap.df.gov.br/chamadas-internacionais-20261
+    leitor: true  # o site do GDF bloqueia os servidores do GitHub
   - id: fapesp
     nome: FAPESP
     categoria: fap
