@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-23T16:33:32-03:00",
+  "atualizado_em": "2026-10-23T16:56:52-03:00",
   "editais": [
     {
       "titulo": "Ocean 2 CRA – Towards the Ocean We Want: Biodiversity and Ecosystem Sustainability for Nature and Human Well-being",
@@ -107,6 +107,21 @@
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
     },
     {
+      "titulo": "Finep Mais Inovação Brasil – Rodada 2 - Base Industrial de Defesa",
+      "resumo": "Subvenção econômica para desenvolvimento de produtos/processos inovadores em tecnologias para defesa nacional, em integração ICT-empresa.",
+      "prazo": "2026-10-02",
+      "valor": "R$ 300 milhões",
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/754961",
+      "aberto": false,
+      "relevancia": "baixa",
+      "motivo": "Foco em defesa nacional, sem relação com sensoriamento remoto, agricultura ou clima, e prazo já encerrado",
+      "id": "111d08930e56",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
+    },
+    {
       "titulo": "PA Confap/CDTI: Chamada Brasil (CONFAP) - Espanha (CDTI) 2026-2027",
       "resumo": "Apoia projetos de colaboração em pesquisa, desenvolvimento e inovação tecnológica entre Brasil e Espanha.",
       "prazo": "2026-10-08",
@@ -150,6 +165,21 @@
       "fonte_nome": "FAPERJ",
       "categoria": "fap",
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
+    },
+    {
+      "titulo": "Finep Mais Inovação Brasil - Rodada 2 – Tecnologias Digitais",
+      "resumo": "Subvenção econômica para empresas desenvolverem produtos ou processos inovadores em tecnologias digitais.",
+      "prazo": "2026-10-14",
+      "valor": "R$ 300 milhões",
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/755485",
+      "aberto": false,
+      "relevancia": "alta",
+      "motivo": "Tecnologias digitais abrange IA/machine learning, tema central de interesse, mas o prazo de submissão já se encerrou",
+      "id": "44af281f4e16",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
     },
     {
       "titulo": "PA França: GMC Compiègne - Ganhando o Mundo da Ciência",
@@ -240,6 +270,21 @@
       "fonte_nome": "Fundação Araucária (PR)",
       "categoria": "fap",
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
+    },
+    {
+      "titulo": "Finep Mais Inovação Brasil – Rodada 2 – Mobilidade Sustentável",
+      "resumo": "Subvenção econômica para empresas, em parceria com ICTs, desenvolverem tecnologias de mobilidade aérea, metroferroviária, aquaviária e micromobilidade.",
+      "prazo": "2026-10-23",
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/755376",
+      "aberto": true,
+      "relevancia": "baixa",
+      "motivo": "Foco em mobilidade de transporte, pouca aderência direta a sensoriamento remoto, agricultura ou clima",
+      "id": "413759e46de9",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
     },
     {
       "titulo": "SPRINT 2026",
@@ -617,6 +662,36 @@
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
     },
     {
+      "titulo": "Programa de Cooperação para Inovação da Rede EUREKA – Chamada bilateral mineração sustentável, bioeconomia ou cidades sustentáveis (Fase Nacional)",
+      "resumo": "Subvenção para consórcios de instituições brasileiras e suecas desenvolverem P,D&I nas áreas de mineração sustentável, bioeconomia ou cidades sustentáveis.",
+      "prazo": "2026-11-23",
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/1132029",
+      "aberto": true,
+      "relevancia": "media",
+      "motivo": "Bioeconomia e cidades sustentáveis podem incorporar geoprocessamento/sensoriamento remoto, mas exige parceria internacional com a Suécia",
+      "id": "5b8156f01dba",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
+    },
+    {
+      "titulo": "Finep Mais Inovação Brasil – Rodada 2 – Semicondutores",
+      "resumo": "Subvenção econômica para empresas desenvolverem produtos ou processos inovadores na área de semicondutores.",
+      "prazo": "2026-11-25",
+      "valor": "R$ 100 milhões",
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/755605",
+      "aberto": true,
+      "relevancia": "baixa",
+      "motivo": "Foco em semicondutores, pouca relação direta com sensoriamento remoto, agricultura ou clima",
+      "id": "19712a94ea8a",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
+    },
+    {
       "titulo": "Edital FAPERJ Nº 26/2026 – Bolsa de Inovação Tecnológica (INT)",
       "resumo": "Bolsas de inovação tecnológica para pesquisadores/empresas vinculados a instituições do Rio de Janeiro.",
       "prazo": "2026-11-26",
@@ -647,6 +722,21 @@
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
     },
     {
+      "titulo": "Finep Mais Inovação Brasil – Rodada 2 – Transformação Mineral",
+      "resumo": "Subvenção econômica para empresas, em parceria com ICTs, desenvolverem tecnologias de transformação mineral com foco em minerais críticos e estratégicos.",
+      "prazo": "2026-11-30",
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/754473",
+      "aberto": true,
+      "relevancia": "media",
+      "motivo": "Projetos de transformação mineral podem envolver geoprocessamento e sensoriamento remoto para prospecção, área de interesse do perfil",
+      "id": "a53252392573",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
+    },
+    {
       "titulo": "IDRC invites applications for the John G. Bene Fellowship 2026",
       "resumo": "Fellowship do IDRC (Canadá) aberto para candidaturas; o texto disponível não especifica o tema ou área de pesquisa desta edição.",
       "prazo": "2026-11-30",
@@ -660,6 +750,21 @@
       "fonte_nome": "IDRC (Canadá)",
       "categoria": "internacional",
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
+    },
+    {
+      "titulo": "Subvenção Descentralizada Seleção de Parceiros em Fluxo Contínuo - Pró Amazônia Empreende",
+      "resumo": "Seleção de agências de fomento para repassar recursos de subvenção econômica a empresas com sede ou filial nos municípios da Amazônia Legal e faturamento anual de até R$ 16 milhões.",
+      "prazo": "2026-12-01",
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/972778",
+      "aberto": true,
+      "relevancia": "baixa",
+      "motivo": "Restrito a empresas sediadas na Amazônia Legal, fora do perfil do usuário em Brasília-DF",
+      "id": "3addcf6252d2",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
     },
     {
       "titulo": "PA Confap: Chamada Transnacional Conjunta FOREST 2026 – FORESTPathways",
@@ -690,6 +795,21 @@
       "fonte_nome": "CNPq",
       "categoria": "federal",
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
+    },
+    {
+      "titulo": "COOPERAMAIS Tecnologia - ICT",
+      "resumo": "Seleção de projetos de P,D&I conduzidos por ICTs, em parceria obrigatória com cooperativas, para desenvolver soluções tecnológicas para a agricultura familiar brasileira.",
+      "prazo": "2026-12-08",
+      "valor": "R$ 100 milhões (FNDCT/CT-Agro)",
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/1060260",
+      "aberto": true,
+      "relevancia": "baixa",
+      "motivo": "Tema agrícola, mas restrito a ICTs com parceria obrigatória com cooperativas de agricultura familiar, sem foco em sensoriamento remoto",
+      "id": "543f94c8afd7",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
     },
     {
       "titulo": "Chamada de Propostas – Programa Desafios da Amazônia",
@@ -812,6 +932,21 @@
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
     },
     {
+      "titulo": "Programa Nacional de Incubadoras Tecnológicas de Cooperativas Populares (Proninc) / 2026",
+      "resumo": "Apoio financeiro não reembolsável a Instituições Científicas, Tecnológicas e de Inovação (ICTs), via Incubadoras Tecnológicas de Cooperativas Populares e Núcleos de Inovação Tecnológica, para desenvolver soluções tecnológicas voltadas à economia solidária.",
+      "prazo": "2027-01-14",
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/1057230",
+      "aberto": true,
+      "relevancia": "baixa",
+      "motivo": "Foco em economia solidária e cooperativas populares, sem relação com sensoriamento remoto ou geoprocessamento",
+      "id": "95b63ea9dea1",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
+    },
+    {
       "titulo": "Chamada Conjunta FAPESP/CONFAP/RAMP – Raw Materials Partnership",
       "resumo": "Auxílio à Pesquisa Regular para projetos internacionais sobre matérias-primas na transição verde e digital.",
       "prazo": "2027-02-15",
@@ -885,6 +1020,21 @@
       "fonte_nome": "CNPq",
       "categoria": "federal",
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
+    },
+    {
+      "titulo": "Finep COOPERAMAIS Brasil Tecnologias – Empresas",
+      "resumo": "Subvenção econômica em fluxo contínuo para empresas desenvolverem produtos ou processos inovadores na agroindústria, com parcerias envolvendo cooperativas de agricultores familiares.",
+      "prazo": "2027-04-30",
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/1060720",
+      "aberto": true,
+      "relevancia": "media",
+      "motivo": "Empresa de base tecnológica poderia propor soluções de sensoriamento remoto/geoprocessamento aplicadas à agroindústria e segurança alimentar",
+      "id": "19ad2a3e5d4e",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
     },
     {
       "titulo": "University Winter Courses in Germany for Foreign Students and Graduates (DAAD)",
@@ -1187,6 +1337,21 @@
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
     },
     {
+      "titulo": "Chamada Pública Bilateral Finep-CDTI",
+      "resumo": "Chamada bilateral Brasil-Espanha para apoio a projetos de inovação tecnológica em cooperação entre empresas dos dois países, aberta a qualquer setor.",
+      "prazo": null,
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/719676",
+      "aberto": true,
+      "relevancia": "media",
+      "motivo": "Aberta a qualquer setor, poderia abranger projetos de sensoriamento remoto/geoprocessamento em cooperação com empresa espanhola",
+      "id": "9fbf576996e6",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
+    },
+    {
       "titulo": "Chamada Pública FAPEG nº 17/2026 - Edital Complementar à Chamada CONFAP-WBI (Wallonie Bruxelles International)",
       "resumo": "Edital complementar de cooperação internacional entre FAPEG e Wallonie Bruxelles International (Bélgica), destinado a pesquisadores vinculados a instituições de Goiás para projetos conjuntos de pesquisa.",
       "prazo": null,
@@ -1487,6 +1652,21 @@
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
     },
     {
+      "titulo": "Desafios Tecnológicos para Agricultura Familiar",
+      "resumo": "Subvenção econômica para empresas desenvolverem pacote tecnológico de baixo custo voltado à agricultura familiar, em parceria com ICTs e cooperativas.",
+      "prazo": null,
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/754098",
+      "aberto": true,
+      "relevancia": "baixa",
+      "motivo": "Foco em pacote tecnológico de baixo custo para agricultura familiar via cooperativas, sem foco em sensoriamento remoto",
+      "id": "20b136e5887b",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
+    },
+    {
       "titulo": "Diretrizes Específicas da FAPESB – Chamada 2026 CONFAP – Brasillinois",
       "resumo": "Fomenta cooperação científica entre pesquisadores de instituições da Bahia e a Universidade de Illinois (EUA).",
       "prazo": null,
@@ -1757,6 +1937,21 @@
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
     },
     {
+      "titulo": "Edital FIP Nordeste Capital Semente",
+      "resumo": "Chamada para seleção de gestor para estruturar e constituir um Fundo de Investimento em Participações semente, em parceria Finep-BNB.",
+      "prazo": null,
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/749273",
+      "aberto": true,
+      "relevancia": "baixa",
+      "motivo": "Dirigida a gestores de fundos de investimento, não a pesquisadores ou empresas diretamente, e restrita à região Nordeste",
+      "id": "3cd07c864d30",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
+    },
+    {
       "titulo": "Edital Nº 012/2025 - Programa Centelha 3 Mato Grosso (Rerratificação do Cronograma)",
       "resumo": "Programa de fomento a empreendedorismo e inovação tecnológica, voltado a empresas/empreendedores do estado de Mato Grosso.",
       "prazo": null,
@@ -1907,6 +2102,36 @@
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
     },
     {
+      "titulo": "FIP Bioeconomia e Sustentabilidade",
+      "resumo": "Seleção de gestor de fundo de investimento em participações voltado a projetos de bioeconomia e sustentabilidade.",
+      "prazo": null,
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/752980",
+      "aberto": true,
+      "relevancia": "baixa",
+      "motivo": "Chamada para gestores de fundos de investimento, não para empresas/pesquisadores diretamente, apesar de tema relacionado a bioeconomia",
+      "id": "019c41abc8d8",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
+    },
+    {
+      "titulo": "FIP Transição Energética e Descarbonização",
+      "resumo": "Seleção de gestor/administrador para fundo de investimento em participações em empresas de base tecnológica nos setores de transição energética e descarbonização.",
+      "prazo": null,
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/752871",
+      "aberto": true,
+      "relevancia": "baixa",
+      "motivo": "Chamada para gestores de fundos de investimento, não para empresas/pesquisadores diretamente, com tema tangencial ao clima",
+      "id": "9dc4f670469f",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
+    },
+    {
       "titulo": "FLTA: Ensino de Português nos EUA",
       "resumo": "Até 12 bolsas para jovens professores de inglês/português atuarem como assistentes de ensino de português em universidades americanas.",
       "prazo": null,
@@ -2055,6 +2280,21 @@
       "fonte_nome": "Programa Centelha",
       "categoria": "inovacao",
       "primeiro_visto": "2026-10-23T16:33:32-03:00"
+    },
+    {
+      "titulo": "Seleção de Gestor para o FIP Complexo da Saúde",
+      "resumo": "Seleção de gestor/administrador para fundo de investimento em participações no setor de saúde, em parceria com BNDESPAR e Fundação Butantan.",
+      "prazo": null,
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/752474",
+      "aberto": true,
+      "relevancia": "baixa",
+      "motivo": "Dirigida a gestores de fundos de investimento no setor de saúde, sem relação com sensoriamento remoto ou geoprocessamento",
+      "id": "3bde7775c562",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-10-23T16:56:52-03:00"
     },
     {
       "titulo": "Student Programs (fellowships, scholarships, internships)",

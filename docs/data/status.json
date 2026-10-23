@@ -1,14 +1,14 @@
 {
-  "atualizado_em": "2026-10-23T16:33:32-03:00",
+  "atualizado_em": "2026-10-23T16:56:52-03:00",
   "fontes": [
     {
       "id": "facepe",
       "nome": "FACEPE",
       "url": "https://www.facepe.br/editais/todos/",
       "categoria": "fap",
-      "verificado_em": "2026-10-23T16:33:32-03:00",
+      "verificado_em": "2026-10-23T16:56:52-03:00",
       "ok": false,
-      "erro": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.facepe.br/editais/todos/",
+      "erro": "ConnectTimeout: HTTPSConnectionPool(host='www.facepe.br', port=443): Max retries exceeded with url: /editais/todos/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.facepe.br', port=443) at 0x7fb6d7642c90>, 'Connection to www.facepe.br timed out. (connect timeout=15)'))",
       "hash": null,
       "extraido_em": null,
       "n_editais": 0
@@ -18,9 +18,9 @@
       "nome": "FAPDF",
       "url": "https://www.fap.df.gov.br/editais-fapdf-20261",
       "categoria": "fap",
-      "verificado_em": "2026-10-23T16:33:32-03:00",
+      "verificado_em": "2026-10-23T16:56:52-03:00",
       "ok": false,
-      "erro": "ReadTimeout: HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Read timed out. (read timeout=40)",
+      "erro": "ReadTimeout: HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Read timed out. (read timeout=15)",
       "hash": null,
       "extraido_em": null,
       "n_editais": 0
@@ -30,9 +30,9 @@
       "nome": "FAPDF (chamadas internacionais)",
       "url": "https://www.fap.df.gov.br/chamadas-internacionais-20261",
       "categoria": "fap",
-      "verificado_em": "2026-10-23T16:33:32-03:00",
+      "verificado_em": "2026-10-23T16:56:52-03:00",
       "ok": false,
-      "erro": "ReadTimeout: HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Read timed out. (read timeout=40)",
+      "erro": "ReadTimeout: HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Read timed out. (read timeout=15)",
       "hash": null,
       "extraido_em": null,
       "n_editais": 0
@@ -268,14 +268,14 @@
     {
       "id": "finep",
       "nome": "FINEP",
-      "url": "http://www.finep.gov.br/chamadas-publicas?situacao=aberta",
+      "url": "https://www.finep.gov.br/o/c/chamadapublicas?filter=situacao%20eq%20%27aberta%27&pageSize=100&fields=id,titulo,descricaoRawText,prazoProposto,publicoAlvo,tipoDeOportunidade,regiao",
       "categoria": "federal",
-      "verificado_em": "2026-10-23T16:33:32-03:00",
+      "verificado_em": "2026-10-23T16:56:52-03:00",
       "ok": true,
       "erro": null,
-      "hash": "41256c1edc78eef7",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
-      "n_editais": 0
+      "hash": "3cdff5a77fb49232",
+      "extraido_em": "2026-10-23T16:56:52-03:00",
+      "n_editais": 16
     },
     {
       "id": "fulbright",
