@@ -14,6 +14,7 @@ import json
 import re
 import subprocess
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -102,8 +103,17 @@ def salvar_json(caminho, dados):
 
 def baixar_texto(fonte):
     """Baixa a página e devolve o texto principal com os links em [texto](url)."""
-    resp = requests.get(fonte["url"], headers=HEADERS, timeout=40, verify=False)
+    for tentativa in range(3):
+        try:
+            resp = requests.get(fonte["url"], headers=HEADERS, timeout=(15, 90), verify=False)
+            break
+        except (requests.ConnectionError, requests.Timeout):
+            if tentativa == 2:
+                raise
+            time.sleep(10)
     resp.raise_for_status()
+    if fonte.get("formato") == "json":
+        return texto_de_json(fonte, resp.json())
     soup = BeautifulSoup(resp.content, "html.parser")
     for tag in soup(["script", "style", "noscript", "svg", "header", "footer", "nav", "form", "iframe"]):
         tag.decompose()
@@ -115,6 +125,18 @@ def baixar_texto(fonte):
             a.replace_with(f"[{texto}]({href})")
     texto = re.sub(r"\n\s*\n+", "\n\n", corpo.get_text("\n", strip=True))
     return texto[:MAX_CHARS]
+
+
+def texto_de_json(fonte, dados):
+    """Converte a resposta de uma API (lista em "items") em texto, uma linha por item.
+    `link_modelo` na fonte monta o link de cada item a partir dos seus campos."""
+    linhas = []
+    for item in dados.get("items", dados) if isinstance(dados, dict) else dados:
+        item = {k: (v[:600] + "…" if isinstance(v, str) and len(v) > 600 else v) for k, v in item.items()}
+        if fonte.get("link_modelo"):
+            item["link"] = fonte["link_modelo"].format(**item)
+        linhas.append(json.dumps(item, ensure_ascii=False))
+    return "\n".join(linhas)[:MAX_CHARS]
 
 
 def extrair_com_claude(fonte, texto, perfil):

@@ -9,6 +9,7 @@ perfil: |
 
 # Cada fonte: id único, nome, categoria (federal | fap | inovacao | internacional),
 # url da página que lista os editais e, opcionalmente, um seletor CSS do conteúdo.
+# Para APIs JSON: formato: json e, se quiser, link_modelo com campos do item ({id}).
 fontes:
   # --- Federais ---
   - id: cnpq
@@ -22,7 +23,10 @@ fontes:
   - id: finep
     nome: FINEP
     categoria: federal
-    url: http://www.finep.gov.br/chamadas-publicas?situacao=aberta
+    # A página de oportunidades é montada por JavaScript; esta é a API que ela consulta
+    url: "https://www.finep.gov.br/o/c/chamadapublicas?filter=situacao%20eq%20%27aberta%27&pageSize=100&fields=id,titulo,descricaoRawText,prazoProposto,publicoAlvo,tipoDeOportunidade,regiao"
+    formato: json
+    link_modelo: "https://www.finep.gov.br/e/chamada-publica/222684/{id}"
 
   # --- FAPs ---
   - id: fapdf

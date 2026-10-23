@@ -9,6 +9,10 @@ on:
         description: "Reextrair todas as fontes, mesmo sem mudança"
         type: boolean
         default: false
+      fontes:
+        description: "Processar só estas fontes (ids separados por espaço; vazio = todas)"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -42,7 +46,12 @@ jobs:
       - name: Coletar editais
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-        run: python scripts/radar.py ${{ inputs.forcar && '--forcar' || '' }}
+          FORCAR: ${{ inputs.forcar && '--forcar' || '' }}
+          FONTES: ${{ inputs.fontes }}
+        run: |
+          args="$FORCAR"
+          for f in $FONTES; do args="$args --fonte $f"; done
+          python scripts/radar.py $args
 
       - name: Salvar dados
         id: commit
