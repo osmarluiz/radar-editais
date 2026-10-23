@@ -1,0 +1,131 @@
+# Perfil usado pelo Claude para marcar a relevância de cada edital.
+perfil: |
+  Pesquisador e empreendedor em Brasília (DF), doutorado em sensoriamento remoto.
+  Temas de interesse: sensoriamento remoto, imagens de satélite, geoprocessamento,
+  inteligência artificial e aprendizado de máquina, agricultura e uso da terra no
+  Cerrado, meio ambiente e clima, inovação tecnológica, startups e empresas de base
+  tecnológica. Pode concorrer como pessoa física (pesquisador) ou como empresa.
+  Editais restritos a outros estados ou a áreas sem relação com esses temas são baixa relevância.
+
+# Cada fonte: id único, nome, categoria (federal | fap | inovacao | internacional),
+# url da página que lista os editais e, opcionalmente, um seletor CSS do conteúdo.
+fontes:
+  # --- Federais ---
+  - id: cnpq
+    nome: CNPq
+    categoria: federal
+    url: http://memoria2.cnpq.br/web/guest/chamadas-publicas
+  - id: capes
+    nome: CAPES
+    categoria: federal
+    url: https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes
+  - id: finep
+    nome: FINEP
+    categoria: federal
+    url: http://www.finep.gov.br/chamadas-publicas?situacao=aberta
+  - id: mcti
+    nome: MCTI
+    categoria: federal
+    url: https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/chamadas-publicas
+  - id: embrapa
+    nome: Embrapa
+    categoria: federal
+    url: https://www.embrapa.br/editais
+
+  # --- FAPs ---
+  - id: fapdf
+    nome: FAPDF
+    categoria: fap
+    url: https://www.fap.df.gov.br/editais/
+  - id: fapesp
+    nome: FAPESP
+    categoria: fap
+    url: https://fapesp.br/chamadas/
+  - id: fapemig
+    nome: FAPEMIG
+    categoria: fap
+    url: https://fapemig.br/pt/chamadas-abertas/
+  - id: faperj
+    nome: FAPERJ
+    categoria: fap
+    url: https://www.faperj.br/?id=28.5.7
+  - id: fapeg
+    nome: FAPEG (Goiás)
+    categoria: fap
+    url: https://goias.gov.br/fapeg/editais/
+  - id: fapergs
+    nome: FAPERGS
+    categoria: fap
+    url: https://fapergs.rs.gov.br/editais-abertos
+  - id: fapesc
+    nome: FAPESC
+    categoria: fap
+    url: https://fapesc.sc.gov.br/category/chamadas-abertas/
+  - id: araucaria
+    nome: Fundação Araucária (PR)
+    categoria: fap
+    url: https://www.fappr.pr.gov.br/Editais
+  - id: fapemat
+    nome: FAPEMAT
+    categoria: fap
+    url: https://www.fapemat.mt.gov.br/editais
+  - id: fundect
+    nome: FUNDECT (MS)
+    categoria: fap
+    url: https://www.fundect.ms.gov.br/editais-abertos/
+  - id: fapesb
+    nome: FAPESB
+    categoria: fap
+    url: https://www.fapesb.ba.gov.br/category/edital/
+  - id: facepe
+    nome: FACEPE
+    categoria: fap
+    url: https://www.facepe.br/editais/todos/
+
+  # --- Inovação ---
+  - id: embrapii
+    nome: EMBRAPII
+    categoria: inovacao
+    url: https://embrapii.org.br/chamadas-publicas/
+  - id: bndes
+    nome: BNDES
+    categoria: inovacao
+    url: https://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/inovacao/chamadas-publicas
+  - id: sebrae
+    nome: SEBRAE
+    categoria: inovacao
+    url: https://sebrae.com.br/sites/PortalSebrae/editais
+  - id: centelha
+    nome: Programa Centelha
+    categoria: inovacao
+    url: https://programacentelha.com.br/
+  - id: inovativa
+    nome: InovAtiva Brasil
+    categoria: inovacao
+    url: https://www.inovativabrasil.com.br/
+
+  # --- Internacionais ---
+  - id: confap
+    nome: CONFAP (cooperação internacional)
+    categoria: internacional
+    url: https://confap.org.br/pt/chamadas
+  - id: belmont
+    nome: Belmont Forum
+    categoria: internacional
+    url: https://www.belmontforum.org/news/funding-opportunities/
+  - id: daad
+    nome: DAAD Brasil
+    categoria: internacional
+    url: https://www.daad.org.br/pt/encontrar-financiamento/banco-de-dados-de-bolsas-de-estudo/
+  - id: fulbright
+    nome: Fulbright Brasil
+    categoria: internacional
+    url: https://fulbright.org.br/bolsas/
+  - id: google-research
+    nome: Google Research
+    categoria: internacional
+    url: https://research.google/programs-and-events/
+  - id: wellcome
+    nome: Wellcome Trust
+    categoria: internacional
+    url: https://wellcome.org/grant-funding/schemes

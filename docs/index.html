@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Radar de editais</title>
+  <meta name="description" content="Editais e chamadas de fomento abertos, atualizados diariamente.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='none' stroke='%232563eb' stroke-width='3'/><circle cx='16' cy='16' r='7' fill='none' stroke='%232563eb' stroke-width='3'/><circle cx='16' cy='16' r='2.5' fill='%232563eb'/></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="wrap">
+      <h1>Radar de editais</h1>
+      <p class="sub" id="resumo">Carregando…</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="filtros" aria-label="Filtros">
+      <input id="busca" type="search" placeholder="Buscar por título, fonte ou tema…" autocomplete="off">
+      <div class="linha">
+        <div class="chips" id="categorias" role="group" aria-label="Categoria">
+          <button data-cat="" class="ativo">Todas</button>
+          <button data-cat="federal">Federais</button>
+          <button data-cat="fap">FAPs</button>
+          <button data-cat="inovacao">Inovação</button>
+          <button data-cat="internacional">Internacionais</button>
+        </div>
+        <div class="selects">
+          <label>Relevância
+            <select id="relevancia">
+              <option value="">Todas</option>
+              <option value="media">Alta e média</option>
+              <option value="alta">Só alta</option>
+            </select>
+          </label>
+          <label>Ordenar
+            <select id="ordem">
+              <option value="prazo">Prazo</option>
+              <option value="relevancia">Relevância</option>
+              <option value="novos">Mais novos</option>
+            </select>
+          </label>
+          <label class="check"><input type="checkbox" id="encerrados"> Mostrar encerrados</label>
+        </div>
+      </div>
+    </section>
+
+    <p class="contagem" id="contagem"></p>
+    <section id="lista" class="lista" aria-live="polite"></section>
+
+    <details class="fontes" id="fontes">
+      <summary>Status das fontes</summary>
+      <table>
+        <thead><tr><th>Fonte</th><th>Situação</th><th>Editais</th><th>Última extração</th></tr></thead>
+        <tbody id="tabela-fontes"></tbody>
+      </table>
+    </details>
+  </main>
+
+  <footer class="wrap rodape">
+    Extraído automaticamente das páginas oficiais. Confira sempre o edital original antes de submeter.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
