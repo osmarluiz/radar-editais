@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-24T09:59:08-03:00",
+  "atualizado_em": "2026-10-24T11:53:39-03:00",
   "fontes": [
     {
       "id": "facepe",
@@ -54,7 +54,7 @@
       "nome": "CAPES",
       "url": "https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes",
       "categoria": "federal",
-      "verificado_em": "2026-10-24T09:59:08-03:00",
+      "verificado_em": "2026-10-24T11:53:39-03:00",
       "ok": true,
       "erro": null,
       "hash": "527f75ee6758e5f7",
