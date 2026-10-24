@@ -17,6 +17,7 @@ on:
 permissions:
   contents: write
   pages: write
+  issues: write
 
 concurrency:
   group: radar
@@ -46,6 +47,7 @@ jobs:
       - name: Coletar editais
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          RADAR_NOVOS: ${{ runner.temp }}/novos.md
           FORCAR: ${{ inputs.forcar && '--forcar' || '' }}
           FONTES: ${{ inputs.fontes }}
         run: |
@@ -74,3 +76,23 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+
+      # A issue aberta chega por e-mail para o dono do repositório
+      - name: Avisar editais novos
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NOVOS: ${{ runner.temp }}/novos.md
+        run: |
+          [ -s "$NOVOS" ] || { echo "Nada novo para avisar."; exit 0; }
+          n=$(grep -c '^- ' "$NOVOS")
+          {
+            echo "@${{ github.repository_owner }}, $n edital(is) relevante(s) apareceram no radar:"
+            echo
+            cat "$NOVOS"
+            echo
+            echo "---"
+            echo "Painel: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+          } > corpo.md
+          gh issue create --repo "${{ github.repository }}" \
+            --title "Radar: $n editais novos em $(TZ=America/Sao_Paulo date +%d/%m/%Y)" \
+            --body-file corpo.md

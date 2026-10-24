@@ -25,6 +25,14 @@ docs/data/status.json       situação de cada fonte (ok/erro)
 .github/workflows/radar.yml execução diária às 06:00 (Brasília)
 ```
 
+## Avisos por e-mail
+
+Quando uma execução encontra editais **novos, abertos e de relevância alta ou média**, o
+workflow abre uma issue no repositório com a lista e menciona o dono. O GitHub manda essa
+issue por e-mail (verifique em github.com/settings/notifications se "Email" está ativo para
+"Participating, @mentions and custom"). Dias sem novidade não geram issue. Feche a issue
+depois de ler. Falhas do workflow também chegam por e-mail.
+
 ## Configuração
 
 - Secret `CLAUDE_CODE_OAUTH_TOKEN`: gere com `claude setup-token` e cadastre com

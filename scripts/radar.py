@@ -11,6 +11,7 @@ Uso:
 import argparse
 import hashlib
 import json
+import os
 import re
 import subprocess
 import sys
@@ -255,7 +256,31 @@ def main():
     salvar_json(ARQ_STATUS, {"atualizado_em": hoje,
                              "fontes": sorted(status, key=lambda s: (s["ok"], s["id"]))})
     print(f"\n{len(editais)} editais; {sum(not s['ok'] for s in status)} fontes com erro")
+    if os.environ.get("RADAR_NOVOS"):
+        escrever_novos(Path(os.environ["RADAR_NOVOS"]), editais, hoje)
     return 0
+
+
+def escrever_novos(caminho, editais, hoje):
+    """Grava em markdown os editais relevantes que apareceram nesta execução (vira issue)."""
+    data = hoje[:10]
+    novos = [e for e in editais
+             if e["primeiro_visto"] == hoje and e["relevancia"] in ("alta", "media")
+             and e.get("aberto", True) and (e.get("prazo") or "9999") >= data]
+    if not novos:
+        print("Nenhum edital relevante novo.")
+        return
+    novos.sort(key=lambda e: (e["relevancia"] != "alta", e.get("prazo") or "9999"))
+    linhas = []
+    for e in novos:
+        titulo = f"[{e['titulo']}]({e['link']})" if e.get("link") else e["titulo"]
+        prazo = "/".join(reversed(e["prazo"].split("-"))) if e.get("prazo") else "sem prazo informado"
+        rel = "🟢 alta" if e["relevancia"] == "alta" else "🟡 média"
+        linhas.append(f"- **{titulo}**  \n  {e['fonte_nome']} · prazo {prazo} · relevância {rel}"
+                      + (f" · {e['valor']}" if e.get("valor") else "")
+                      + f"  \n  {e['resumo']}")
+    caminho.write_text("\n".join(linhas) + "\n", encoding="utf-8")
+    print(f"{len(novos)} editais relevantes novos gravados em {caminho}")
 
 
 if __name__ == "__main__":
