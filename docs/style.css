@@ -103,6 +103,7 @@ a { color: var(--azul); }
 .edital h2 a:hover { color: var(--azul); text-decoration: underline; }
 .meta { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--suave); margin-bottom: 6px; }
 .edital p { margin: 0; }
+.mudanca { margin: 0 0 4px !important; font-size: 14px; font-weight: 600; color: var(--media); }
 .motivo { margin-top: 6px !important; font-size: 13px; color: var(--suave); }
 
 .tag {

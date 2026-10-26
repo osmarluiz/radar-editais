@@ -37,7 +37,7 @@ FUSO = timezone(timedelta(hours=-3))
 MAX_CHARS = 60_000
 MAX_VERIFICACOES = 40  # editais lidos por completo a cada execução (o resto fica para a próxima)
 CAMPOS_VERIFICADOS = ("prazo", "aberto", "valor", "relevancia", "perfis", "motivo", "requisitos",
-                      "verificado", "verificado_em", "verificacao_hash")
+                      "mudanca", "verificado", "verificado_em", "verificacao_hash", "docs_verificados")
 LEITOR = "https://r.jina.ai/"
 # Muitos sites de governo têm cadeia de certificados incompleta
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -60,12 +60,13 @@ SCHEMA = {
                     "prazo": {"type": ["string", "null"]},
                     "valor": {"type": ["string", "null"]},
                     "link": {"type": ["string", "null"]},
+                    "documentos": {"type": "array", "items": {"type": "string"}},
                     "aberto": {"type": "boolean"},
                     "relevancia": {"enum": ["alta", "media", "baixa"]},
                     "perfis": {"type": "array", "items": {"type": "string"}},
                     "motivo": {"type": "string"},
                 },
-                "required": ["titulo", "resumo", "prazo", "valor", "link",
+                "required": ["titulo", "resumo", "prazo", "valor", "link", "documentos",
                              "aberto", "relevancia", "perfis", "motivo"],
             },
         }
@@ -84,6 +85,9 @@ Para cada um:
 - prazo: data final de submissão no formato AAAA-MM-DD, ou null se não estiver no texto
 - valor: valor total ou por projeto, como aparece no texto, ou null
 - link: URL mais específica do edital que estiver no texto, ou null
+- documentos: URLs de retificações, erratas, aditivos, prorrogações ou anexos de cronograma do
+  MESMO edital que aparecem na página, da mais recente para a mais antiga (lista vazia se não houver)
+- prazo e aberto: se houver retificação ou prorrogação, use a data mais recente
 - aberto: true se ainda aceita propostas hoje (ou se não dá para saber)
 - perfis: ids dos perfis abaixo para os quais o edital é alta ou media (lista vazia se nenhum)
 - relevancia: a maior relevância entre os perfis, seguindo estas regras:
@@ -111,15 +115,19 @@ SCHEMA_VERIFICACAO = {
         "perfis": {"type": "array", "items": {"type": "string"}},
         "motivo": {"type": "string"},
         "requisitos": {"type": "string"},
+        "mudanca": {"type": "string"},
     },
-    "required": ["prazo", "aberto", "valor", "relevancia", "perfis", "motivo", "requisitos"],
+    "required": ["prazo", "aberto", "valor", "relevancia", "perfis", "motivo", "requisitos", "mudanca"],
 }
 
-PROMPT_VERIFICACAO = """Você recebe o texto completo do edital "{titulo}" ({fonte}, {link}).
-Hoje é {hoje}. Uma triagem anterior, feita só com a página de listagem, classificou assim:
+PROMPT_VERIFICACAO = """Você recebe o texto completo do edital "{titulo}" ({fonte}, {link}) e, quando
+houver, de retificações, erratas ou aditivos dele, cada um precedido por "=== DOCUMENTO: url".
+Hoje é {hoje}. A classificação anterior era:
 {anterior}
 
-Leia o edital e confira com rigor, usando apenas o que está escrito:
+Retificações, erratas e aditivos prevalecem sobre o edital original: se mudarem prazo, cronograma,
+valores ou requisitos, use a versão mais recente. Leia tudo e confira com rigor, usando apenas o
+que está escrito:
 - prazo: data final de submissão (AAAA-MM-DD). Se houver várias etapas, a próxima ainda aberta;
   null só se o texto realmente não trouxer data
 - aberto: false se o prazo já passou ou se o texto indica resultado/encerramento
@@ -132,6 +140,9 @@ Leia o edital e confira com rigor, usando apenas o que está escrito:
   o perfil não tem, ele sai da lista. Se o edital fechou ou nenhum perfil é elegível, relevancia é baixa.
   Use as mesmas regras: alta = elegível e tema direto; media = elegível e edital amplo que cabe.
 - motivo: meia frase dizendo para qual perfil serve e por quê, ou qual requisito elimina
+- mudanca: se algum documento alterou prazo, valores ou requisitos em relação ao edital original
+  ou à classificação anterior, descreva em meia frase (ex.: "retificação de 20/10 prorrogou o
+  prazo de 27/10 para 23/11"); senão, string vazia
 
 Perfis (todos em Brasília, DF):
 {perfis}
@@ -354,16 +365,21 @@ def main():
 
     editais = [e for fid, eds in por_fonte.items() if fid in ids_config for e in eds]
     leitor_por_fonte = {f["id"]: f.get("leitor", False) for f in config["fontes"]}
-    pendentes = [e for e in editais
-                 if e["relevancia"] in ("alta", "media") and e.get("link")
-                 and e.get("verificacao_hash") != perfil_hash]
+    pendentes = [e for e in editais if e.get("link") and precisa_verificar(e, perfil_hash)]
     if pendentes:
         print(f"\nVerificando {len(pendentes[:MAX_VERIFICACOES])} editais pelo texto completo")
     for ed in pendentes[:MAX_VERIFICACOES]:
+        leitor = leitor_por_fonte.get(ed["fonte"])
+        docs = list(dict.fromkeys(d for d in ed.get("documentos", []) if d and d != ed["link"]))[:3]
         try:
-            texto = baixar_texto({"url": ed["link"], "leitor": leitor_por_fonte.get(ed["fonte"])})
+            texto = baixar_texto({"url": ed["link"], "leitor": leitor})
+            for d in docs:  # retificações e aditivos; a falha de um não impede a conferência
+                try:
+                    texto += f"\n\n=== DOCUMENTO: {d}\n" + baixar_texto({"url": d, "leitor": leitor})[:20_000]
+                except Exception as e:  # noqa: BLE001
+                    print(f"[aviso] documento {d} não baixou: {e}"[:200])
             if len(texto) < 500:
-                ed.update(verificacao_hash=perfil_hash,
+                ed.update(verificacao_hash=perfil_hash, verificado_em=hoje, docs_verificados=docs,
                           requisitos="edital completo não acessível; confira os requisitos no link")
                 print(f"[verif] {ed['fonte']}: {ed['titulo'][:60]} | edital não acessível")
                 continue
@@ -374,9 +390,19 @@ def main():
         res["perfis"] = [p for p in res["perfis"] if p in ids_perfis]
         if res["relevancia"] == "baixa":
             res["perfis"] = []
-        antes = ed["relevancia"]
-        ed.update(res, verificado=True, verificado_em=hoje, verificacao_hash=perfil_hash)
-        print(f"[verif] {ed['fonte']}: {ed['titulo'][:60]} | {antes} -> {ed['relevancia']}")
+        antes = (ed["relevancia"], ed.get("prazo"))
+        mudanca = res.pop("mudanca", "").strip()
+        ja_verificado = ed.get("verificado")
+        ed.update(res, verificado=True, verificado_em=hoje, verificacao_hash=perfil_hash,
+                  docs_verificados=docs)
+        # Edital já avisado que teve prazo alterado: avisa de novo, explicando a mudança
+        if ja_verificado and ed.get("avisado") and antes[1] != ed.get("prazo"):
+            ed["avisado"] = False
+            ed["mudanca"] = mudanca or f"prazo alterado de {antes[1] or 'sem data'} para {ed.get('prazo') or 'sem data'}"
+        elif mudanca:
+            ed["mudanca"] = mudanca
+        print(f"[verif] {ed['fonte']}: {ed['titulo'][:60]} | {antes[0]} -> {ed['relevancia']}"
+              + (f" | {ed['mudanca']}" if ed.get("mudanca") else ""))
     editais.sort(key=lambda e: (e.get("prazo") or "9999-99-99", e["titulo"]))
     if editais_ant and not any("avisado" in e for e in editais_ant):
         # Primeira execução com a marca "avisado": o que já existia não vira e-mail
@@ -395,6 +421,20 @@ def main():
                              "fontes": sorted(status, key=lambda s: (s["ok"], s["id"]))})
     print(f"\n{len(editais)} editais; {sum(not s['ok'] for s in status)} fontes com erro")
     return 0
+
+
+def precisa_verificar(ed, perfil_hash):
+    """Confere no edital completo: se é relevante e nunca foi conferido com estes perfis,
+    se apareceu retificação nova na listagem, ou, se ainda está aberto, uma vez por semana."""
+    if ed["relevancia"] not in ("alta", "media"):
+        return False
+    if ed.get("verificacao_hash") != perfil_hash:
+        return True
+    if set(ed.get("documentos", [])) - set(ed.get("docs_verificados", [])):
+        return True
+    ultima = ed.get("verificado_em")
+    aberto = ed.get("aberto", True) and (ed.get("prazo") or "9999") >= agora().date().isoformat()
+    return bool(aberto and ultima and datetime.fromisoformat(ultima) < agora() - timedelta(days=7))
 
 
 def escrever_novos(caminho, editais, hoje, estreantes, nomes, teste=False):
@@ -428,6 +468,7 @@ def escrever_novos(caminho, editais, hoje, estreantes, nomes, teste=False):
         para = f" · para {', '.join(e['perfis_nomes'])}" if e["perfis_nomes"] else ""
         linhas.append(f"- **{titulo}**  \n  {e['fonte_nome']} · prazo {prazo} · relevância {rel}{para}"
                       + (f" · {e['valor']}" if e.get("valor") else "")
+                      + (f"  \n  ⚠️ **{e['mudanca']}**" if e.get("mudanca") else "")
                       + f"  \n  {e['resumo']}"
                       + (f"  \n  _Requisitos: {e['requisitos']}_" if e.get("requisitos") else ""))
     caminho.write_text("\n".join(linhas) + "\n", encoding="utf-8")

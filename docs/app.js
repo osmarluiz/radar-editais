@@ -67,6 +67,7 @@ function cartao(e) {
         <span>${prazo}</span>
         ${e.valor ? `<span>${esc(e.valor)}</span>` : ""}
       </div>
+      ${e.mudanca ? `<p class="mudanca">⚠️ ${esc(e.mudanca)}</p>` : ""}
       <p>${esc(e.resumo)}</p>
       ${e.requisitos ? `<p class="motivo"><strong>Requisitos:</strong> ${esc(e.requisitos)}</p>` : ""}
       ${e.motivo ? `<p class="motivo">${esc(e.motivo)}</p>` : ""}

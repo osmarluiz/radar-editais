@@ -46,12 +46,15 @@ for e in novos:
           {escape(e["fonte_nome"])} · prazo <b>{data_br(e.get("prazo"))}</b> ·
           <span style="color:{cor};font-weight:600">relevância {rel}</span>{extras}
         </div>
+        {f'<div style="font-size:14px;color:#b45309;font-weight:600;margin:3px 0">⚠️ {escape(e["mudanca"])}</div>' if e.get("mudanca") else ""}
         <div style="font-size:14px">{escape(e["resumo"])}</div>
         {f'<div style="font-size:13px;color:#475569;margin-top:4px"><b>Requisitos:</b> {escape(e["requisitos"])}</div>' if e.get("requisitos") else ""}
       </div>""")
     para = f", para {', '.join(e['perfis_nomes'])}" if e.get("perfis_nomes") else ""
     itens_txt.append(f"- {e['titulo']} ({e['fonte_nome']}, prazo {data_br(e.get('prazo'))}, "
-                     f"relevância {rel}{para})\n  {e['resumo']}\n"
+                     f"relevância {rel}{para})\n"
+                     + (f"  ATENÇÃO: {e['mudanca']}\n" if e.get("mudanca") else "")
+                     + f"  {e['resumo']}\n"
                      + (f"  Requisitos: {e['requisitos']}\n" if e.get("requisitos") else "")
                      + f"  {e.get('link') or ''}")
 
