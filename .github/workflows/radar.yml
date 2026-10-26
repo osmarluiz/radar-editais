@@ -2,7 +2,7 @@ name: Radar de editais
 
 on:
   schedule:
-    - cron: "0 9 * * *" # 06:00 em Brasília
+    - cron: "23 8 * * *" # ~05:23 em Brasília; minuto quebrado porque o GitHub atrasa ou pula os horários cheios
   workflow_dispatch:
     inputs:
       forcar:
