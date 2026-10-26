@@ -164,7 +164,10 @@ def texto_de_json(fonte, dados):
     for item in dados.get("items", dados) if isinstance(dados, dict) else dados:
         item = {k: (v[:600] + "…" if isinstance(v, str) and len(v) > 600 else v) for k, v in item.items()}
         if fonte.get("link_modelo"):
-            item["link"] = fonte["link_modelo"].format(**item)
+            try:
+                item["link"] = fonte["link_modelo"].format(**item)
+            except (KeyError, IndexError):
+                pass
         linhas.append(json.dumps(item, ensure_ascii=False))
     return "\n".join(linhas)[:MAX_CHARS]
 

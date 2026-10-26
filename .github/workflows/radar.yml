@@ -72,6 +72,7 @@ jobs:
             echo "mudou=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "dados: atualização de $(TZ=America/Sao_Paulo date +%F)"
+            git pull --rebase
             git push
             echo "mudou=true" >> "$GITHUB_OUTPUT"
           fi

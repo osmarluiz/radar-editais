@@ -134,3 +134,71 @@ fontes:
     nome: Climate Change AI
     categoria: internacional
     url: https://www.climatechange.ai/calls
+
+  # --- Turismo e fintech ---
+  - id: mtur-chamadas
+    nome: Ministério do Turismo
+    categoria: turismo
+    url: https://www.gov.br/turismo/pt-br/acesso-a-informacao/participacao-social/chamadas-publicas-e-selecoes
+  - id: embratur
+    nome: Embratur (inclui EmbraturLAB)
+    categoria: turismo
+    url: https://embratur.com.br/transparencia/editais
+    leitor: true  # acesso direto dá 403
+  - id: caixa-startups
+    nome: CAIXA – Chamadas de Startup
+    categoria: inovacao
+    url: https://www.caixa.gov.br/sobre-a-caixa/inovacao/Paginas/default.aspx
+    leitor: true  # página montada por JavaScript
+  - id: lift-lab
+    nome: LIFT Lab (Banco Central)
+    categoria: inovacao
+    url: https://www.liftlab.com.br/
+
+  # --- PPP, PMI e compras públicas de inovação ---
+  - id: sepe-df-ppp
+    nome: SEPE-DF (PPPs e concessões)
+    categoria: ppp
+    url: https://www.sepe.df.gov.br/editais-de-chamamento
+    leitor: true
+  - id: pncp-cpsi
+    nome: PNCP – contratações de solução inovadora (CPSI)
+    categoria: ppp
+    url: "https://pncp.gov.br/api/search/?q=%22solu%C3%A7%C3%A3o+inovadora%22&tipos_documento=edital&ordenacao=-data&pagina=1&tam_pagina=50&status=recebendo_proposta"
+    formato: json
+    link_modelo: "https://pncp.gov.br/app/editais/{orgao_cnpj}/{ano}/{numero_sequencial}"
+
+  # --- Empresas e adoção de tecnologia ---
+  - id: senai-inovacao
+    nome: SENAI – Plataforma Inovação para a Indústria
+    categoria: empresas
+    url: https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/
+  - id: sebrae-df
+    nome: Sebrae DF
+    categoria: empresas
+    url: https://df.agenciasebrae.com.br/?s=edital
+  - id: secti-df
+    nome: SECTI-DF
+    categoria: empresas
+    url: https://www.secti.df.gov.br/editais-de-chamamento-publico
+
+  # --- Clima, observação da Terra e IA ---
+  - id: fundo-amazonia
+    nome: Fundo Amazônia
+    categoria: federal
+    url: https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/
+    leitor: true  # a lista fica no menu, que o modo direto remove
+  - id: idb-lab
+    nome: BID / IDB Lab
+    categoria: internacional
+    url: https://www.iadb.org/en/calls-for-proposals
+    leitor: true
+  - id: esa-eo4society
+    nome: ESA EO4Society
+    categoria: internacional
+    url: https://eo4society.esa.int/category/opportunities/
+  - id: schmidt-sciences
+    nome: Schmidt Sciences
+    categoria: internacional
+    url: https://www.schmidtsciences.org/opportunities/
+    leitor: true
