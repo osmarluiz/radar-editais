@@ -29,6 +29,11 @@ fontes:
     categoria: fap
     url: https://www.fap.df.gov.br/editais-fapdf-20261  # o endereço muda todo ano
     leitor: true  # o site do GDF bloqueia os servidores do GitHub
+  - id: fapdf-destaques
+    nome: FAPDF (destaques da página inicial)
+    categoria: fap
+    url: https://www.fap.df.gov.br/
+    leitor: true  # editais em destaque, como o PROFIX, nem sempre entram na página anual de editais
   - id: fapdf-internacional
     nome: FAPDF (chamadas internacionais)
     categoria: fap
