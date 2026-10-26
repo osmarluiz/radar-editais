@@ -65,6 +65,10 @@ msg.add_alternative(f"""<html><body style="font-family:Arial,sans-serif;color:#0
 </body></html>""", subtype="html")
 
 with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as smtp:
-    smtp.login(usuario, senha)
+    # login() tenta outro método quando a senha é recusada e o Gmail derruba a conexão,
+    # escondendo o erro real (535); autenticar só com PLAIN mostra a mensagem correta
+    smtp.ehlo()
+    smtp.user, smtp.password = usuario, senha
+    smtp.auth("PLAIN", smtp.auth_plain)
     smtp.send_message(msg)
 print(f"E-mail enviado para {destino}: {assunto}")
