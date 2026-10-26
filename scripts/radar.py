@@ -143,10 +143,11 @@ que está escrito:
   o perfil não tem, ele sai da lista. Se o edital fechou ou nenhum perfil é elegível, relevancia é baixa.
   Use as mesmas regras: alta = elegível e tema direto; media = elegível e edital amplo que cabe.
 - motivo: meia frase dizendo para qual perfil serve e por quê, ou qual requisito elimina
-- mudanca: se algum documento alterou prazo, valores ou requisitos em relação ao edital original
-  ou à classificação anterior, descreva em meia frase (ex.: "retificação de 20/10 prorrogou o
-  prazo de 27/10 para 23/11"); senão, string vazia. Não escreva "nenhuma mudança", e retificação
-  que só corrige texto sem afetar prazo, valor ou elegibilidade também fica vazia
+- mudanca: se um documento posterior (retificação, aditivo, prorrogação) alterou prazo, valores
+  ou requisitos do edital original, descreva em meia frase (ex.: "retificação de 20/10 prorrogou o
+  prazo de 27/10 para 23/11"); senão, string vazia. Não escreva "nenhuma mudança". Também fica
+  vazia a retificação que só corrige texto, e o prazo que você só descobriu agora (a classificação
+  anterior não sabia o prazo) não é mudança
 
 Perfis (todos em Brasília, DF):
 {perfis}
@@ -387,6 +388,15 @@ def main():
     status += [s for i, s in status_ant.items() if i in ids_config and i not in processadas]
 
     editais = [e for fid, eds in por_fonte.items() if fid in ids_config for e in eds]
+    # O mesmo edital listado por duas fontes (ex.: FAPDF e os destaques da página inicial):
+    # fica a cópia que conhece mais documentos, para não mostrar o prazo de antes da retificação
+    melhor = {}
+    for e in editais:
+        chave = (e.get("link") or e["id"]).rstrip("/")
+        atual = melhor.get(chave)
+        if atual is None or (len(e.get("documentos", [])), bool(e.get("verificado"))) >                 (len(atual.get("documentos", [])), bool(atual.get("verificado"))):
+            melhor[chave] = e
+    editais = list(melhor.values())
     leitor_por_fonte = {f["id"]: f.get("leitor", False) for f in config["fontes"]}
     pendentes = [e for e in editais if e.get("link") and precisa_verificar(e, perfil_hash)]
     # Alta e nunca conferido primeiro, depois o prazo mais próximo: o limite corta o que importa menos

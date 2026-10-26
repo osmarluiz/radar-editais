@@ -49,7 +49,6 @@
       "verificado_em": "2026-10-26T16:30:53-03:00",
       "verificacao_hash": "40a0d797",
       "docs_verificados": [],
-      "mudanca": "Agora há edital específico vigente (nº 08/2026) com cronograma definido: inscrição de propostas terminou em 28/05/2026 (já passado), diferente da classificação anterior que tinha prazo null e aberto=true.",
       "avisado": true
     },
     {
@@ -73,7 +72,6 @@
       "verificado_em": "2026-10-26T16:30:53-03:00",
       "verificacao_hash": "40a0d797",
       "docs_verificados": [],
-      "mudanca": "Antes não havia prazo definido; o Edital nº 07/2026 (com duas alterações, 13/04 e 02/06/2026) fixou inscrições até 29/05/2026 17h, já encerradas, com resultado previsto para até 31/12/2026 — logo o edital está fechado para novas submissões.",
       "avisado": true
     },
     {
@@ -97,8 +95,7 @@
       "docs_verificados": [],
       "requisitos": "Projeto conjunto de pesquisa entre grupo brasileiro vinculado a Instituição de Ensino Superior/Pesquisa e grupo da Universidade de Purdue, inscrito pelo coordenador do projeto; bolsas (doutorado sanduíche/pós-doutorado) concedidas apenas a indicados dentro de projetos já aprovados.",
       "avisado": true,
-      "verificado": true,
-      "mudanca": "O edital tem cronograma definido (inscrições até 10/06/2026, já encerradas, resultado até 31/12/2026), ao contrário da classificação anterior que registrava prazo nulo e status aberto."
+      "verificado": true
     },
     {
       "titulo": "Programa Capes/MES-Cuba - Projetos",
@@ -121,8 +118,7 @@
       "docs_verificados": [],
       "requisitos": "Projeto conjunto de pesquisa entre grupo brasileiro e grupo cubano vinculados a Instituições de Ensino Superior/Pesquisa, inscrito pelo coordenador do projeto; bolsas de mobilidade (doutorado sanduíche/pós-doutorado) destinadas a membros de projetos já selecionados.",
       "avisado": true,
-      "verificado": true,
-      "mudanca": "Encontrado o calendário real do Edital nº 12/2026: inscrições encerradas em 12/06/2026 (prazo já vencido), substituindo o prazo \"null\" da classificação anterior."
+      "verificado": true
     },
     {
       "titulo": "Chamada de Ideias BraFIP",
@@ -145,8 +141,7 @@
       "verificado": true,
       "verificado_em": "2026-10-26T17:33:29-03:00",
       "verificacao_hash": "bbb5158c",
-      "docs_verificados": [],
-      "mudanca": "Texto (reportagem, não o edital) revela prazo de inscrição até 23/08/2026, já expirado hoje (26/10/2026); status muda de aberto para encerrado"
+      "docs_verificados": []
     },
     {
       "titulo": "Finep Mais Inovação Brasil – Rodada 2 - Base Industrial de Defesa",
@@ -229,31 +224,6 @@
       "docs_verificados": []
     },
     {
-      "titulo": "Chamada Pública 63/2026 - Edital PROFIX (FAPDF/CNPq)",
-      "resumo": "Chamada da FAPDF em parceria com o CNPq para fixação de pesquisadores no DF, prevendo até 35 projetos de pesquisa, tecnologia e inovação.",
-      "prazo": "2026-10-27",
-      "valor": "Bolsa Conhecimento Brasil (BCB-1/CNPq): R$ 13.000,00/mês por 48 meses (até R$ 624.000,00); complementação FAPDF até R$ 6.900,00/mês (até R$ 331.200,00); bolsas CAPES de mestrado/doutorado quando houver; valor máximo total por proposta R$ 1.154.400,00",
-      "link": "https://www.fap.df.gov.br/documents/d/fap/sei_212973162_chamada_publica_63-pdf",
-      "documentos": [],
-      "aberto": true,
-      "relevancia": "alta",
-      "perfis": [
-        "pesquisador"
-      ],
-      "motivo": "Alta para pesquisador: é o PROFIX-CB no DF (prioridade do perfil); recém-doutor, residente no DF e sem vínculo empregatício atende aos requisitos de elegibilidade do Proponente/Coordenador BCB-1.",
-      "id": "023de01c2abf",
-      "fonte": "fapdf-destaques",
-      "fonte_nome": "FAPDF (destaques da página inicial)",
-      "categoria": "fap",
-      "primeiro_visto": "2026-10-26T17:33:29-03:00",
-      "requisitos": "Proponente brasileiro, doutor, residente no DF/RIDE (ou com compromisso formal de fixação até o início da BCB-1), sem vínculo empregatício ou funcional com instituição nacional no início da vigência da bolsa, com Lattes e cadastro no SIGFAPDF atualizados.",
-      "verificado": true,
-      "verificado_em": "2026-10-26T17:33:29-03:00",
-      "verificacao_hash": "bbb5158c",
-      "docs_verificados": [],
-      "avisado": true
-    },
-    {
       "titulo": "Programa CAPES/CLIMAT-AMSUD",
       "resumo": "Cooperação em projetos de pesquisa sobre mudanças climáticas entre países da América do Sul.",
       "prazo": "2026-10-29",
@@ -276,8 +246,7 @@
       "docs_verificados": [],
       "requisitos": "Projetos conjuntos de pesquisa (2 anos) entre equipes de ICTs brasileiras, francesas e sul-americanas, com coordenador e equipe vinculados a instituição de ensino/pesquisa; prevê bolsas de Pós-Doutorado, Doutorado-Sanduíche e Professor Visitante para membros da equipe, incentivando jovens pesquisadores",
       "avisado": true,
-      "verificado": true,
-      "mudanca": "Edital nº 26/2026 (publicado 08/09/2026) trouxe calendário com prazo de inscrição até às 17h de 29/10/2026, informação ausente na classificação anterior (prazo null)"
+      "verificado": true
     },
     {
       "titulo": "Programa CAPES/STIC-AMSUD",
@@ -325,8 +294,7 @@
       "verificado": true,
       "verificado_em": "2026-10-26T17:33:29-03:00",
       "verificacao_hash": "bbb5158c",
-      "docs_verificados": [],
-      "mudanca": "leitura completa esclarece prazo (30/10/2026) e revela que a FAPDF não está entre as FAPs participantes, eliminando o perfil pesquisador (vinculado à UnB/DF) que constava na classificação anterior"
+      "docs_verificados": []
     },
     {
       "titulo": "Chamada Transnacional Conjunta 2026 - Gestão Sustentável dos Recursos Hídricos (Water4All)",
@@ -553,8 +521,7 @@
       "docs_verificados": [],
       "requisitos": "Doutorado concluído há menos de 4 anos (modalidade pós-doutorado) ou menos de 12 anos (pesquisador experiente), com ou sem vínculo empregatício em instituição de ensino/pesquisa do Brasil, candidatura simultânea à CAPES e à Fundação Humboldt na Alemanha",
       "avisado": true,
-      "verificado": true,
-      "mudanca": "Calendário mostra a Chamada 27 atualmente aberta, com inscrições de 01/06/2026 até 30/11/2026 (antes classificado como sem prazo definido); nenhuma alteração de valor ou elegibilidade"
+      "verificado": true
     },
     {
       "titulo": "Programa Rede de Pesquisa e Desenvolvimento da Região Nordeste",
@@ -819,7 +786,6 @@
       "verificado_em": "2026-10-26T17:33:29-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": [],
-      "mudanca": "Edital nº 17/2026 publicado: chamada 01 (2026/2027) teve inscrições prorrogadas até 02/07/2026 e já encerradas, com resultado previsto até 31/12/2026; chamada 02 (2027/2028) abrirá de 01/02/2027 a 01/07/2027, prazo que agora consta explicitamente (antes era null).",
       "avisado": true
     },
     {
@@ -1173,8 +1139,7 @@
       "verificado": true,
       "verificado_em": "2026-10-26T17:33:29-03:00",
       "verificacao_hash": "bbb5158c",
-      "docs_verificados": [],
-      "mudanca": "o ciclo PVCD 2026 encerrou em 29/05/2026 (prazo já passado) e a próxima chamada está apenas prevista para abertura em abril de 2027, sem data definida; por isso a relevância cai de média para baixa enquanto não reabre"
+      "docs_verificados": []
     },
     {
       "titulo": "Cátedra Agricultura e Ciências do Meio Ambiente – University of Georgia, Athens",
