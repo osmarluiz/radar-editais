@@ -213,8 +213,11 @@ def baixar_texto(fonte):
     if fonte.get("leitor_texto"):
         return resp.text[:MAX_CHARS]  # markdown do leitor, já com os links
     soup = BeautifulSoup(resp.content, "html.parser")
-    for tag in soup(["script", "style", "noscript", "svg", "header", "footer", "nav", "form", "iframe"]):
+    for tag in soup(["script", "style", "noscript", "svg", "header", "footer", "nav", "iframe"]):
         tag.decompose()
+    for tag in soup("form"):  # busca e login saem; listas dentro de form (Joomla, ex.: UnB) ficam
+        if not tag.find("a", href=True):
+            tag.decompose()
     corpo = (fonte.get("seletor") and soup.select_one(fonte["seletor"])) or soup.find("main") or soup.body or soup
     for a in corpo.find_all("a", href=True):
         texto = a.get_text(" ", strip=True)

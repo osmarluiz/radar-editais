@@ -41,54 +41,6 @@ fontes:
     url: https://www.fap.df.gov.br/chamadas-internacionais-20261
     leitor: true  # o site do GDF bloqueia os servidores do GitHub
     leitor_texto: true  # conteúdo fica em menus/abas que o modo HTML descarta
-  - id: fapesp
-    nome: FAPESP
-    categoria: fap
-    url: https://fapesp.br/chamadas/
-  - id: fapemig
-    nome: FAPEMIG
-    categoria: fap
-    url: https://fapemig.br/pt/chamadas-abertas/
-  - id: faperj
-    nome: FAPERJ
-    categoria: fap
-    url: https://www.faperj.br/?id=28.5.7
-  - id: fapeg
-    nome: FAPEG (Goiás)
-    categoria: fap
-    url: https://goias.gov.br/fapeg/editais/inscricoes-abertas/
-  - id: fapergs
-    nome: FAPERGS
-    categoria: fap
-    url: https://fapergs.rs.gov.br/mapa-do-site
-  - id: fapesc
-    nome: FAPESC
-    categoria: fap
-    url: https://fapesc.sc.gov.br/category/chamadas-abertas/
-  - id: araucaria
-    nome: Fundação Araucária (PR)
-    categoria: fap
-    url: https://www.fappr.pr.gov.br/Programas-Abertos
-  - id: fapemat
-    nome: FAPEMAT
-    categoria: fap
-    url: https://www.fapemat.mt.gov.br/pt/editais_1?categoryId=73983336
-  - id: fundect
-    nome: FUNDECT (MS)
-    categoria: fap
-    url: https://www.fundect.ms.gov.br/informativos/consultas/
-  - id: fapesb
-    nome: FAPESB
-    categoria: fap
-    url: https://www.fapesb.ba.gov.br/category/edital/
-  - id: fapema
-    nome: FAPEMA
-    categoria: fap
-    url: https://www.fapema.br/editais/
-  - id: facepe
-    nome: FACEPE
-    categoria: fap
-    url: https://www.facepe.br/editais/todos/
 
   # --- Inovação ---
   - id: embrapii
@@ -186,6 +138,14 @@ fontes:
     nome: Sebrae DF
     categoria: empresas
     url: https://df.agenciasebrae.com.br/?s=edital
+  - id: dpi-unb
+    nome: UnB (DPI/DPG) editais de pesquisa
+    categoria: fap
+    url: https://dpi.unb.br/editais/editais2026  # muda todo ano
+  - id: finatec
+    nome: Finatec (UnB) editais e bolsas em projetos
+    categoria: fap
+    url: https://www.finatec.org.br/editais/
   - id: secti-df
     nome: SECTI-DF
     categoria: empresas
