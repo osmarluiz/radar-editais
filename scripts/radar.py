@@ -280,6 +280,7 @@ def escrever_novos(caminho, editais, hoje):
                       + (f" · {e['valor']}" if e.get("valor") else "")
                       + f"  \n  {e['resumo']}")
     caminho.write_text("\n".join(linhas) + "\n", encoding="utf-8")
+    salvar_json(caminho.with_suffix(".json"), novos)  # usado pelo enviar_email.py
     print(f"{len(novos)} editais relevantes novos gravados em {caminho}")
 
 

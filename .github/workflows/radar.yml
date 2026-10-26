@@ -77,8 +77,22 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
 
-      # A issue aberta chega por e-mail para o dono do repositório
-      - name: Avisar editais novos
+      - name: Enviar e-mail
+        id: email
+        continue-on-error: true
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_DESTINO: ${{ secrets.EMAIL_DESTINO }}
+          PAINEL_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: |
+          [ -s "$RUNNER_TEMP/novos.json" ] || { echo "Nada novo para avisar."; exit 0; }
+          python scripts/enviar_email.py "$RUNNER_TEMP/novos.json"
+
+      # Sem e-mail configurado (ou se o envio falhar), o aviso vai por issue,
+      # que o GitHub também manda por e-mail para o dono do repositório
+      - name: Avisar editais novos por issue
+        if: steps.email.outcome != 'success'
         env:
           GH_TOKEN: ${{ github.token }}
           NOVOS: ${{ runner.temp }}/novos.md
