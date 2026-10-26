@@ -1,24 +1,12 @@
 {
-  "atualizado_em": "2026-10-26T13:22:48-03:00",
+  "atualizado_em": "2026-10-26T13:45:09-03:00",
   "fontes": [
-    {
-      "id": "daad",
-      "nome": "DAAD Brasil",
-      "url": "https://www.daad-brasil.org/pt/bolsas/busca/",
-      "categoria": "internacional",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
-      "ok": false,
-      "erro": "HTTPError: 403 Client Error: Forbidden for url: https://www.daad-brasil.org/pt/bolsas/busca/",
-      "hash": "c4a522922fbcde20",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
-      "n_editais": 5
-    },
     {
       "id": "facepe",
       "nome": "FACEPE",
       "url": "https://www.facepe.br/editais/todos/",
       "categoria": "fap",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": false,
       "erro": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.facepe.br/editais/todos/",
       "hash": null,
@@ -30,11 +18,11 @@
       "nome": "Fundação Araucária (PR)",
       "url": "https://www.fappr.pr.gov.br/Programas-Abertos",
       "categoria": "fap",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "f21983b3fe75d3e1",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
+      "hash": "03eeb5271f01d117",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 15
     },
     {
@@ -42,23 +30,23 @@
       "nome": "Belmont Forum",
       "url": "https://belmontforum.org/open-opportunities/",
       "categoria": "internacional",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "540a65023df50adc",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
-      "n_editais": 1
+      "hash": "debed9000b6e7636",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
+      "n_editais": 0
     },
     {
       "id": "bndes",
       "nome": "BNDES",
       "url": "https://www.bndes.gov.br/chamadadeinovacao",
       "categoria": "inovacao",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "e3a4eebd86bf7d20",
-      "extraido_em": "2026-10-26T11:40:43-03:00",
+      "hash": "2ccf72cf407031b0",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 3
     },
     {
@@ -66,23 +54,23 @@
       "nome": "CAPES",
       "url": "https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes",
       "categoria": "federal",
-      "verificado_em": "2026-10-26T13:22:48-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "527f75ee6758e5f7",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
-      "n_editais": 2
+      "hash": "eaa8e7e93d9bd6d6",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
+      "n_editais": 32
     },
     {
       "id": "centelha",
       "nome": "Programa Centelha",
       "url": "https://programacentelha.com.br/",
       "categoria": "inovacao",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "e77925547053b46f",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
+      "hash": "4204696c33fb81eb",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 1
     },
     {
@@ -90,11 +78,11 @@
       "nome": "Climate Change AI",
       "url": "https://www.climatechange.ai/calls",
       "categoria": "internacional",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "ee8ab95711018e73",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
+      "hash": "609b137ea5d1b313",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 0
     },
     {
@@ -102,47 +90,59 @@
       "nome": "CNPq",
       "url": "https://www.gov.br/cnpq/pt-br/chamadas/abertas-para-submissao",
       "categoria": "federal",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "9d6a4bb84f6ce363",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
-      "n_editais": 4
+      "hash": "e5582083daf0111e",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
+      "n_editais": 5
     },
     {
       "id": "confap",
       "nome": "CONFAP (cooperação internacional)",
       "url": "https://confap.org.br/pt/editais",
       "categoria": "internacional",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "78fbe578da5be374",
-      "extraido_em": "2026-10-26T11:40:43-03:00",
-      "n_editais": 10
+      "hash": "922db39f06c78d76",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
+      "n_editais": 5
+    },
+    {
+      "id": "daad",
+      "nome": "DAAD Brasil",
+      "url": "https://www.daad-brasil.org/pt/bolsas/busca/",
+      "categoria": "internacional",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
+      "ok": true,
+      "erro": null,
+      "hash": "f82bafce2899ad0c",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
+      "n_editais": 1
     },
     {
       "id": "embrapii",
       "nome": "EMBRAPII",
       "url": "https://embrapii.org.br/chamadas-publicas/feed/",
       "categoria": "inovacao",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "0effa7a3de102887",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
-      "n_editais": 0
+      "hash": "406d87abfd534504",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
+      "n_editais": 2
     },
     {
       "id": "fapdf",
       "nome": "FAPDF",
       "url": "https://www.fap.df.gov.br/editais-fapdf-20261",
       "categoria": "fap",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "ae30756c28b826d1",
-      "extraido_em": "2026-10-23T17:03:01-03:00",
+      "hash": "722a3ee4fb04e551",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 0
     },
     {
@@ -150,23 +150,23 @@
       "nome": "FAPDF (chamadas internacionais)",
       "url": "https://www.fap.df.gov.br/chamadas-internacionais-20261",
       "categoria": "fap",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "9dad55257605dcdc",
-      "extraido_em": "2026-10-26T11:40:43-03:00",
-      "n_editais": 2
+      "hash": "415c23d70465e7ad",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
+      "n_editais": 3
     },
     {
       "id": "fapeg",
       "nome": "FAPEG (Goiás)",
       "url": "https://goias.gov.br/fapeg/editais/inscricoes-abertas/",
       "categoria": "fap",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "78d5e874e2c6148b",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
+      "hash": "ebf8d3c53b12ed8d",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 1
     },
     {
@@ -174,11 +174,11 @@
       "nome": "FAPEMA",
       "url": "https://www.fapema.br/editais/",
       "categoria": "fap",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "c20694b5daf6b106",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
+      "hash": "a91c0c117375ea28",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 5
     },
     {
@@ -186,11 +186,11 @@
       "nome": "FAPEMAT",
       "url": "https://www.fapemat.mt.gov.br/pt/editais_1?categoryId=73983336",
       "categoria": "fap",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "a788fe90ef4626e2",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
+      "hash": "664a6c666bd84961",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 3
     },
     {
@@ -198,11 +198,11 @@
       "nome": "FAPEMIG",
       "url": "https://fapemig.br/pt/chamadas-abertas/",
       "categoria": "fap",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "1347a1d095d9dbb8",
-      "extraido_em": "2026-10-26T11:40:43-03:00",
+      "hash": "b6e39c8a1d7bc8b6",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 4
     },
     {
@@ -210,11 +210,11 @@
       "nome": "FAPERGS",
       "url": "https://fapergs.rs.gov.br/mapa-do-site",
       "categoria": "fap",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "e279ec132f324f46",
-      "extraido_em": "2026-10-24T09:59:08-03:00",
+      "hash": "fada78bd790e554e",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 2
     },
     {
@@ -222,23 +222,23 @@
       "nome": "FAPERJ",
       "url": "https://www.faperj.br/?id=28.5.7",
       "categoria": "fap",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "1d4e75353bba4295",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
-      "n_editais": 14
+      "hash": "25502140ab456bc8",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
+      "n_editais": 13
     },
     {
       "id": "fapesb",
       "nome": "FAPESB",
       "url": "https://www.fapesb.ba.gov.br/category/edital/",
       "categoria": "fap",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "0e888980905c3aad",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
+      "hash": "854f1320926cf4e0",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 20
     },
     {
@@ -246,11 +246,11 @@
       "nome": "FAPESC",
       "url": "https://fapesc.sc.gov.br/category/chamadas-abertas/",
       "categoria": "fap",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "596146e7de75b1de",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
+      "hash": "6e1aff9c7506b513",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 5
     },
     {
@@ -258,35 +258,35 @@
       "nome": "FAPESP",
       "url": "https://fapesp.br/chamadas/",
       "categoria": "fap",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "177d94acd0ccb71d",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
-      "n_editais": 26
+      "hash": "377c0ff0c9aa452f",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
+      "n_editais": 27
     },
     {
       "id": "finep",
       "nome": "FINEP",
       "url": "https://www.finep.gov.br/o/c/chamadapublicas?filter=situacao%20eq%20%27aberta%27&pageSize=100&fields=id,titulo,descricaoRawText,prazoProposto,publicoAlvo,tipoDeOportunidade,regiao",
       "categoria": "federal",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "3cdff5a77fb49232",
-      "extraido_em": "2026-10-23T16:56:52-03:00",
-      "n_editais": 16
+      "hash": "9d5223b6a357fdee",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
+      "n_editais": 15
     },
     {
       "id": "fulbright",
       "nome": "Fulbright Brasil",
       "url": "https://fulbright.org.br/bolsas-para-brasileiros",
       "categoria": "internacional",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "4aef96e55a9e5356",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
+      "hash": "e7faa7201b21620d",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 17
     },
     {
@@ -294,11 +294,11 @@
       "nome": "FUNDECT (MS)",
       "url": "https://www.fundect.ms.gov.br/informativos/consultas/",
       "categoria": "fap",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "3e3f9d089420d37b",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
+      "hash": "9f6f9fa458fd76b7",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 1
     },
     {
@@ -306,23 +306,23 @@
       "nome": "Google Research",
       "url": "https://research.google/programs-and-events/",
       "categoria": "internacional",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "22cbb95d11633f4b",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
-      "n_editais": 4
+      "hash": "dab9cd0fd9443f0e",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
+      "n_editais": 1
     },
     {
       "id": "idrc",
       "nome": "IDRC (Canadá)",
       "url": "https://idrc-crdi.ca/en/funding",
       "categoria": "internacional",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "c8ec1c89b4350bdd",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
+      "hash": "13a40ba6b775e51e",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 1
     },
     {
@@ -330,11 +330,11 @@
       "nome": "InovAtiva Brasil",
       "url": "https://www.inovativabrasil.com.br/",
       "categoria": "inovacao",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "7ec5ffdb8a6b5c39",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
+      "hash": "4f43fbf9947a74da",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
       "n_editais": 0
     },
     {
@@ -342,12 +342,12 @@
       "nome": "Instituto Serrapilheira",
       "url": "https://serrapilheira.org/todas-as-chamadas/",
       "categoria": "inovacao",
-      "verificado_em": "2026-10-26T11:40:43-03:00",
+      "verificado_em": "2026-10-26T13:45:09-03:00",
       "ok": true,
       "erro": null,
-      "hash": "fb7a0b96e0c14f37",
-      "extraido_em": "2026-10-23T16:33:32-03:00",
-      "n_editais": 0
+      "hash": "a74f08b77f292fcd",
+      "extraido_em": "2026-10-26T13:45:09-03:00",
+      "n_editais": 2
     }
   ]
 }
