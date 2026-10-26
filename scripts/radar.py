@@ -187,9 +187,15 @@ def baixar_texto(fonte):
     """Baixa a página e devolve o texto principal com os links em [texto](url)."""
     # leitor: true busca pelo r.jina.ai, para sites que bloqueiam IPs de fora do Brasil
     url = LEITOR + fonte["url"] if fonte.get("leitor") else fonte["url"]
+    headers = dict(HEADERS)
+    if fonte.get("leitor"):
+        headers["X-No-Cache"] = "true"  # o cache do leitor pode esconder retificações recentes
+    if fonte.get("leitor") and not fonte.get("leitor_texto"):
+        # HTML renderizado: o modo texto do leitor descarta abas e acordeões (ex.: PROFIX na FAPDF)
+        headers["X-Respond-With"] = "html"
     for tentativa in range(3):
         try:
-            resp = requests.get(url, headers=HEADERS, timeout=(15, 90), verify=False)
+            resp = requests.get(url, headers=headers, timeout=(15, 90), verify=False)
             break
         except (requests.ConnectionError, requests.Timeout):
             if tentativa == 2:
@@ -201,8 +207,8 @@ def baixar_texto(fonte):
     if resp.content[:5] == b"%PDF-":
         paginas = PdfReader(io.BytesIO(resp.content)).pages
         return "\n".join(p.extract_text() or "" for p in paginas)[:MAX_CHARS]
-    if fonte.get("leitor"):
-        return resp.text[:MAX_CHARS]  # o leitor já devolve markdown com os links
+    if fonte.get("leitor_texto"):
+        return resp.text[:MAX_CHARS]  # markdown do leitor, já com os links
     soup = BeautifulSoup(resp.content, "html.parser")
     for tag in soup(["script", "style", "noscript", "svg", "header", "footer", "nav", "form", "iframe"]):
         tag.decompose()
@@ -213,6 +219,9 @@ def baixar_texto(fonte):
         if texto and href.startswith("http"):
             a.replace_with(f"[{texto}]({href})")
     texto = re.sub(r"\n\s*\n+", "\n\n", corpo.get_text("\n", strip=True))
+    if len(texto) < 500 and fonte.get("leitor") and not fonte.get("leitor_texto"):
+        # PDF ou página que o modo HTML do leitor não renderizou: tenta o modo texto
+        return baixar_texto(dict(fonte, leitor_texto=True))
     return texto[:MAX_CHARS]
 
 

@@ -3,7 +3,8 @@
 
 # Cada fonte: id único, nome, categoria (federal | fap | inovacao | internacional),
 # url da página que lista os editais e, opcionalmente, um seletor CSS do conteúdo.
-# leitor: true busca a página via r.jina.ai (sites que bloqueiam IP estrangeiro).
+# leitor: true busca a página via r.jina.ai (sites que bloqueiam IP estrangeiro), em HTML renderizado;
+# leitor_texto: true usa o modo texto do leitor (quando o HTML perde o conteúdo).
 # Para APIs JSON: formato: json e, se quiser, link_modelo com campos do item ({id}).
 fontes:
   # --- Federais ---
@@ -39,6 +40,7 @@ fontes:
     categoria: fap
     url: https://www.fap.df.gov.br/chamadas-internacionais-20261
     leitor: true  # o site do GDF bloqueia os servidores do GitHub
+    leitor_texto: true  # conteúdo fica em menus/abas que o modo HTML descarta
   - id: fapesp
     nome: FAPESP
     categoria: fap
@@ -150,6 +152,7 @@ fontes:
     categoria: turismo
     url: https://embratur.com.br/transparencia/editais
     leitor: true  # acesso direto dá 403
+    leitor_texto: true  # conteúdo fica em menus/abas que o modo HTML descarta
   - id: caixa-startups
     nome: CAIXA – Chamadas de Startup
     categoria: inovacao
@@ -166,6 +169,7 @@ fontes:
     categoria: ppp
     url: https://www.sepe.df.gov.br/editais-de-chamamento
     leitor: true
+    leitor_texto: true  # conteúdo fica em menus/abas que o modo HTML descarta
   - id: pncp-cpsi
     nome: PNCP – contratações de solução inovadora (CPSI)
     categoria: ppp
@@ -193,6 +197,7 @@ fontes:
     categoria: federal
     url: https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/
     leitor: true  # a lista fica no menu, que o modo direto remove
+    leitor_texto: true  # conteúdo fica em menus/abas que o modo HTML descarta
   - id: idb-lab
     nome: BID / IDB Lab
     categoria: internacional
@@ -207,3 +212,4 @@ fontes:
     categoria: internacional
     url: https://www.schmidtsciences.org/opportunities/
     leitor: true
+    leitor_texto: true  # conteúdo fica em menus/abas que o modo HTML descarta
