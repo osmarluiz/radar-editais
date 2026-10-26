@@ -62,11 +62,13 @@ function cartao(e) {
         <span class="tag fonte">${esc(e.fonte_nome)}</span>
         ${novo ? '<span class="tag novo">novo</span>' : ""}
         ${rel}
+        ${e.verificado ? '<span class="tag verificado" title="Prazo e elegibilidade conferidos no edital completo">✓ edital conferido</span>' : ""}
         ${para}
         <span>${prazo}</span>
         ${e.valor ? `<span>${esc(e.valor)}</span>` : ""}
       </div>
       <p>${esc(e.resumo)}</p>
+      ${e.requisitos ? `<p class="motivo"><strong>Requisitos:</strong> ${esc(e.requisitos)}</p>` : ""}
       ${e.motivo ? `<p class="motivo">${esc(e.motivo)}</p>` : ""}
     </article>`;
 }

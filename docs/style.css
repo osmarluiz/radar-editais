@@ -114,6 +114,7 @@ a { color: var(--azul); }
   white-space: nowrap;
 }
 .tag.fonte { background: var(--azul-fundo); color: var(--azul); }
+.tag.verificado { background: var(--alta-fundo); color: var(--alta); font-weight: 500; }
 .tag.perfil { background: transparent; color: var(--texto); border: 1px solid var(--borda); }
 .tag.novo { background: var(--azul); color: var(--card); }
 .tag.alta { background: var(--alta-fundo); color: var(--alta); }

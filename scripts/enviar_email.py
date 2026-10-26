@@ -47,10 +47,13 @@ for e in novos:
           <span style="color:{cor};font-weight:600">relevância {rel}</span>{extras}
         </div>
         <div style="font-size:14px">{escape(e["resumo"])}</div>
+        {f'<div style="font-size:13px;color:#475569;margin-top:4px"><b>Requisitos:</b> {escape(e["requisitos"])}</div>' if e.get("requisitos") else ""}
       </div>""")
     para = f", para {', '.join(e['perfis_nomes'])}" if e.get("perfis_nomes") else ""
     itens_txt.append(f"- {e['titulo']} ({e['fonte_nome']}, prazo {data_br(e.get('prazo'))}, "
-                     f"relevância {rel}{para})\n  {e['resumo']}\n  {e.get('link') or ''}")
+                     f"relevância {rel}{para})\n  {e['resumo']}\n"
+                     + (f"  Requisitos: {e['requisitos']}\n" if e.get("requisitos") else "")
+                     + f"  {e.get('link') or ''}")
 
 n = len(novos)
 assunto = f"Radar de editais: {n} {'edital novo' if n == 1 else 'editais novos'} em {datetime.now():%d/%m/%Y}"

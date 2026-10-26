@@ -10,19 +10,27 @@ internacionais), atualizado todo dia por um GitHub Action.
 1. `scripts/radar.py` baixa a página de editais de cada fonte listada em `config/fontes.yaml`.
 2. Se o conteúdo da página mudou desde a última execução, o texto vai para o Claude Code
    (`claude -p`, sem ferramentas, saída validada por JSON Schema), que extrai título, prazo,
-   valor, link e a relevância para o perfil definido no topo de `config/fontes.yaml`.
+   valor, link, a relevância e os perfis atendidos. Os perfis ficam em `config/perfis.yaml`
+   (privado, fora do git; no Actions vêm do secret `RADAR_PERFIS`, modelo em
+   `config/perfis.exemplo.yaml`).
    Páginas sem mudança não gastam chamada ao Claude.
-3. O resultado é gravado em `docs/data/editais.json` e o estado de cada fonte em
+3. Cada edital marcado como relevância alta ou média é **conferido no texto completo** (página
+   ou PDF do link): o Claude confere o prazo real, se ainda está aberto e se cada perfil cumpre
+   os requisitos eliminatórios (tempo de titulação, vínculo, estado, porte...). Cada edital é
+   conferido uma vez (de novo só se os perfis mudarem); só os conferidos geram aviso.
+4. O resultado é gravado em `docs/data/editais.json` e o estado de cada fonte em
    `docs/data/status.json`. O workflow faz commit desses arquivos.
-4. O GitHub Pages serve a pasta `docs/` (branch `main`); o painel (`docs/index.html`) lê os JSON.
+5. O GitHub Pages serve a pasta `docs/` (branch `main`); o painel (`docs/index.html`) lê os JSON.
 
 ```
-config/fontes.yaml          perfil de relevância + lista de fontes
-scripts/radar.py            coleta e extração
+config/fontes.yaml          lista de fontes
+config/perfis.yaml          perfis de relevância (privado)
+scripts/radar.py            coleta, extração e conferência dos editais
+scripts/enviar_email.py     aviso por e-mail (Gmail)
 docs/                       painel estático (GitHub Pages)
 docs/data/editais.json      editais extraídos
 docs/data/status.json       situação de cada fonte (ok/erro)
-.github/workflows/radar.yml execução diária às 06:00 (Brasília)
+.github/workflows/radar.yml execução diária (~05:30, Brasília)
 ```
 
 ## Avisos por e-mail
