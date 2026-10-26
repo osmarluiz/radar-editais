@@ -14,7 +14,7 @@ on:
         type: string
         default: ""
       testar_email:
-        description: "Mandar um e-mail de teste com até 5 editais relevantes já abertos"
+        description: "Mandar um e-mail de teste com até 8 editais relevantes já abertos"
         type: boolean
         default: false
 
@@ -52,10 +52,12 @@ jobs:
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           RADAR_NOVOS: ${{ runner.temp }}/novos.md
+          RADAR_PERFIS: ${{ secrets.RADAR_PERFIS }}
           FORCAR: ${{ inputs.forcar && '--forcar' || '' }}
           FONTES: ${{ inputs.fontes }}
+          TESTE: ${{ inputs.testar_email && '--testar-email' || '' }}
         run: |
-          args="$FORCAR"
+          args="$FORCAR $TESTE"
           for f in $FONTES; do args="$args --fonte $f"; done
           python scripts/radar.py $args
 
@@ -90,9 +92,6 @@ jobs:
           EMAIL_DESTINO: ${{ secrets.EMAIL_DESTINO }}
           PAINEL_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
         run: |
-          if [ "${{ inputs.testar_email }}" = "true" ]; then
-            python -c "import json; e = json.load(open('docs/data/editais.json', encoding='utf-8'))['editais']; json.dump([x for x in e if x['relevancia'] in ('alta', 'media') and x.get('aberto', True)][:5], open('$RUNNER_TEMP/novos.json', 'w', encoding='utf-8'))"
-          fi
           [ -s "$RUNNER_TEMP/novos.json" ] || { echo "Nada novo para avisar."; exit 0; }
           python scripts/enviar_email.py "$RUNNER_TEMP/novos.json"
 

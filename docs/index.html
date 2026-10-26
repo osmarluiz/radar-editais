@@ -19,6 +19,9 @@
   <main class="wrap">
     <section class="filtros" aria-label="Filtros">
       <input id="busca" type="search" placeholder="Buscar por título, fonte ou tema…" autocomplete="off">
+      <div class="chips" id="perfis" role="group" aria-label="Perfil">
+        <button data-perfil="" class="ativo">Todos os perfis</button>
+      </div>
       <div class="linha">
         <div class="chips" id="categorias" role="group" aria-label="Categoria">
           <button data-cat="" class="ativo">Todas</button>
@@ -26,6 +29,9 @@
           <button data-cat="fap">FAPs</button>
           <button data-cat="inovacao">Inovação</button>
           <button data-cat="internacional">Internacionais</button>
+          <button data-cat="empresas">Empresas</button>
+          <button data-cat="turismo">Turismo</button>
+          <button data-cat="ppp">PPP</button>
         </div>
         <div class="selects">
           <label>Relevância

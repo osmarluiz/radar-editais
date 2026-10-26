@@ -37,6 +37,8 @@ for e in novos:
     if e.get("link"):
         titulo = f'<a href="{escape(e["link"])}" style="color:#1d4ed8;text-decoration:none">{titulo}</a>'
     extras = f' · {escape(e["valor"])}' if e.get("valor") else ""
+    if e.get("perfis_nomes"):
+        extras += f' · para <b>{escape(", ".join(e["perfis_nomes"]))}</b>'
     itens_html.append(f"""
       <div style="border-left:4px solid {cor};padding:8px 12px;margin:0 0 14px;background:#f8fafc">
         <div style="font-size:16px;font-weight:600">{titulo}</div>
@@ -46,8 +48,9 @@ for e in novos:
         </div>
         <div style="font-size:14px">{escape(e["resumo"])}</div>
       </div>""")
+    para = f", para {', '.join(e['perfis_nomes'])}" if e.get("perfis_nomes") else ""
     itens_txt.append(f"- {e['titulo']} ({e['fonte_nome']}, prazo {data_br(e.get('prazo'))}, "
-                     f"relevância {rel})\n  {e['resumo']}\n  {e.get('link') or ''}")
+                     f"relevância {rel}{para})\n  {e['resumo']}\n  {e.get('link') or ''}")
 
 n = len(novos)
 assunto = f"Radar de editais: {n} {'edital novo' if n == 1 else 'editais novos'} em {datetime.now():%d/%m/%Y}"

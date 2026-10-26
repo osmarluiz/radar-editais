@@ -1,0 +1,18 @@
+# Modelo de perfis. Copie para config/perfis.yaml (fora do git), descreva cada perfil e
+# cadastre o conteúdo no secret RADAR_PERFIS:
+#   gh secret set RADAR_PERFIS < config/perfis.yaml
+#
+# Para cada edital, o Claude indica os perfis elegíveis e a relevância:
+#   alta  = o perfil é elegível e o tema bate diretamente com o foco dele
+#   media = o perfil é elegível e o edital é amplo (qualquer área / inovação em geral) mas cabe
+#   baixa = não elegível (outro estado, outro tipo de proponente), já encerrado ou tema só tangencial
+perfis:
+  - id: pesquisador
+    nome: Pesquisador
+    descricao: |
+      Pessoa física, doutor, cidade/UF, ano do título, vínculo institucional atual,
+      temas de pesquisa e restrições (aceita mudar de estado? exterior?).
+  - id: empresa
+    nome: Minha empresa
+    descricao: |
+      Atividade, porte, cidade/UF, ano de abertura e o que quer financiar.

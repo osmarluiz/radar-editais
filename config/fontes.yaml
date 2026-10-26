@@ -1,11 +1,5 @@
-# Perfil usado pelo Claude para marcar a relevância de cada edital.
-perfil: |
-  Pesquisador e empreendedor em Brasília (DF), doutorado em sensoriamento remoto.
-  Temas de interesse: sensoriamento remoto, imagens de satélite, geoprocessamento,
-  inteligência artificial e aprendizado de máquina, agricultura e uso da terra no
-  Cerrado, meio ambiente e clima, inovação tecnológica, startups e empresas de base
-  tecnológica. Pode concorrer como pessoa física (pesquisador) ou como empresa.
-  Editais restritos a outros estados ou a áreas sem relação com esses temas são baixa relevância.
+# Os perfis usados para a relevância ficam em config/perfis.yaml (privado, fora do git)
+# ou no secret RADAR_PERFIS. Modelo: config/perfis.exemplo.yaml.
 
 # Cada fonte: id único, nome, categoria (federal | fap | inovacao | internacional),
 # url da página que lista os editais e, opcionalmente, um seletor CSS do conteúdo.

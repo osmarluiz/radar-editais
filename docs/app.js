@@ -1,6 +1,6 @@
 const PESO_REL = { alta: 0, media: 1, baixa: 2 };
 const DIA = 86400000;
-const estado = { cat: "", editais: [] };
+const estado = { cat: "", perfil: "", editais: [], nomesPerfis: {} };
 
 const $ = (id) => document.getElementById(id);
 
@@ -53,6 +53,7 @@ function cartao(e) {
 
   const rel = e.relevancia === "alta" ? '<span class="tag alta">relevância alta</span>'
     : e.relevancia === "media" ? '<span class="tag media">relevância média</span>' : "";
+  const para = (e.perfis || []).map((p) => `<span class="tag perfil">${esc(estado.nomesPerfis[p] || p)}</span>`).join("");
 
   return `
     <article class="edital rel-${esc(e.relevancia)}${fechado ? " encerrado" : ""}">
@@ -61,6 +62,7 @@ function cartao(e) {
         <span class="tag fonte">${esc(e.fonte_nome)}</span>
         ${novo ? '<span class="tag novo">novo</span>' : ""}
         ${rel}
+        ${para}
         <span>${prazo}</span>
         ${e.valor ? `<span>${esc(e.valor)}</span>` : ""}
       </div>
@@ -77,6 +79,7 @@ function render() {
 
   let lista = estado.editais.filter((e) => {
     if (estado.cat && e.categoria !== estado.cat) return false;
+    if (estado.perfil && !(e.perfis || []).includes(estado.perfil)) return false;
     if (!verEncerrados && encerrado(e)) return false;
     if (relMin && PESO_REL[e.relevancia] > PESO_REL[relMin]) return false;
     if (termo) {
@@ -121,6 +124,10 @@ async function iniciar() {
   try {
     const [dados, status] = await Promise.all([carregar("editais"), carregar("status")]);
     estado.editais = dados.editais || [];
+    (dados.perfis || []).forEach((p) => {
+      estado.nomesPerfis[p.id] = p.nome;
+      $("perfis").insertAdjacentHTML("beforeend", `<button data-perfil="${esc(p.id)}">${esc(p.nome)}</button>`);
+    });
     const abertos = estado.editais.filter((e) => !encerrado(e)).length;
     $("resumo").textContent = dados.atualizado_em
       ? `${abertos} editais abertos · atualizado em ${dataBR(dados.atualizado_em)} às ${dados.atualizado_em.slice(11, 16)}`
@@ -134,6 +141,13 @@ async function iniciar() {
 
 $("busca").addEventListener("input", render);
 ["relevancia", "ordem", "encerrados"].forEach((id) => $(id).addEventListener("change", render));
+$("perfis").addEventListener("click", (ev) => {
+  const btn = ev.target.closest("button");
+  if (!btn) return;
+  estado.perfil = btn.dataset.perfil;
+  $("perfis").querySelectorAll("button").forEach((b) => b.classList.toggle("ativo", b === btn));
+  render();
+});
 $("categorias").addEventListener("click", (ev) => {
   const btn = ev.target.closest("button");
   if (!btn) return;
