@@ -36,6 +36,9 @@ ARQ_STATUS = DADOS / "status.json"
 FUSO = timezone(timedelta(hours=-3))
 MAX_CHARS = 60_000
 MAX_VERIFICACOES = 40  # editais lidos por completo a cada execução (o resto fica para a próxima)
+# Depois deste tempo não começa extração nem conferência nova: salva o que já fez e o resto
+# fica para a próxima execução (o job do Actions tem limite de tempo)
+TEMPO_MAX = int(os.environ.get("RADAR_TEMPO_MAX", 70 * 60))
 CAMPOS_VERIFICADOS = ("prazo", "aberto", "valor", "relevancia", "perfis", "motivo", "requisitos",
                       "mudanca", "verificado", "verificado_em", "verificacao_hash", "docs_verificados")
 LEITOR = "https://r.jina.ai/"
@@ -286,6 +289,10 @@ def main():
     ap.add_argument("--testar-email", action="store_true",
                     help="avisa os editais relevantes já abertos, para testar o e-mail")
     args = ap.parse_args()
+    inicio = time.monotonic()
+
+    def sem_tempo():
+        return time.monotonic() - inicio > TEMPO_MAX
 
     config = yaml.safe_load((RAIZ / "config" / "fontes.yaml").read_text(encoding="utf-8"))
     config["perfis"] = carregar_perfis()
@@ -332,6 +339,8 @@ def main():
             mudou = novo_hash != ant.get("hash") or not ant.get("extraido_em")
             if args.sem_claude:
                 print(f"[ok]   {fonte['id']}: {len(texto)} caracteres")
+            elif (mudou or args.forcar) and sem_tempo():
+                print(f"[adiada] {fonte['id']}: sem tempo nesta execução")
             elif mudou or args.forcar:
                 try:
                     brutos = extrair_com_claude(fonte, texto, perfis)
@@ -378,6 +387,9 @@ def main():
     if pendentes:
         print(f"\nVerificando {len(pendentes[:MAX_VERIFICACOES])} editais pelo texto completo")
     for ed in pendentes[:MAX_VERIFICACOES]:
+        if sem_tempo():
+            print("[adiada] conferências restantes ficam para a próxima execução")
+            break
         leitor = leitor_por_fonte.get(ed["fonte"])
         docs = list(dict.fromkeys(d for d in ed.get("documentos", []) if d and d != ed["link"]))[:3]
         try:
