@@ -145,7 +145,8 @@ que está escrito:
 - motivo: meia frase dizendo para qual perfil serve e por quê, ou qual requisito elimina
 - mudanca: se algum documento alterou prazo, valores ou requisitos em relação ao edital original
   ou à classificação anterior, descreva em meia frase (ex.: "retificação de 20/10 prorrogou o
-  prazo de 27/10 para 23/11"); senão, string vazia
+  prazo de 27/10 para 23/11"); senão, string vazia. Não escreva "nenhuma mudança", e retificação
+  que só corrige texto sem afetar prazo, valor ou elegibilidade também fica vazia
 
 Perfis (todos em Brasília, DF):
 {perfis}
@@ -221,7 +222,8 @@ def baixar_texto(fonte):
     corpo = (fonte.get("seletor") and soup.select_one(fonte["seletor"])) or soup.find("main") or soup.body or soup
     for a in corpo.find_all("a", href=True):
         texto = a.get_text(" ", strip=True)
-        href = urljoin(resp.url, a["href"])
+        # pelo leitor, resp.url é o endereço do r.jina.ai: link relativo resolve contra o site
+        href = urljoin(fonte["url"] if fonte.get("leitor") else resp.url, a["href"])
         if texto and href.startswith("http"):
             a.replace_with(f"[{texto}]({href})")
     texto = re.sub(r"\n\s*\n+", "\n\n", corpo.get_text("\n", strip=True))
@@ -387,6 +389,9 @@ def main():
     editais = [e for fid, eds in por_fonte.items() if fid in ids_config for e in eds]
     leitor_por_fonte = {f["id"]: f.get("leitor", False) for f in config["fontes"]}
     pendentes = [e for e in editais if e.get("link") and precisa_verificar(e, perfil_hash)]
+    # Alta e nunca conferido primeiro, depois o prazo mais próximo: o limite corta o que importa menos
+    pendentes.sort(key=lambda e: (e["relevancia"] != "alta", bool(e.get("verificado")),
+                                  e.get("prazo") or "9999-99-99"))
     if pendentes:
         print(f"\nVerificando {len(pendentes[:MAX_VERIFICACOES])} editais pelo texto completo")
     for ed in pendentes[:MAX_VERIFICACOES]:
@@ -416,6 +421,8 @@ def main():
             res["perfis"] = []
         antes = (ed["relevancia"], ed.get("prazo"))
         mudanca = res.pop("mudanca", "").strip()
+        if re.match(r"(?i)(nenhuma|sem) (mudança|alteração|retificação)", mudanca):
+            mudanca = ""
         ja_verificado = ed.get("verificado")
         ed.update(res, verificado=True, verificado_em=hoje, verificacao_hash=perfil_hash,
                   docs_verificados=docs)
