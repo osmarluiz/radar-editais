@@ -35,11 +35,12 @@ docs/data/status.json       situação de cada fonte (ok/erro)
 
 ## Avisos por e-mail
 
-Quando uma execução encontra editais **novos, abertos e de relevância alta ou média**, o
-workflow abre uma issue no repositório com a lista e menciona o dono. O GitHub manda essa
-issue por e-mail (verifique em github.com/settings/notifications se "Email" está ativo para
-"Participating, @mentions and custom"). Dias sem novidade não geram issue. Feche a issue
-depois de ler. Falhas do workflow também chegam por e-mail.
+Quando uma execução encontra editais **novos, abertos, de relevância alta ou média e já
+conferidos no edital completo**, o `scripts/enviar_email.py` manda um e-mail pelo Gmail
+(secrets `GMAIL_USER` e `GMAIL_APP_PASSWORD`, uma senha de app do Google; `EMAIL_DESTINO`
+opcional). Sem esses secrets, ou se o envio falhar, o aviso vira uma issue no repositório, que o
+GitHub manda por e-mail ao dono. Dias sem novidade não geram aviso. Para testar:
+`gh workflow run "Radar de editais" -f fontes=capes -f testar_email=true`.
 
 ## Configuração
 
