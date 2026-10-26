@@ -13,6 +13,10 @@ on:
         description: "Processar só estas fontes (ids separados por espaço; vazio = todas)"
         type: string
         default: ""
+      testar_email:
+        description: "Mandar um e-mail de teste com até 5 editais relevantes já abertos"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -86,6 +90,9 @@ jobs:
           EMAIL_DESTINO: ${{ secrets.EMAIL_DESTINO }}
           PAINEL_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
         run: |
+          if [ "${{ inputs.testar_email }}" = "true" ]; then
+            python -c "import json; e = json.load(open('docs/data/editais.json', encoding='utf-8'))['editais']; json.dump([x for x in e if x['relevancia'] in ('alta', 'media') and x.get('aberto', True)][:5], open('$RUNNER_TEMP/novos.json', 'w', encoding='utf-8'))"
+          fi
           [ -s "$RUNNER_TEMP/novos.json" ] || { echo "Nada novo para avisar."; exit 0; }
           python scripts/enviar_email.py "$RUNNER_TEMP/novos.json"
 
