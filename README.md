@@ -64,6 +64,17 @@ python scripts/radar.py --fonte capes         # processa uma fonte
 python scripts/radar.py --forcar              # reextrai tudo
 ```
 
+## Preparar uma submissão
+
+```bash
+python scripts/preparar.py <id ou parte do título>
+```
+
+Roda no seu PC e cria `D:/EDITAIS/AAAA-MM-DD_FONTE_TITULO` (outra pasta com `EDITAIS_DIR`). A
+pasta recebe o edital, as retificações e os anexos já baixados (no PNCP, pela API, com o .zip
+extraído), um `checklist.md` com o resumo e os requisitos conferidos pelo radar, e uma linha nova
+na tabela "Em preparação" do `EDITAIS.md`. Nada disso vai para o repositório.
+
 ## Adicionar ou corrigir uma fonte
 
 Edite `config/fontes.yaml`. A URL precisa ser a página que **lista** os editais e devolver o
