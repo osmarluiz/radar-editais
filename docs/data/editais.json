@@ -1,9 +1,9 @@
 {
-  "atualizado_em": "2026-10-29T12:18:33-03:00",
+  "atualizado_em": "2026-10-30T12:07:26-03:00",
   "editais": [
     {
       "titulo": "EDITAL DPI/DEX/DPG/DEG Nº 003/2026",
-      "resumo": "Edital institucional conjunto de quatro decanatos da UnB (Pesquisa e Inovação, Extensão, Pós-Graduação e Ensino de Graduação); sem descrição, prazo ou valor disponíveis no texto.",
+      "resumo": "Edital conjunto dos Decanatos de Pesquisa e Inovação, Extensão, Pós-Graduação e Graduação da UnB; o texto da página não especifica o objeto, público-alvo, prazo ou valor do edital.",
       "prazo": "2026-03-27",
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/158-edital003-2026",
@@ -274,7 +274,7 @@
     },
     {
       "titulo": "Chamada CONFAP & WBI – Bélgica 2026",
-      "resumo": "Chamada de cooperação e mobilidade internacional entre o CONFAP e o Wallonie-Bruxelles International (Bélgica) para intercâmbio de pesquisadores.",
+      "resumo": "Chamada bilateral de cooperação/mobilidade acadêmica entre o Brasil e a Bélgica (Wallonie-Bruxelles International), sem recorte temático específico.",
       "prazo": "2026-10-30",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/111/chamada-confap-wbi-belgica-2026",
@@ -314,7 +314,7 @@
     },
     {
       "titulo": "Chamada Transnacional Conjunta 2026 - Gestão Sustentável dos Recursos Hídricos (Water4All)",
-      "resumo": "Chamada internacional conjunta da parceria Water4All para financiar projetos de pesquisa sobre gestão sustentável de recursos hídricos.",
+      "resumo": "Chamada internacional de pesquisa sobre gestão sustentável de recursos hídricos, da parceria europeia Water4All, para pesquisadores e instituições em consórcios internacionais.",
       "prazo": "2026-11-10",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/116/chamada-transnacional-conjunta-2026-gestao-sustentavel-dos-recursos-hidricos-water4all-",
@@ -337,7 +337,7 @@
     },
     {
       "titulo": "Chamada Transnacional Conjunta Biodiversa+ (BiodivFuture) 2026-2027",
-      "resumo": "Chamada internacional conjunta da parceria Biodiversa+ para financiar projetos de pesquisa em biodiversidade em cooperação entre países.",
+      "resumo": "Chamada internacional de pesquisa em biodiversidade, dentro da parceria europeia Biodiversa+, para pesquisadores e instituições em consórcios internacionais.",
       "prazo": "2026-11-10",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/117/chamada-transnacional-conjunta-biodiversa-biodivfuture-2026-2027",
@@ -383,7 +383,7 @@
     },
     {
       "titulo": "4ª Chamada Transnacional Conjunta da Parceria de Economia Azul Sustentável",
-      "resumo": "Chamada internacional conjunta da Parceria de Economia Azul Sustentável para projetos de pesquisa em cooperação internacional voltados a recursos marinhos e costeiros.",
+      "resumo": "Chamada de cooperação internacional em pesquisa sobre economia azul sustentável (recursos marinhos e costeiros), para pesquisadores e instituições participantes de consórcios internacionais.",
       "prazo": "2026-11-16",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/118/4-chamada-transnacional-conjunta-da-parceria-de-economia-azul-sustentavel-",
@@ -408,7 +408,7 @@
       "titulo": "CHAMADA CNPq/CAPES/FAPDF Nº 13/2026 - Programa de Apoio à Fixação de Doutores no Brasil (PROFIX - Conhecimento Brasil)",
       "resumo": "Chamada conjunta CNPq/CAPES/FAPDF para fixação de doutores recém-titulados em instituições do Distrito Federal, no âmbito do acordo de cooperação técnica PROFIX-CB.",
       "prazo": "2026-11-23",
-      "valor": "Bolsa Conhecimento Brasil (BCB-1) do CNPq: R$ 13.000,00/mês por 48 meses (até R$ 624.000,00); possíveis bolsas CAPES de mestrado (R$2.100/mês, 24 meses) e/ou doutorado (R$3.100/mês, 48 meses); complementação/bolsas FAPDF até R$ 6.900,00/mês (até R$ 331.200,00 total); valor máximo por proposta R$ 1.154.400,00",
+      "valor": "Até R$ 1.154.400,00 por proposta (BCB-1: R$13.000/mês por 48 meses, total R$624.000; bolsas CAPES mestrado/doutorado até R$199.200; FAPDF até R$6.900/mês, total R$331.200)",
       "link": "https://www.fap.df.gov.br/documents/d/fap/sei_212973162_chamada_publica_63-pdf",
       "documentos": [
         "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-30-pdf-1",
@@ -428,10 +428,10 @@
       "categoria": "fap",
       "primeiro_visto": "2026-10-26T17:33:29-03:00",
       "avisado": true,
-      "requisitos": "Proponente/Coordenador BCB-1 deve possuir título de doutor (brasileiro ou, após retificação, também estrangeiro), residir no DF/RIDE ou declarar compromisso de fixação residencial, não possuir vínculo empregatício ou funcional com instituição nacional no início da vigência da BCB-1, e ter cadastros Lattes/SIGFAPDF/SEI-GDF atualizados",
-      "mudanca": "1ª retificação (02/10) prorrogou o prazo de submissão de 27/10/2026 para 23/11/2026 e passou a admitir pesquisador estrangeiro (além de brasileiro) como Proponente/Coordenador BCB-1",
+      "requisitos": "Proponente pessoa física, brasileiro (nato/naturalizado) ou estrangeiro em situação migratória regular, com título de doutor, residente ou com compromisso de fixação residencial no DF/RIDE, sem vínculo empregatício ou funcional com instituições nacionais no início da vigência da BCB-1",
+      "mudanca": "1ª retificação (02/10/2026) prorrogou o prazo de submissão de 27/10 para 23/11/2026 e passou a permitir também pesquisador estrangeiro como proponente, além de ajustar documentos exigidos",
       "verificado": true,
-      "verificado_em": "2026-10-29T12:18:33-03:00",
+      "verificado_em": "2026-10-30T12:07:26-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": [
         "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-30-pdf-1",
@@ -585,7 +585,7 @@
     },
     {
       "titulo": "Chamada Transnacional Conjunta - FOREST 2026",
-      "resumo": "Chamada internacional conjunta de cooperação entre agências de fomento para financiar projetos de pesquisa na área de florestas.",
+      "resumo": "Chamada internacional de cooperação em pesquisa sobre florestas/bioeconomia florestal, voltada a pesquisadores e instituições de pesquisa participantes de consórcios internacionais.",
       "prazo": "2026-12-02",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/119/chamada-transnacional-conjunta-forest-2026",
@@ -886,7 +886,7 @@
     },
     {
       "titulo": "CPSI Nº 001/2026 – Desafio BNDES Inteligência de Dados em Saúde",
-      "resumo": "Contratação pública (CPSI) de teste de solução inovadora de inteligência de dados para organização, análise e avaliação da saúde suplementar e ocupacional dos funcionários do BNDES.",
+      "resumo": "Contratação pública de inovação (CPSI) para teste de solução inovadora de inteligência de dados em saúde suplementar e ocupacional do BNDES, incluindo identificação de planos para redução de custos e aumento de qualidade de saúde dos funcionários.",
       "prazo": null,
       "valor": null,
       "link": "https://bra01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.worldlabs.org%2Fopportunity%2Finteligencia-dados-saude&data=05%7C02%7Cinternet%40bndes.gov.br%7C7d4f700d3616445caae108def492bc25%7C7e2324c66925427eb56d4e6eda16752a%7C0%7C0%7C639217108245669434%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=cbEKC8erERSBDVMJ%2FhO4O2%2FyriRlAhnmzxNFQ74xZNA%3D&reserved=0",
@@ -902,15 +902,15 @@
       "fonte_nome": "BNDES",
       "categoria": "inovacao",
       "primeiro_visto": "2026-10-29T12:18:33-03:00",
-      "verificacao_hash": "bbb5158c",
-      "verificado_em": "2026-10-29T12:18:33-03:00",
-      "docs_verificados": [],
+      "avisado": true,
       "requisitos": "edital completo não acessível; confira os requisitos no link",
-      "avisado": true
+      "verificado_em": "2026-10-29T12:18:33-03:00",
+      "verificacao_hash": "bbb5158c",
+      "docs_verificados": []
     },
     {
       "titulo": "CPSI Nº 002/2025 – Desafio BNDES Score Inteligente de MEI e Microempresas",
-      "resumo": "Contratação pública (CPSI) de teste de solução inovadora para qualificação e segmentação de leads de crédito de MEI e microempresas no canal digital do BNDES.",
+      "resumo": "Contratação pública de inovação para teste de solução de qualificação e segmentação de leads de crédito do Canal MPME de MEI e microempresas do BNDES.",
       "prazo": null,
       "valor": "R$300 mil",
       "link": "https://www.worldlabs.org/opportunity/desafio-bndes-score-inteligente-de-mei-e-micro",
@@ -934,7 +934,7 @@
     },
     {
       "titulo": "CPSI Nº 003/2025 – Desafio BNDES IA Jurídica",
-      "resumo": "Contratação pública (CPSI) de desenvolvimento de solução de Inteligência Artificial para apoiar a elaboração de manifestações jurídicas e petições no Sistema BNDES, sob a Lei Complementar nº 182/2021.",
+      "resumo": "Contratação pública de inovação para desenvolvimento de solução baseada em Inteligência Artificial que apoie a elaboração de manifestações jurídicas e petições em todos os ramos do Direito para o Sistema BNDES.",
       "prazo": null,
       "valor": null,
       "link": "https://www.worldlabs.org/opportunity/desafio-bndes-ia-juridica",
@@ -1008,7 +1008,7 @@
     },
     {
       "titulo": "Chamada Pública Unidades Embrapii nº 03/2025",
-      "resumo": "Credenciamento de novas Unidades Embrapii em Instituições Científicas, Tecnológicas e de Inovação (ICTs), públicas ou privadas sem fins lucrativos, que passam a receber recursos para executar projetos de PD&I em parceria com empresas.",
+      "resumo": "Seleciona até 4 Instituições Científicas, Tecnológicas e de Inovação (ICTs), públicas ou privadas sem fins lucrativos, para credenciamento como Unidades Embrapii, habilitando o grupo credenciado a receber recursos para projetos de PD&I com empresas do setor industrial.",
       "prazo": null,
       "valor": null,
       "link": "https://embrapii.org.br/chamadas-publicas/chamada-publica-unidades-embrapii-no-03-2025/",
@@ -1016,7 +1016,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "É um credenciamento institucional de ICTs como Unidade Embrapii, não um financiamento direto a pesquisador individual ou a empresas como OZ, CashPago ou Ricco Burger.",
+      "motivo": "credenciamento institucional de ICTs (não de pesquisador individual nem de empresas), sem indicação de resultado já divulgado, mas não atende diretamente a nenhum perfil.",
       "id": "21de7b10f835",
       "fonte": "embrapii",
       "fonte_nome": "EMBRAPII",
@@ -1046,21 +1046,21 @@
       "primeiro_visto": "2026-10-29T12:18:33-03:00"
     },
     {
-      "titulo": "Chamada Pública para Capacitação em Maturidade para Grupos de Pesquisa em ICTs da Região Norte n°01/2026",
-      "resumo": "Seleciona grupos de pesquisa em Instituições Científicas, Tecnológicas e de Inovação (ICTs) localizadas na Região Norte do Brasil para participar do Programa de Capacitação em Maturidade Operacional da Embrapii.",
+      "titulo": "Chamada Pública para Capacitação em Maturidade para Grupos de Pesquisa em ICTs da Região Norte nº01/2026",
+      "resumo": "Seleciona grupos de pesquisa em ICTs localizadas na Região Norte do Brasil para participar do Programa de Capacitação em Maturidade Operacional da Embrapii.",
       "prazo": null,
       "valor": null,
-      "link": "https://embrapii.org.br/chamadas-publicas/chamada-publica-para-capacitacao-em-maturidade-para-grupos-de-pesquisa-em-icts-da-regiao-norte-n01-2026/",
+      "link": "https://embrapii.org.br/chamadas-publicas/chamada-publica-para-capacitacao-em-maturidade-para-icts-da-regiao-norte-n01-2026/",
       "documentos": [],
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Restrito a grupos de pesquisa em ICTs da Região Norte; não se aplica a nenhum dos perfis em Brasília (nem é financiamento direto a pesquisador individual ou empresa).",
-      "id": "0222b54964a6",
+      "motivo": "restrito a grupos de pesquisa de ICTs da Região Norte, não ao DF, e não é funding individual ou para empresas.",
+      "id": "bdb46ea5c99d",
       "fonte": "embrapii",
       "fonte_nome": "EMBRAPII",
       "categoria": "inovacao",
-      "primeiro_visto": "2026-10-29T12:18:33-03:00"
+      "primeiro_visto": "2026-10-30T12:07:26-03:00"
     },
     {
       "titulo": "Chamada Pública para Envio de Proposta de Curso Novo - Edital nº 20/2026",
@@ -1409,7 +1409,7 @@
     },
     {
       "titulo": "EDITAL DPI/BCE Nº 001/2026",
-      "resumo": "Edital institucional conjunto do Decanato de Pesquisa e Inovação e da Biblioteca Central da UnB; sem descrição, prazo ou valor disponíveis no texto.",
+      "resumo": "Edital conjunto do Decanato de Pesquisa e Inovação e da Biblioteca Central (BCE) da UnB; o texto da página não detalha objeto, público-alvo, prazo ou valor.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/155-edital-001-2026",
@@ -1417,7 +1417,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Sem dados no texto para avaliar tema, público ou elegibilidade",
+      "motivo": "Envolve a Biblioteca Central da UnB, sem indicação de que seja financiamento de pesquisa ou inovação; ligação com os perfis analisados é apenas hipotética dado o texto disponível.",
       "id": "fd9731ba6cc6",
       "fonte": "dpi-unb",
       "fonte_nome": "UnB (DPI/DPG) editais de pesquisa",
@@ -1426,7 +1426,7 @@
     },
     {
       "titulo": "EDITAL DPI/DPG Nº 004/2026 - PROGRAMA ISAAC ROITMAN",
-      "resumo": "Edital institucional da UnB (Decanato de Pesquisa e Inovação / Decanato de Pós-Graduação); o texto disponível não traz resumo, área temática, público-alvo, prazo ou valor.",
+      "resumo": "Edital conjunto do Decanato de Pesquisa e Inovação (DPI) e do Decanato de Pós-Graduação (DPG) da UnB referente ao Programa Isaac Roitman; o texto da página não traz detalhes sobre objeto, público-alvo, prazo ou valor.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/167-edital-dpi-dpg-n-004-2026-programa-isaac-roitman",
@@ -1488,7 +1488,7 @@
     },
     {
       "titulo": "Edital DPI Nº 002/2026",
-      "resumo": "Edital institucional do Decanato de Pesquisa e Inovação da UnB; o texto disponível não especifica objeto, público-alvo, prazo ou valor.",
+      "resumo": "Edital do Decanato de Pesquisa e Inovação (DPI) da UnB; o texto da página não informa objeto, público-alvo, prazo ou valor.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/156-edital-dpi-n-002-2026",
