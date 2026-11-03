@@ -1,9 +1,9 @@
 {
-  "atualizado_em": "2026-11-02T15:31:22-03:00",
+  "atualizado_em": "2026-11-03T13:20:34-03:00",
   "editais": [
     {
       "titulo": "EDITAL DPI/DEX/DPG/DEG Nº 003/2026",
-      "resumo": "Edital conjunto dos Decanatos de Pesquisa e Inovação (DPI), Extensão (DEX), Pós-Graduação (DPG) e Graduação (DEG) da UnB; o texto não especifica objeto, público-alvo, prazo ou valor.",
+      "resumo": "Edital conjunto de decanatos da UnB (DPI, DEX, DPG, DEG); o texto da página não traz descrição do objeto, público-alvo, prazo ou valor.",
       "prazo": "2026-03-27",
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/158-edital003-2026",
@@ -310,7 +310,7 @@
     },
     {
       "titulo": "Chamada Transnacional Conjunta 2026 - Gestão Sustentável dos Recursos Hídricos (Water4All)",
-      "resumo": "Chamada transnacional conjunta sobre gestão sustentável dos recursos hídricos (Water4All), para financiamento de projetos de pesquisa internacional cooperativa sobre água, dirigida a instituições de pesquisa.",
+      "resumo": "Chamada conjunta internacional 2026 do programa Water4All para projetos de pesquisa em gestão sustentável de recursos hídricos, com cooperação internacional entre instituições.",
       "prazo": "2026-11-10",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/116/chamada-transnacional-conjunta-2026-gestao-sustentavel-dos-recursos-hidricos-water4all-",
@@ -333,7 +333,7 @@
     },
     {
       "titulo": "Chamada Transnacional Conjunta Biodiversa+ (BiodivFuture) 2026-2027",
-      "resumo": "Chamada transnacional conjunta da parceria Biodiversa+ (BiodivFuture), para financiamento de projetos de pesquisa internacional em biodiversidade, dirigida a instituições de pesquisa participantes.",
+      "resumo": "Chamada conjunta internacional da parceria Biodiversa+ (BiodivFuture) para projetos de pesquisa em biodiversidade com cooperação internacional entre 2026 e 2027.",
       "prazo": "2026-11-10",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/117/chamada-transnacional-conjunta-biodiversa-biodivfuture-2026-2027",
@@ -379,7 +379,7 @@
     },
     {
       "titulo": "4ª Chamada Transnacional Conjunta da Parceria de Economia Azul Sustentável",
-      "resumo": "Quarta chamada transnacional conjunta da Parceria de Economia Azul Sustentável, para projetos de pesquisa internacional cooperativa ligados a recursos marinhos/costeiros, dirigida a instituições de pesquisa.",
+      "resumo": "Quarta chamada conjunta internacional da parceria de economia azul sustentável, para projetos de cooperação internacional voltados ao uso sustentável de recursos marinhos e costeiros.",
       "prazo": "2026-11-16",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/118/4-chamada-transnacional-conjunta-da-parceria-de-economia-azul-sustentavel-",
@@ -404,7 +404,7 @@
       "titulo": "CHAMADA CNPq/CAPES/FAPDF Nº 13/2026 - Programa de Apoio à Fixação de Doutores no Brasil (PROFIX - Conhecimento Brasil)",
       "resumo": "Chamada conjunta CNPq/CAPES/FAPDF para fixação de doutores recém-titulados em instituições do Distrito Federal, no âmbito do acordo de cooperação técnica PROFIX-CB.",
       "prazo": "2026-11-23",
-      "valor": "Até R$ 1.154.400,00 por proposta: BCB-1 (CNPq) R$13.000/mês por 48 meses (até R$624.000,00); bolsas CAPES mestrado/doutorado até R$199.200,00; FAPDF até R$6.900,00/mês (até R$331.200,00) para complementação da BCB-1 e/ou bolsas IC/IT/mestrado/doutorado.",
+      "valor": "Até R$ 1.154.400,00 por proposta (BCB-1 CNPq R$ 13.000,00/mês por 48 meses = R$ 624.000,00; bolsas CAPES mestrado/doutorado até R$ 199.200,00; recursos FAPDF até R$ 331.200,00, limite mensal R$ 6.900,00)",
       "link": "https://www.fap.df.gov.br/documents/d/fap/sei_212973162_chamada_publica_63-pdf",
       "documentos": [
         "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-30-pdf-1",
@@ -417,17 +417,17 @@
       "perfis": [
         "pesquisador"
       ],
-      "motivo": "pesquisador recém-doutor, sem vínculo empregatício, residente no DF, atende aos requisitos de Proponente/Coordenador BCB-1 (doutor, sem vínculo, residência no DF/RIDE); perfis de empresa (OZ, CashPago, Ricco) não são elegíveis pois o proponente/coordenador tem de ser pessoa física doutora, não empresa",
+      "motivo": "pesquisador recém-doutor, sem vínculo empregatício, residente no DF, atende aos requisitos de Proponente/Coordenador BCB-1 (doutor, sem vínculo empregatício/funcional, residência no DF/RIDE); perfis de empresa (OZ, CashPago, Ricco) não são elegíveis pois o proponente/coordenador tem de ser pessoa física doutora, não empresa",
       "id": "1b22b156d856",
       "fonte": "fapdf",
       "fonte_nome": "FAPDF",
       "categoria": "fap",
       "primeiro_visto": "2026-10-26T17:33:29-03:00",
       "avisado": true,
-      "requisitos": "Proponente/Coordenador BCB-1: brasileiro nato/naturalizado ou estrangeiro (após 1ª retificação), com título de doutor, residente ou com compromisso de fixação residencial no DF/RIDE, sem vínculo empregatício ou funcional com instituições nacionais no início da vigência da BCB-1, com cadastro no SIGFAPDF/SEI-GDF e Lattes atualizado.",
+      "requisitos": "Proponente/Coordenador BCB-1 deve ser brasileiro nato/naturalizado ou estrangeiro (após retificação), possuir título de doutor, residir ou declarar compromisso de fixação residencial no DF ou RIDE, e não possuir vínculo empregatício ou funcional com instituições nacionais no início da vigência da BCB-1.",
       "mudanca": "1ª retificação (publicada em 02/10) passou a admitir pesquisador estrangeiro como Proponente/Coordenador BCB-1 (antes só brasileiro nato/naturalizado) e passou a exigir diploma de doutorado como documento; a prorrogação do prazo de 27/10 para 23/11 já estava refletida na classificação anterior",
       "verificado": true,
-      "verificado_em": "2026-11-02T15:31:22-03:00",
+      "verificado_em": "2026-11-03T13:20:34-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": [
         "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-30-pdf-1",
@@ -541,7 +541,7 @@
       "titulo": "Programa Bolsas para Pesquisa CAPES/Humboldt",
       "resumo": "Bolsa de pesquisa pós-doutoral na Alemanha em parceria com a Fundação Humboldt, aberta a pesquisadores brasileiros de qualquer área.",
       "prazo": "2026-11-30",
-      "valor": "Bolsa mensal, auxílio-instalação, passagens aéreas, auxílio seguro-saúde, curso de alemão e subsídios a dependentes (valores não especificados no texto); duração de 6 a 24 meses (pós-doutorado) ou 6 a 18 meses (pesquisador experiente)",
+      "valor": null,
       "link": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/alemanha/programa-bolsas-para-pesquisa-capeshumboldt",
       "documentos": [],
       "aberto": true,
@@ -549,15 +549,15 @@
       "perfis": [
         "pesquisador"
       ],
-      "motivo": "Serve ao pesquisador: recém-doutor (titulado em set/2026, portanto doutorado há menos de 4 anos) com vínculo não empregatício na UnB, elegível à modalidade pós-doutorado; exige mudança para a Alemanha, por isso relevância média (não alta)",
+      "motivo": "Serve ao pesquisador: recém-doutor (set/2026) com vínculo não empregatício na UnB é elegível à modalidade pós-doutorado (doutorado há menos de 4 anos, vínculo não obrigatório); relevância média por exigir mudança para a Alemanha em edital amplo (todas as áreas)",
       "id": "22da4652e45f",
       "fonte": "capes",
       "fonte_nome": "CAPES",
       "categoria": "federal",
       "primeiro_visto": "2026-10-27T11:38:52-03:00",
-      "requisitos": "Doutor há menos de 4 anos (modalidade pós-doutorado) ou menos de 12 anos (pesquisador experiente), com vínculo empregatício ou não em instituição de ensino/pesquisa no Brasil; inscrição simultânea no Brasil (CAPES) e na Alemanha (AvH), sob pena de indeferimento",
+      "requisitos": "Pós-doutorado: doutorado concluído há menos de 4 anos, vínculo empregatício opcional; Pesquisador experiente: doutorado há menos de 12 anos, vínculo opcional; candidatura deve ser feita simultaneamente na CAPES e na Fundação Humboldt",
       "verificado": true,
-      "verificado_em": "2026-10-27T11:38:52-03:00",
+      "verificado_em": "2026-11-03T13:20:34-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": [],
       "avisado": true
@@ -605,7 +605,7 @@
     },
     {
       "titulo": "Chamada Transnacional Conjunta - FOREST 2026",
-      "resumo": "Chamada transnacional conjunta na área florestal (FOREST 2026), para financiamento de projetos de pesquisa cooperativa internacional envolvendo florestas/uso da terra, dirigida a instituições de pesquisa participantes.",
+      "resumo": "Chamada conjunta internacional de cooperação em pesquisa sobre florestas, promovida pelo CONFAP com parceiros internacionais, destinada a pesquisadores de instituições brasileiras em projetos conjuntos.",
       "prazo": "2026-12-02",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/119/chamada-transnacional-conjunta-forest-2026",
@@ -771,16 +771,16 @@
       "perfis": [
         "pesquisador"
       ],
-      "motivo": "Pesquisador é elegível a mobilidade e cooperação internacional, mas chamada é ampla (qualquer área) e exige parceria com grupo francês.",
+      "motivo": "Pesquisador é elegível a cooperação internacional, mas chamada é ampla (qualquer área) e exige parceria com grupo de pesquisa francês.",
       "id": "81be5c934c8c",
       "fonte": "cnpq",
       "fonte_nome": "CNPq",
       "categoria": "federal",
       "primeiro_visto": "2026-10-23T16:33:32-03:00",
       "avisado": true,
-      "requisitos": "edital completo não encontrado",
+      "requisitos": "Projetos de pesquisa conjuntos entre grupos de pesquisa brasileiros e franceses, em qualquer área; página não traz detalhes sobre vínculo, titulação ou outros critérios de elegibilidade além da cooperação bilateral.",
       "verificado": true,
-      "verificado_em": "2026-10-26T17:33:29-03:00",
+      "verificado_em": "2026-11-03T13:20:34-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": []
     },
@@ -788,7 +788,7 @@
       "titulo": "Finep COOPERAMAIS Brasil Tecnologias – Empresas",
       "resumo": "Subvenção econômica em fluxo contínuo para empresas desenvolverem produtos ou processos inovadores para a agroindústria e segurança alimentar, em parceria com cooperativas cadastradas no CAF com ao menos 70% de agricultores familiares.",
       "prazo": "2027-04-30",
-      "valor": "R$ 120 milhões (orçamento total da chamada)",
+      "valor": null,
       "link": "https://www.finep.gov.br/e/chamada-publica/222684/1060720",
       "documentos": [],
       "aberto": true,
@@ -796,16 +796,16 @@
       "perfis": [
         "oz"
       ],
-      "motivo": "OZ é empresa elegível (sem restrição de local) e o tema agroindústria/segurança alimentar combina com seu foco em geoprocessamento/agro, mas exige parceria com cooperativa CAF (≥70% agricultores familiares), que não é natural ao negócio.",
+      "motivo": "OZ é empresa elegível (sem restrição de local, todo Brasil) e o tema agroindústria/segurança alimentar combina com seu foco em geoprocessamento/agro, mas exige parceria com cooperativa CAF (≥70% agricultores familiares), que não é natural ao negócio.",
       "id": "19ad2a3e5d4e",
       "fonte": "finep",
       "fonte_nome": "FINEP",
       "categoria": "federal",
       "primeiro_visto": "2026-10-23T16:56:52-03:00",
       "avisado": true,
-      "requisitos": "Subvenção econômica a empresas para produtos/processos inovadores na agroindústria, com parceria entre empresa e cooperativa cadastrada no CAF com no mínimo 70% de agricultores familiares associados.",
+      "requisitos": "Empresas (qualquer porte/local no Brasil) que desenvolvam produto ou processo inovador para a agroindústria, em parceria com cooperativa cadastrada no CAF com no mínimo 70% de agricultores familiares associados; contrapartida financeira.",
       "verificado": true,
-      "verificado_em": "2026-10-26T17:33:29-03:00",
+      "verificado_em": "2026-11-03T13:20:34-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": []
     },
@@ -821,16 +821,16 @@
       "perfis": [
         "pesquisador"
       ],
-      "motivo": "Pesquisador recém-doutor vinculado a PPG da UnB pode ser indicado, dentro de projeto conjunto aprovado, para bolsa de pós-doutorado no exterior via instituição membro da AUGM; exige mudança para o exterior, por isso média; demais perfis (empresas) fora do tema.",
+      "motivo": "Pesquisador recém-doutor da UnB pode ser indicado, dentro de projeto conjunto aprovado com universidade membro da AUGM, para bolsa de pós-doutorado no exterior; exige mudança para país da AUGM, por isso média; demais perfis (empresas) fora do tema.",
       "id": "f31dd19c9a60",
       "fonte": "capes",
       "fonte_nome": "CAPES",
       "categoria": "federal",
       "primeiro_visto": "2026-10-26T13:45:09-03:00",
       "avisado": true,
-      "requisitos": "Docente/pesquisador vinculado a programa de pós-graduação brasileiro pode ser indicado, dentro de projeto conjunto de pesquisa aprovado entre IES do Brasil e universidade membro da AUGM, para bolsa de pós-doutorado (ou doutorado/mestrado sanduíche para discentes) no exterior.",
+      "requisitos": "Projeto conjunto de pesquisa entre IES brasileira e universidade membro da AUGM, com indicação de docentes/pesquisadores para mobilidade em nível de pós-doutorado e discentes de doutorado sanduíche, dentro de projeto aprovado pela CAPES.",
       "verificado": true,
-      "verificado_em": "2026-10-26T17:33:29-03:00",
+      "verificado_em": "2026-11-03T13:20:34-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": []
     },
@@ -906,31 +906,31 @@
     },
     {
       "titulo": "CPSI Nº 001/2026 – Desafio BNDES Inteligência de Dados em Saúde",
-      "resumo": "Contratação Pública de Solução Inovadora (CPSI) para testar ferramenta de inteligência de dados em saúde suplementar e ocupacional, voltada a empresas que ofereçam soluções inovadoras de dados/IA.",
+      "resumo": "Contratação pública de inovação (CPSI) para testar solução de inteligência de dados que apoie organização, análise e avaliação em saúde suplementar e ocupacional do BNDES, com propostas de redução de custos e melhoria da saúde dos funcionários.",
       "prazo": null,
       "valor": null,
-      "link": "https://www.worldlabs.org/opportunity/inteligencia-dados-saude",
+      "link": "https://bra01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.worldlabs.org%2Fopportunity%2Finteligencia-dados-saude&data=05%7C02%7Cinternet%40bndes.gov.br%7C7d4f700d3616445caae108def492bc25%7C7e2324c66925427eb56d4e6eda16752a%7C0%7C0%7C639217108245669434%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=cbEKC8erERSBDVMJ%2FhO4O2%2FyriRlAhnmzxNFQ74xZNA%3D&reserved=0",
       "documentos": [],
       "aberto": true,
       "relevancia": "alta",
       "perfis": [
         "oz"
       ],
-      "motivo": "CPSI em IA/dados é exatamente o tipo de compra pública de inovação que a OZ busca atender.",
-      "id": "04c3b2e3223f",
+      "motivo": "CPSI de IA/dados para o setor público (BNDES) é escopo direto de atuação da OZ em IA e dados aplicados a compras públicas de inovação; demais perfis não são elegíveis a CPSI.",
+      "id": "a51322cd772d",
       "fonte": "bndes",
       "fonte_nome": "BNDES",
       "categoria": "inovacao",
-      "primeiro_visto": "2026-11-02T15:31:22-03:00",
+      "primeiro_visto": "2026-11-03T13:20:34-03:00",
       "verificacao_hash": "bbb5158c",
-      "verificado_em": "2026-11-02T15:31:22-03:00",
+      "verificado_em": "2026-11-03T13:20:34-03:00",
       "docs_verificados": [],
       "requisitos": "edital completo não acessível; confira os requisitos no link",
       "avisado": true
     },
     {
       "titulo": "CPSI Nº 002/2025 – Desafio BNDES Score Inteligente de MEI e Microempresas",
-      "resumo": "Contratação de teste de solução inovadora de IA para qualificar e segmentar leads de crédito de MEI e microempresas no canal MPME do BNDES.",
+      "resumo": "Contratação pública de inovação (CPSI) para testar solução de qualificação e segmentação de leads de crédito do canal MPME de MEI e microempresas do BNDES, com investimento total de até R$300 mil.",
       "prazo": null,
       "valor": "R$300 mil",
       "link": "https://www.worldlabs.org/opportunity/desafio-bndes-score-inteligente-de-mei-e-micro",
@@ -948,13 +948,13 @@
       "primeiro_visto": "2026-10-26T16:30:53-03:00",
       "avisado": true,
       "requisitos": "edital completo não acessível; confira os requisitos no link",
-      "verificado_em": "2026-10-26T17:33:29-03:00",
+      "verificado_em": "2026-11-03T13:20:34-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": []
     },
     {
       "titulo": "CPSI Nº 003/2025 – Desafio BNDES IA Jurídica",
-      "resumo": "Contratação de desenvolvimento de solução de Inteligência Artificial para apoiar elaboração de manifestações jurídicas e petições do BNDES, via encomenda tecnológica (Lei 182/2021).",
+      "resumo": "Contratação pública de inovação (CPSI) para desenvolver solução de Inteligência Artificial que apoie a elaboração de manifestações jurídicas e petições em todo o Sistema BNDES, na modalidade especial da Lei Complementar nº 182/2021.",
       "prazo": null,
       "valor": null,
       "link": "https://www.worldlabs.org/opportunity/desafio-bndes-ia-juridica",
@@ -972,7 +972,7 @@
       "primeiro_visto": "2026-10-26T16:30:53-03:00",
       "avisado": true,
       "requisitos": "edital completo não acessível; confira os requisitos no link",
-      "verificado_em": "2026-10-26T17:33:29-03:00",
+      "verificado_em": "2026-11-03T13:20:34-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": []
     },
@@ -980,7 +980,7 @@
       "titulo": "Chamada MCI – Mobility CONFAP Italy 2026",
       "resumo": "Programa de mobilidade internacional de pesquisadores brasileiros para a Itália, no âmbito da cooperação entre CONFAP e instituições italianas.",
       "prazo": null,
-      "valor": "Pós-doutorado: bolsa mensal de R$ 10.000,00 por até 3 meses + bilhete aéreo ida e volta limitado a R$ 9.000,00 (mestrado R$6.000/mês e doutorado R$8.000/mês, mesmas condições)",
+      "valor": "Bolsa mensal de R$ 10.000,00 para pós-doutorado (R$ 8.000,00 doutorado; R$ 6.000,00 mestrado), por até 3 meses, mais bilhete aéreo ida e volta limitado a R$ 9.000,00; total da chamada R$ 100.000,00",
       "link": "https://www.fap.df.gov.br/documents/d/fap/sei_216532652_chamada_publica_69-pdf",
       "documentos": [
         "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-37-pdf"
@@ -990,16 +990,16 @@
       "perfis": [
         "pesquisador"
       ],
-      "motivo": "Serve ao pesquisador (vínculo ativo, mesmo sem emprego, com instituição no DF; residente no DF; recém-doutor elegível à bolsa de pós-doutorado com anuência de supervisor italiano), mas é mobilidade temporária de 3 meses exigindo ida à Itália, fora do tema específico\"",
+      "motivo": "Serve ao pesquisador (vínculo ativo, mesmo sem emprego, com ICT do DF; residente no DF; recém-doutor elegível à bolsa de pós-doutorado de até 3 meses com anuência de supervisor italiano), mas é mobilidade temporária exigindo ida à Itália, fora do tema específico",
       "id": "677243468c94",
       "fonte": "fapdf-internacional",
       "fonte_nome": "FAPDF (chamadas internacionais)",
       "categoria": "fap",
       "primeiro_visto": "2026-10-23T17:03:01-03:00",
       "avisado": true,
-      "requisitos": "Nacionalidade brasileira ou RNE permanente; residente no DF/RIDE; vínculo ativo (não necessariamente empregatício) com ICT ou empresa sediada no DF; para pós-doutorado, anuência do supervisor italiano; mobilidade de até 3 meses na Itália",
+      "requisitos": "Proponente brasileiro ou com RNE permanente, residente no DF/RIDE-DF, vínculo ativo (não necessariamente empregatício) com ICT/empresa sediada no DF, cadastro SIGFAP, adimplência, e anuência de supervisor em universidade italiana (pós-doc: só anuência do supervisor; mestrado/doutorado exigem também anuência do coordenador do curso)",
       "verificado": true,
-      "verificado_em": "2026-10-27T11:38:52-03:00",
+      "verificado_em": "2026-11-03T13:20:34-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": [
         "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-37-pdf"
@@ -1007,7 +1007,7 @@
     },
     {
       "titulo": "Chamada Pública Unidades Embrapii nº 03/2025",
-      "resumo": "Seleciona até 4 Instituições Científicas, Tecnológicas e de Inovação (ICTs), públicas ou privadas sem fins lucrativos, para credenciamento como Unidades Embrapii, habilitando o grupo credenciado a receber recursos para projetos de PD&I com empresas do setor industrial.",
+      "resumo": "Processo de credenciamento de até 4 novas Unidades Embrapii (mais 4 em cadastro reserva) em ICTs públicas ou privadas sem fins lucrativos, habilitando-as a receber recursos para projetos de PD&I com empresas.",
       "prazo": null,
       "valor": null,
       "link": "https://embrapii.org.br/chamadas-publicas/chamada-publica-unidades-embrapii-no-03-2025/",
@@ -1015,7 +1015,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "credenciamento institucional de ICTs (não de pesquisador individual nem de empresas), sem indicação de resultado já divulgado, mas não atende diretamente a nenhum perfil.",
+      "motivo": "Credenciamento institucional de ICTs como Unidade Embrapii, não aplicável a pesquisador individual nem a empresas como OZ, CashPago ou Ricco, que não são ICTs.",
       "id": "21de7b10f835",
       "fonte": "embrapii",
       "fonte_nome": "EMBRAPII",
@@ -1024,21 +1024,21 @@
       "avisado": true
     },
     {
-      "titulo": "Chamada Pública para Capacitação em Maturidade para Grupos de Pesquisa em ICTs da Região Norte nº01/2026",
-      "resumo": "Seleciona grupos de pesquisa em ICTs localizadas na Região Norte do Brasil para participar do Programa de Capacitação em Maturidade Operacional da Embrapii.",
+      "titulo": "Chamada Pública para Capacitação em Maturidade para Grupos de Pesquisa em ICTs da Região Norte nº 01/2026",
+      "resumo": "Seleciona Grupos de Pesquisa em ICTs localizadas na Região Norte do Brasil para participar do Programa de Capacitação em Maturidade Operacional da Embrapii.",
       "prazo": null,
       "valor": null,
-      "link": "https://embrapii.org.br/chamadas-publicas/chamada-publica-para-capacitacao-em-maturidade-para-icts-da-regiao-norte-n01-2026/",
+      "link": "https://embrapii.org.br/chamadas-publicas/chamada-publica-para-capacitacao-em-maturidade-para-grupos-de-pesquisa-em-icts-da-regiao-norte-n01-2026/",
       "documentos": [],
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "restrito a grupos de pesquisa de ICTs da Região Norte, não ao DF, e não é funding individual ou para empresas.",
-      "id": "bdb46ea5c99d",
+      "motivo": "Restrito a grupos de pesquisa em ICTs da Região Norte (fora do DF) e não é financiamento direto/bolsa individual, então não se aplica a nenhum perfil.",
+      "id": "b0e423748d3e",
       "fonte": "embrapii",
       "fonte_nome": "EMBRAPII",
       "categoria": "inovacao",
-      "primeiro_visto": "2026-10-30T12:07:26-03:00"
+      "primeiro_visto": "2026-11-03T13:20:34-03:00"
     },
     {
       "titulo": "Chamada Pública para Envio de Proposta de Curso Novo - Edital nº 20/2026",
@@ -1095,7 +1095,7 @@
       "primeiro_visto": "2026-10-26T17:33:29-03:00",
       "requisitos": "edital completo não encontrado",
       "verificado": true,
-      "verificado_em": "2026-10-26T17:33:29-03:00",
+      "verificado_em": "2026-11-03T13:20:34-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": [],
       "avisado": true
@@ -1118,8 +1118,25 @@
       "primeiro_visto": "2026-10-26T17:33:29-03:00"
     },
     {
+      "titulo": "Chamada – Projetos de Alto Impacto em Economia Circular – Petrobras",
+      "resumo": "Mobiliza Unidades Embrapii e empresas/startups para projetos de PD&I em economia circular de estruturas submarinas, demandados pela Petrobras, em modelo de Alianças entre Unidades e empresas.",
+      "prazo": null,
+      "valor": "R$ 12 milhões (total, sem valor fixo por projeto, podendo ser ampliado pela Petrobras)",
+      "link": "https://embrapii.org.br/chamadas-publicas/chamada-projetos-de-alto-impacto-em-economia-circular-petrobras/",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Tema restrito a economia circular de estruturas submarinas offshore, fora do foco de IA/geoprocessamento (OZ), fintech de turismo (CashPago) ou alimentação (Ricco); exige parceria Unidade Embrapii + empresa, não bolsa individual (pesquisador).",
+      "id": "406c18d11e26",
+      "fonte": "embrapii",
+      "fonte_nome": "EMBRAPII",
+      "categoria": "inovacao",
+      "primeiro_visto": "2026-11-03T13:20:34-03:00"
+    },
+    {
       "titulo": "Conab: Florestas e Comunidades: Amazônia Viva (2026)",
-      "resumo": "Chamada pública conduzida pela Conab com apoio do Fundo Amazônia, voltada a florestas e comunidades da Amazônia; sem detalhes de objeto ou elegibilidade no texto.",
+      "resumo": "Chamada pública em parceria com a Conab voltada a florestas e comunidades na região amazônica; o texto não detalha tema específico, elegibilidade, valores ou prazos.",
       "prazo": null,
       "valor": null,
       "link": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/amazonia-viva/",
@@ -1127,7 +1144,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Destinada a comunidades/florestas da Amazônia, sem relação com os proponentes de Brasília ou seus temas.",
+      "motivo": "Voltada a cadeias produtivas florestais/comunitárias na Amazônia, sem relação direta com nenhum dos perfis sediados em Brasília (DF).",
       "id": "71058b26f794",
       "fonte": "fundo-amazonia",
       "fonte_nome": "Fundo Amazônia",
@@ -1404,7 +1421,7 @@
     },
     {
       "titulo": "EDITAL DPI/BCE Nº 001/2026",
-      "resumo": "Edital conjunto do Decanato de Pesquisa e Inovação (DPI) e da Biblioteca Central (BCE) da UnB; o texto não especifica objeto, público-alvo, prazo ou valor.",
+      "resumo": "Edital conjunto da DPI com a Biblioteca Central (BCE) da UnB; o texto da página não traz descrição do objeto, público-alvo, prazo ou valor.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/155-edital-001-2026",
@@ -1412,7 +1429,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Sem detalhes de tema, público-alvo ou elegibilidade no texto para confirmar relevância para qualquer perfil",
+      "motivo": "Envolve biblioteca/produção científica, sem relação clara com os perfis e sem detalhes suficientes no texto.",
       "id": "fd9731ba6cc6",
       "fonte": "dpi-unb",
       "fonte_nome": "UnB (DPI/DPG) editais de pesquisa",
@@ -1420,21 +1437,29 @@
       "primeiro_visto": "2026-11-01T12:17:31-03:00"
     },
     {
-      "titulo": "EDITAL DPI/DPG Nº 004/2026 - PROGRAMA ISAAC ROITMAN",
-      "resumo": "Edital conjunto do Decanato de Pesquisa e Inovação (DPI) e do Decanato de Pós-Graduação (DPG) da UnB, ligado ao Programa Isaac Roitman; o texto da página não traz descrição do objeto, público-alvo, prazo ou valor.",
+      "titulo": "EDITAL DPI/DPG Nº.004/2026 - PROGRAMA ISAAC ROITMAN",
+      "resumo": "Edital do Programa Isaac Roitman da UnB (DPI/DPG), historicamente voltado a apoiar projetos de pesquisa/extensão em sustentabilidade, meio ambiente e Cerrado na universidade; o texto fornecido não detalha objeto, público-alvo específico nem valores.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/167-edital-dpi-dpg-n-004-2026-programa-isaac-roitman",
       "documentos": [],
       "aberto": true,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "Sem detalhes de tema, público-alvo ou elegibilidade no texto para confirmar relevância para qualquer perfil",
-      "id": "3654ff7e407b",
+      "relevancia": "media",
+      "perfis": [
+        "pesquisador"
+      ],
+      "motivo": "Tema (sustentabilidade/Cerrado, IA) alinha com a área do pesquisador, mas não foi possível confirmar requisitos de elegibilidade pois o texto recebido é apenas a listagem de documentos, não o edital completo.",
+      "id": "f9cf7188cafc",
       "fonte": "dpi-unb",
       "fonte_nome": "UnB (DPI/DPG) editais de pesquisa",
       "categoria": "fap",
-      "primeiro_visto": "2026-11-02T15:31:22-03:00"
+      "primeiro_visto": "2026-11-03T13:20:34-03:00",
+      "requisitos": "edital completo não encontrado",
+      "verificado": true,
+      "verificado_em": "2026-11-03T13:20:34-03:00",
+      "verificacao_hash": "bbb5158c",
+      "docs_verificados": [],
+      "avisado": true
     },
     {
       "titulo": "EDITAL Nº 02/2026 - Projeto 914BRZ4024 - Contratação de Consultoria Individual - Turismo Pet Friendly",
@@ -1457,25 +1482,25 @@
       "avisado": true
     },
     {
-      "titulo": "Edital 07/2026 – Reciclotech (SECTI-DF)",
-      "resumo": "Chamamento público da SECTI-DF para projetos de economia circular e logística reversa (tecnologia de reciclagem), seguindo o formato de edições anteriores do Reciclotech.",
+      "titulo": "Edital 07/2026 - Reciclotech",
+      "resumo": "Chamamento público da SECTI-DF para seleção de organização da sociedade civil (parceria via MROSC) para execução de projeto voltado à economia circular e logística reversa (linha Reciclotech), dando continuidade a edições anteriores do programa.",
       "prazo": null,
       "valor": null,
       "link": "https://www.secti.df.gov.br/documents/d/secti/edital-07-2026-reciclotech-pdf",
-      "aberto": true,
+      "documentos": [],
+      "aberto": false,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Tema restrito a economia circular/logística reversa (reciclagem), sem relação direta com sensoriamento remoto, IA/geoprocessamento, fintech de turismo ou alimentação.",
-      "id": "37083e756f23",
+      "motivo": "Restrito a organizações da sociedade civil (parceria MROSC) e sem prazo de submissão aberto; nenhum dos perfis (pesquisador PF, empresas) é elegível a esse tipo de chamamento, e o tema de reciclagem/logística reversa não coincide com seus focos.",
+      "id": "7fb1c6d987a7",
       "fonte": "secti-df",
       "fonte_nome": "SECTI-DF",
       "categoria": "empresas",
-      "primeiro_visto": "2026-10-26T14:23:00-03:00",
-      "avisado": true
+      "primeiro_visto": "2026-11-03T13:20:34-03:00"
     },
     {
       "titulo": "Edital DPI Nº 002/2026",
-      "resumo": "Edital do Decanato de Pesquisa e Inovação (DPI) da UnB; o texto não especifica objeto, público-alvo, prazo ou valor.",
+      "resumo": "Edital da Decania de Pesquisa e Inovação (DPI) da UnB; o texto da página não traz descrição do objeto, público-alvo, prazo ou valor.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/156-edital-dpi-n-002-2026",
@@ -2202,7 +2227,7 @@
     },
     {
       "titulo": "Programa Desafios da Amazônia (2026)",
-      "resumo": "Chamada pública do Fundo Amazônia para financiar soluções/desafios voltados à região amazônica; a página não detalha objeto, proponentes elegíveis ou valores.",
+      "resumo": "Chamada pública do Fundo Amazônia para seleção de projetos na região amazônica; a página não detalha tema específico, público elegível, valores ou prazos.",
       "prazo": null,
       "valor": null,
       "link": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/programa-desafios-da-amazonia/",
@@ -2210,7 +2235,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Chamada restrita a projetos na região amazônica, sem relação com os proponentes (DF) ou temas dos perfis cadastrados.",
+      "motivo": "Chamada voltada a projetos na região amazônica, sem relação direta com nenhum dos perfis sediados em Brasília (DF); eventual ligação com tecnologia/IA seria apenas hipotética.",
       "id": "37ed6c8e9748",
       "fonte": "fundo-amazonia",
       "fonte_nome": "Fundo Amazônia",
@@ -2266,7 +2291,7 @@
       "perfis": [
         "cashpago"
       ],
-      "motivo": "Texto é notícia sobre o lançamento do programa, não um edital com regras de inscrição, financiamento ou elegibilidade.",
+      "motivo": "Texto é notícia sobre o andamento do programa, não um edital com regras de inscrição, financiamento ou elegibilidade.",
       "id": "9a2f3920f5bc",
       "fonte": "sebrae-df",
       "fonte_nome": "Sebrae DF",
@@ -2274,7 +2299,7 @@
       "primeiro_visto": "2026-10-26T17:33:29-03:00",
       "requisitos": "edital completo não encontrado",
       "verificado": true,
-      "verificado_em": "2026-10-26T17:33:29-03:00",
+      "verificado_em": "2026-11-03T13:20:34-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": [],
       "avisado": true
@@ -2389,7 +2414,7 @@
     },
     {
       "titulo": "Prospera Amazônia (2026)",
-      "resumo": "Chamada pública do Fundo Amazônia ligada a desenvolvimento/prosperidade de comunidades da Amazônia; sem detalhes de objeto ou elegibilidade no texto.",
+      "resumo": "Chamada pública do Fundo Amazônia, aparentemente ligada a desenvolvimento econômico/produtivo na região amazônica; a página não traz detalhes de escopo, público elegível, valores ou prazos.",
       "prazo": null,
       "valor": null,
       "link": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/prospera-amazonia/",
@@ -2397,7 +2422,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Foco territorial na Amazônia, sem relação com os perfis de Brasília/DF cadastrados.",
+      "motivo": "Foco presumido em desenvolvimento produtivo na Amazônia, sem relação clara com os perfis de Brasília (DF); não há informação suficiente no texto para avaliar elegibilidade ou tema.",
       "id": "7d0ab6430003",
       "fonte": "fundo-amazonia",
       "fonte_nome": "Fundo Amazônia",
@@ -2426,7 +2451,7 @@
       "avisado": true,
       "requisitos": "edital completo não encontrado",
       "verificado": true,
-      "verificado_em": "2026-10-26T17:33:29-03:00",
+      "verificado_em": "2026-11-03T13:20:34-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": []
     },
@@ -2450,7 +2475,7 @@
     },
     {
       "titulo": "Sanear Indígena (2026)",
-      "resumo": "Chamada pública do Fundo Amazônia para saneamento/água potável em comunidades indígenas da Amazônia; sem detalhes de proponentes ou valores no texto.",
+      "resumo": "Chamada pública do Fundo Amazônia voltada a saneamento/água para comunidades indígenas na região amazônica; a página não detalha mais informações sobre valores, prazos ou elegibilidade.",
       "prazo": null,
       "valor": null,
       "link": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/sanear-amazonia-indigena/",
@@ -2458,7 +2483,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Voltada a comunidades indígenas da Amazônia, fora do escopo geográfico e temático dos perfis.",
+      "motivo": "Restrito a projetos de saneamento para comunidades indígenas na Amazônia, sem relação com nenhum dos perfis de Brasília (DF).",
       "id": "9f968d7ba04e",
       "fonte": "fundo-amazonia",
       "fonte_nome": "Fundo Amazônia",
