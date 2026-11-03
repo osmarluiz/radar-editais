@@ -128,6 +128,18 @@ fontes:
     url: "https://pncp.gov.br/api/search/?q=%22solu%C3%A7%C3%A3o+inovadora%22&tipos_documento=edital&ordenacao=-data&pagina=1&tam_pagina=50&status=recebendo_proposta"
     formato: json
     link_modelo: "https://pncp.gov.br/app/editais/{orgao_cnpj}/{ano}/{numero_sequencial}"
+  - id: pncp-sistemas-gestao
+    nome: PNCP – licitações de sistema integrado de gestão
+    categoria: licitacao
+    url: "https://pncp.gov.br/api/search/?q=%22sistema+integrado+de+gest%C3%A3o%22&tipos_documento=edital&ordenacao=-data&pagina=1&tam_pagina=50&status=recebendo_proposta"
+    formato: json
+    link_modelo: "https://pncp.gov.br/app/editais/{orgao_cnpj}/{ano}/{numero_sequencial}"
+  - id: pncp-erp
+    nome: PNCP – licitações de ERP
+    categoria: licitacao
+    url: "https://pncp.gov.br/api/search/?q=ERP&tipos_documento=edital&ordenacao=-data&pagina=1&tam_pagina=50&status=recebendo_proposta"
+    formato: json
+    link_modelo: "https://pncp.gov.br/app/editais/{orgao_cnpj}/{ano}/{numero_sequencial}"
 
   # --- Empresas e adoção de tecnologia ---
   - id: senai-inovacao
