@@ -140,6 +140,12 @@ fontes:
     url: "https://pncp.gov.br/api/search/?q=ERP&tipos_documento=edital&ordenacao=-data&pagina=1&tam_pagina=50&status=recebendo_proposta"
     formato: json
     link_modelo: "https://pncp.gov.br/app/editais/{orgao_cnpj}/{ano}/{numero_sequencial}"
+  - id: pncp-gestao-frota
+    nome: PNCP – licitações de gestão de frota e abastecimento
+    categoria: licitacao
+    url: "https://pncp.gov.br/api/search/?q=%22gest%C3%A3o+de+frota%22&tipos_documento=edital&ordenacao=-data&pagina=1&tam_pagina=50&status=recebendo_proposta"
+    formato: json
+    link_modelo: "https://pncp.gov.br/app/editais/{orgao_cnpj}/{ano}/{numero_sequencial}"
 
   # --- Empresas e adoção de tecnologia ---
   - id: senai-inovacao
