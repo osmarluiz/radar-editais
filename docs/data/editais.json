@@ -1,9 +1,9 @@
 {
-  "atualizado_em": "2026-11-14T12:11:36-03:00",
+  "atualizado_em": "2026-11-15T12:44:14-03:00",
   "editais": [
     {
       "titulo": "EDITAL DPI/DEX/DPG/DEG Nº 003/2026",
-      "resumo": "Edital conjunto envolvendo os Decanatos de Pesquisa e Inovação, Extensão, Pós-Graduação e Ensino de Graduação da UnB; o texto não informa objeto, público-alvo, valores ou prazo.",
+      "resumo": "Edital conjunto dos decanatos de Pesquisa e Inovação, Extensão, Pós-Graduação e Graduação da UnB; o texto disponível não especifica objeto, público-alvo, prazo nem valor.",
       "prazo": "2026-03-27",
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/158-edital003-2026",
@@ -275,23 +275,6 @@
       "primeiro_visto": "2026-11-13T13:33:12-03:00"
     },
     {
-      "titulo": "Edital nº 7/2026 – Câmara Municipal de Cuiabá (MT)",
-      "resumo": "Pregão eletrônico para fornecimento de sistema ERP SaaS em nuvem, com migração de dados, suporte e treinamento, para a Câmara Municipal de Cuiabá (MT).",
-      "prazo": "2026-11-16",
-      "valor": "R$ 1.325.135,76",
-      "link": "https://pncp.gov.br/app/editais/33710823000160/2026/17",
-      "documentos": [],
-      "aberto": true,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "Licitação municipal no MT para fornecedor de ERP; não se aplica a nenhum perfil.",
-      "id": "21b5dcfa70f8",
-      "fonte": "pncp-erp",
-      "fonte_nome": "PNCP – licitações de ERP",
-      "categoria": "licitacao",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00"
-    },
-    {
       "titulo": "Aviso de Contratação Direta nº 179/2026",
       "resumo": "Aquisição e instalação de engates de reboque para veículos da Polícia Civil de Santa Catarina.",
       "prazo": "2026-11-17",
@@ -343,25 +326,25 @@
       "primeiro_visto": "2026-11-14T12:11:36-03:00"
     },
     {
-      "titulo": "Edital nº 15/2026 – Município de Sulina (PR)",
-      "resumo": "Pregão eletrônico para contratação de plataforma ERP governamental em nuvem para os poderes executivo e legislativo do município de Sulina (PR).",
+      "titulo": "Edital nº 15/2026 (Município de Sulina/PR)",
+      "resumo": "Pregão eletrônico para contratação de plataforma de ERP governamental em nuvem para os Poderes Executivo e Legislativo do município de Sulina/PR.",
       "prazo": "2026-11-17",
       "valor": "R$ 746.750,27",
       "link": "https://pncp.gov.br/app/editais/80869886000143/2026/66",
       "documentos": [],
-      "aberto": true,
+      "aberto": false,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Licitação municipal no PR para fornecedor de ERP; fora do escopo e localização de todos os perfis.",
-      "id": "e9d968ea5407",
+      "motivo": "Processo suspenso e sem relação com os temas dos perfis; compra de ERP por município pequeno do PR.",
+      "id": "717a59563cf1",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00"
+      "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
-      "titulo": "Edital nº 151/2026 – Município de Campo Belo (MG)",
-      "resumo": "Pregão eletrônico para licenciamento SaaS de ERP integrado com assistente virtual de IA para o executivo e legislativo de Campo Belo (MG).",
+      "titulo": "Edital nº 151/2026 (Município de Campo Belo/MG)",
+      "resumo": "Pregão eletrônico para licenciamento SaaS de ERP integrado com assistente virtual de IA para o Poder Executivo e Legislativo de Campo Belo/MG.",
       "prazo": "2026-11-17",
       "valor": null,
       "link": "https://pncp.gov.br/app/editais/18659334000137/2026/604",
@@ -369,16 +352,16 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Licitação municipal em MG para fornecedor de ERP com IA embarcada; exige ser fornecedor de software público, fora do escopo dos perfis.",
-      "id": "1dcb678938b0",
+      "motivo": "Compra de ERP com assistente de IA por município de MG; a OZ atua em IA/geoprocessamento mas isto é licenciamento de ERP de terceiro, não encomenda de P&D, e fora do DF.",
+      "id": "7537eca9927e",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00"
+      "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
-      "titulo": "Edital nº PRE 153/2026 – Município de Campo Belo (MG)",
-      "resumo": "Pregão eletrônico (processo paralelo ao nº 151) para licenciamento SaaS de ERP com assistente virtual de IA, sem limite de usuários, para o executivo e legislativo de Campo Belo (MG).",
+      "titulo": "Edital nº PRE 153/2026 (Município de Campo Belo/MG)",
+      "resumo": "Pregão eletrônico (processo paralelo ao Edital 151/2026) para licenciamento SaaS de ERP com assistente virtual de IA para o mesmo município.",
       "prazo": "2026-11-17",
       "valor": null,
       "link": "https://pncp.gov.br/app/editais/18659334000137/2026/603",
@@ -386,12 +369,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Mesmo tipo de licitação municipal de ERP em MG; não se aplica a nenhum perfil.",
-      "id": "93995ce98bfc",
+      "motivo": "Mesmo objeto do edital 151/2026; licenciamento de ERP de terceiro para município de MG, sem fit direto com os perfis.",
+      "id": "f89d0b988cc6",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00"
+      "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
       "titulo": "Aviso de Contratação Direta nº 116/2026",
@@ -465,7 +448,7 @@
       "titulo": "CHAMADA CNPq/CAPES/FAPDF Nº 13/2026 - Programa de Apoio à Fixação de Doutores no Brasil (PROFIX - Conhecimento Brasil)",
       "resumo": "Chamada conjunta CNPq/CAPES/FAPDF para apoio à fixação de doutores recém-titulados em instituições do Distrito Federal, no âmbito do programa nacional PROFIX-Conhecimento Brasil.",
       "prazo": "2026-11-23",
-      "valor": "Até R$ 1.154.400,00 por proposta: Bolsa Conhecimento Brasil (BCB-1) do CNPq de R$ 13.000,00/mês por 48 meses (R$ 624.000,00 total) ao Proponente/Coordenador, mais até R$ 199.200,00 em bolsas CAPES de mestrado/doutorado e até R$ 331.200,00 da FAPDF (limite mensal de R$ 6.900,00) para complementação da bolsa do coordenador e/ou bolsas de IC, IT, mestrado/doutorado.",
+      "valor": "Até R$ 1.154.400,00 por proposta: Bolsa BCB-1 do CNPq de R$ 13.000,00/mês por 48 meses (máx. R$ 624.000,00); bolsas CAPES de mestrado (até R$ 50.400,00) e/ou doutorado (até R$ 148.800,00); e até R$ 6.900,00/mês (máx. R$ 331.200,00) de recursos FAPDF.",
       "link": "https://www.fap.df.gov.br/documents/d/fap/sei_212973162_chamada_publica_63-pdf",
       "documentos": [
         "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-40-pdf-1",
@@ -487,10 +470,10 @@
       "categoria": "fap",
       "primeiro_visto": "2026-10-26T17:33:29-03:00",
       "avisado": true,
-      "requisitos": "Proponente/Coordenador BCB-1 deve ser brasileiro nato/naturalizado (ou, após 1ª retificação, estrangeiro com regularidade migratória), com título de doutor, residir ou comprometer-se a residir no DF/RIDE, e não possuir vínculo empregatício ou funcional com instituição nacional no início da vigência da bolsa.",
-      "mudanca": "2ª retificação (12/11) só ajustou a documentação exigida para comprovação do diploma de doutorado obtido no exterior, sem alterar prazo ou requisitos de elegibilidade já incorporados na classificação anterior (prazo prorrogado de 27/10 para 23/11 pela 1ª retificação).",
+      "requisitos": "Proponente/Coordenador BCB-1 deve ser doutor (brasileiro ou, após retificação, estrangeiro com regularidade migratória), residir ou se comprometer a residir no DF/RIDE, sem vínculo empregatício ou funcional com instituição nacional no início da BCB-1, e o projeto deve ser executado no DF.",
+      "mudanca": "A 2ª retificação (11/11/2026) apenas flexibilizou a comprovação do diploma de doutorado obtido no exterior, sem alterar prazo, valores ou elegibilidade dos perfis avaliados.",
       "verificado": true,
-      "verificado_em": "2026-11-14T12:11:36-03:00",
+      "verificado_em": "2026-11-15T12:44:14-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": [
         "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-40-pdf-1",
@@ -499,8 +482,8 @@
       ]
     },
     {
-      "titulo": "Edital nº 00024026/2026 – Município de Barroso (MG)",
-      "resumo": "Pregão eletrônico para locação de relógios de ponto com reconhecimento facial e integração ao ERP de pessoal da prefeitura de Barroso (MG).",
+      "titulo": "Edital nº 00024026/2026 (Município de Barroso/MG)",
+      "resumo": "Pregão eletrônico para locação de relógios de ponto biométrico com integração ao ERP de pessoal da Prefeitura de Barroso/MG.",
       "prazo": "2026-11-23",
       "valor": "R$ 7.013,33",
       "link": "https://pncp.gov.br/app/editais/18094755000168/2026/171",
@@ -508,12 +491,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Licitação municipal em MG para equipamentos de controle de ponto; tema e localização não se encaixam em nenhum perfil.",
-      "id": "7d3cdf4af071",
+      "motivo": "Locação de relógios de ponto e integração a ERP de folha de pessoal; sem relação com os temas dos perfis.",
+      "id": "3d8ccb477a32",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00"
+      "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
       "titulo": "Edital nº PCE 2/2026",
@@ -559,7 +542,7 @@
     },
     {
       "titulo": "Chamada do CONFAP para Apoio Complementar ao MSCA Doctoral Networks 2026",
-      "resumo": "Apoio complementar do CONFAP a pesquisadores e instituições brasileiras vinculados a redes de doutorado (Doctoral Networks) do programa europeu Marie Skłodowska-Curie Actions.",
+      "resumo": "Apoio complementar do CONFAP a instituições/pesquisadores brasileiros vinculados a redes de doutorado (MSCA Doctoral Networks) no âmbito do programa europeu Marie Skłodowska-Curie Actions.",
       "prazo": "2026-11-24",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/120/chamada-do-confap-para-apoio-complementar-ao-msca-doctoral-networks-2026",
@@ -597,8 +580,8 @@
       "primeiro_visto": "2026-11-14T12:11:36-03:00"
     },
     {
-      "titulo": "Edital nº PE 026/26/2026 – São Paulo Turismo (SPTuris)",
-      "resumo": "Pregão eletrônico para sustentação, correção e revitalização do ERP TOTVS Protheus da empresa pública São Paulo Turismo (SPTuris), por 24 meses.",
+      "titulo": "Edital nº PE 026/26/2026 (São Paulo Turismo – SPTuris)",
+      "resumo": "Pregão eletrônico para contratação de serviços de sustentação, correção e revitalização do ERP TOTVS Protheus da São Paulo Turismo (SPTuris), por 24 meses.",
       "prazo": "2026-11-24",
       "valor": null,
       "link": "https://pncp.gov.br/app/editais/62002886000160/2026/32",
@@ -606,12 +589,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Contrato de suporte ao ERP TOTVS para empresa pública de SP, exige ser revenda/parceiro TOTVS; fora do escopo e localização de todos os perfis.",
-      "id": "e70b1fa08697",
+      "motivo": "Serviço de sustentação de ERP TOTVS para empresa municipal de turismo em São Paulo/SP; restrito a fornecedor TOTVS e fora do DF, sem fit para CashPago (que atua em pagamentos/turismo, não em suporte de ERP).",
+      "id": "340c48d49264",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00"
+      "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
       "titulo": "Edital nº RE135/2026 – Município de São Sebastião do Anta/MG",
@@ -753,8 +736,8 @@
       "primeiro_visto": "2026-11-14T12:11:36-03:00"
     },
     {
-      "titulo": "Edital nº 01-CPSI/2026 – Consórcio de Inovação na Gestão Pública (CIGA)",
-      "resumo": "Contrato Público para Solução Inovadora (CPSI) para desenvolvimento final e teste de um MVP de IA que transforma dados financeiros, fiscais e orçamentários já existentes no ERP do CIGA em alertas, previsões, cenários e análises explicáveis e auditáveis para apoiar o monitoramento da gestão pública.",
+      "titulo": "Edital nº 01-CPSI/2026 (CIGA – Consórcio de Inovação na Gestão Pública)",
+      "resumo": "Contrato Público para Solução Inovadora (CPSI) para desenvolvimento de MVP que transforma dados financeiros, fiscais, orçamentários e contábeis do ERP do CIGA em alertas, previsões e análises explicáveis via IA, para uso do próprio consórcio (sede em Florianópolis/SC).",
       "prazo": "2026-11-26",
       "valor": "R$ 100.000,00",
       "link": "https://pncp.gov.br/app/editais/09427503000112/2026/30",
@@ -764,14 +747,14 @@
       "perfis": [
         "oz"
       ],
-      "motivo": "CPSI de IA/dados aplicada à gestão pública é exatamente o tipo de compra pública de inovação (encomenda tecnológica em IA e dados) que a OZ busca, sem restrição de localização para proponentes.",
-      "id": "581d15bd9671",
+      "motivo": "CPSI de IA/dados para setor público é exatamente o tipo de compra pública de inovação que a OZ busca; modalidade nacional, sem restrição a empresas de SC.",
+      "id": "43a1012fff6c",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00",
+      "primeiro_visto": "2026-11-15T12:44:14-03:00",
       "verificacao_hash": "bbb5158c",
-      "verificado_em": "2026-11-12T13:53:27-03:00",
+      "verificado_em": "2026-11-15T12:44:14-03:00",
       "docs_verificados": [],
       "requisitos": "edital completo não acessível; confira os requisitos no link",
       "avisado": true
@@ -862,8 +845,8 @@
       "primeiro_visto": "2026-11-14T12:11:36-03:00"
     },
     {
-      "titulo": "Edital nº 97/2026 – Município de Primeiro de Maio/PR",
-      "resumo": "Locação de sistema integrado de gestão pública (ERP) incluindo SIAFIC, em SaaS, conforme Decreto Federal 10.540/2020, para a prefeitura de Primeiro de Maio/PR.",
+      "titulo": "Edital nº 97/2026 (Município de Primeiro de Maio/PR)",
+      "resumo": "Pregão eletrônico para locação de sistema integrado de gestão pública (ERP), incluindo SIAFIC, em SaaS, para o município de Primeiro de Maio/PR.",
       "prazo": "2026-11-27",
       "valor": "R$ 656.233,86",
       "link": "https://pncp.gov.br/app/editais/76245059000101/2026/205",
@@ -871,16 +854,16 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Licitação municipal de ERP no Paraná; fora do escopo geográfico e temático dos perfis.",
-      "id": "550d2804b548",
-      "fonte": "pncp-sistemas-gestao",
-      "fonte_nome": "PNCP – licitações de sistema integrado de gestão",
+      "motivo": "Locação de ERP/SIAFIC para município do PR; sem relação com os perfis.",
+      "id": "1c7cfc93b8a2",
+      "fonte": "pncp-erp",
+      "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-14T12:11:36-03:00"
+      "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
-      "titulo": "Edital nº 000001/2026 – Câmara Municipal de Iconha (ES)",
-      "resumo": "Pregão eletrônico para contratação de empresa especializada em licenciamento de uso de sistema web de gestão pública integrada (ERP) para a Câmara Municipal de Iconha (ES).",
+      "titulo": "Edital nº 000001/2026 (Câmara Municipal de Iconha/ES)",
+      "resumo": "Pregão eletrônico para contratação de empresa especializada em licenciamento de uso de sistema web de gestão pública integrada (ERP) para a Câmara Municipal de Iconha/ES.",
       "prazo": "2026-11-30",
       "valor": "R$ 196.793,52",
       "link": "https://pncp.gov.br/app/editais/03251599000124/2026/39",
@@ -888,12 +871,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Licitação pública municipal no ES para fornecedor de ERP governamental; nenhum dos perfis é empresa de software de gestão pública nem está nesse estado.",
-      "id": "9b017eb12467",
+      "motivo": "Licenciamento de ERP para câmara municipal pequena no ES; não é chamada de inovação/financiamento.",
+      "id": "b4d7c15e6242",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00"
+      "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
       "titulo": "Edital nº 097/2026",
@@ -1030,6 +1013,57 @@
       "docs_verificados": []
     },
     {
+      "titulo": "Edital nº 009/2026/2026 (CONDER/BA)",
+      "resumo": "Pregão eletrônico da CONDER (Bahia) para contratação de serviços contábeis, financeiros e tributários visando adequação à Reforma Tributária (EC 132/2023).",
+      "prazo": "2026-12-01",
+      "valor": "R$ 1.325.000,00",
+      "link": "https://pncp.gov.br/app/editais/13937032000160/2026/3098",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Contratação de serviços contábeis/tributários em Salvador/BA, sem relação com os temas dos perfis.",
+      "id": "24e1db79a2b2",
+      "fonte": "pncp-erp",
+      "fonte_nome": "PNCP – licitações de ERP",
+      "categoria": "licitacao",
+      "primeiro_visto": "2026-11-15T12:44:14-03:00"
+    },
+    {
+      "titulo": "Edital nº 0162026/2026 (SIMEPAR/PR)",
+      "resumo": "Pregão eletrônico do SIMEPAR (Paraná) para contratação de empresa autorizada/parceira SAP para fornecimento de licenças do SAP Business One Cloud, incluindo gestão do licenciamento.",
+      "prazo": "2026-12-01",
+      "valor": "R$ 131.460,24",
+      "link": "https://pncp.gov.br/app/editais/19899556000190/2026/13",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Licitação pública para compra de licença SAP por órgão estadual do PR; não é chamada de financiamento/inovação e nenhum perfil atua como revendedor SAP.",
+      "id": "372edf023b06",
+      "fonte": "pncp-erp",
+      "fonte_nome": "PNCP – licitações de ERP",
+      "categoria": "licitacao",
+      "primeiro_visto": "2026-11-15T12:44:14-03:00"
+    },
+    {
+      "titulo": "Edital nº 154/2026 (Município de Senador Firmino/MG)",
+      "resumo": "Pregão eletrônico (registro de preços) para aquisição de ferramentas, EPIs e materiais de construção para a Secretaria de Obras do município.",
+      "prazo": "2026-12-01",
+      "valor": "R$ 3.892.750,91",
+      "link": "https://pncp.gov.br/app/editais/18128231000140/2026/165",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Compra de ferramentas e materiais de construção; não tem relação com os temas ou atividades dos perfis.",
+      "id": "e83be0f1699d",
+      "fonte": "pncp-erp",
+      "fonte_nome": "PNCP – licitações de ERP",
+      "categoria": "licitacao",
+      "primeiro_visto": "2026-11-15T12:44:14-03:00"
+    },
+    {
       "titulo": "Edital nº 7/2026",
       "resumo": "Contratação de gestão de frota (peças, manutenção, lavagem, combustível) para a Administração de Cemitérios e Serviços Funerários de Cascavel (PR).",
       "prazo": "2026-12-01",
@@ -1045,6 +1079,23 @@
       "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
       "categoria": "licitacao",
       "primeiro_visto": "2026-11-14T12:11:36-03:00"
+    },
+    {
+      "titulo": "Edital nº 78/2026 (Município de Senador Firmino/MG)",
+      "resumo": "Registro de preços para futura aquisição de ferramentas, EPIs e materiais de construção para a Secretaria de Obras do município (mesmo objeto do Edital 154/2026).",
+      "prazo": "2026-12-01",
+      "valor": "R$ 3.892.750,91",
+      "link": "https://pncp.gov.br/app/editais/18128231000140/2026/163",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Mesmo objeto do edital 154/2026 (ferramentas/materiais de construção); sem relação com os perfis.",
+      "id": "d98c2d019ab2",
+      "fonte": "pncp-erp",
+      "fonte_nome": "PNCP – licitações de ERP",
+      "categoria": "licitacao",
+      "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
       "titulo": "Subvenção Descentralizada Seleção de Parceiros em Fluxo Contínuo - Pró Amazônia Empreende",
@@ -1066,7 +1117,7 @@
     },
     {
       "titulo": "Chamada Transnacional Conjunta - FOREST 2026",
-      "resumo": "Chamada internacional conjunta para financiamento de projetos de pesquisa colaborativa na área florestal entre instituições de pesquisa de diferentes países, com participação do CONFAP pelo lado brasileiro.",
+      "resumo": "Chamada internacional conjunta de cooperação em pesquisa sobre florestas, voltada a equipes de pesquisa que participem de consórcios internacionais.",
       "prazo": "2026-12-02",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/119/chamada-transnacional-conjunta-forest-2026",
@@ -1088,8 +1139,8 @@
       "docs_verificados": []
     },
     {
-      "titulo": "Edital nº PCE 373/2026",
-      "resumo": "Contratação de solução de ERP/gestão pública municipal em nuvem para o Município de Rio do Sul (SC).",
+      "titulo": "Edital nº PCE 373/2026 (Município de Rio do Sul/SC)",
+      "resumo": "Pregão eletrônico para contratação de solução integrada de software de gestão pública (ERP) em nuvem, sem limite de usuários, para o Município de Rio do Sul/SC.",
       "prazo": "2026-12-02",
       "valor": "R$ 2.606.690,20",
       "link": "https://pncp.gov.br/app/editais/83102574000106/2026/630",
@@ -1097,12 +1148,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Licitação municipal de ERP em Rio do Sul/SC, fora do DF e sem relação temática com nenhum dos perfis.",
-      "id": "d2453b20f37c",
-      "fonte": "pncp-gestao-frota",
-      "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
+      "motivo": "Compra de ERP por município de SC; não é chamada de financiamento e nenhum perfil é fornecedor de ERP.",
+      "id": "2f28565d8ec0",
+      "fonte": "pncp-erp",
+      "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-14T12:11:36-03:00"
+      "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
       "titulo": "Edital nº 16/2026 – Município de Barrolândia/TO",
@@ -1122,8 +1173,8 @@
       "primeiro_visto": "2026-11-14T12:11:36-03:00"
     },
     {
-      "titulo": "Edital nº PCE 95/2026 – Município de Apiúna (SC)",
-      "resumo": "Pregão eletrônico para locação de sistema ERP municipal em nuvem, com implantação, suporte e treinamento, para prefeitura, fundo de saúde e câmara de Apiúna (SC).",
+      "titulo": "Edital nº PCE 95/2026 (Município de Apiúna/SC)",
+      "resumo": "Pregão eletrônico para locação de sistema web integrado de gestão pública (ERP) em nuvem, com implantação, suporte e treinamento, para o Município de Apiúna/SC.",
       "prazo": "2026-12-03",
       "valor": "R$ 491.070,85",
       "link": "https://pncp.gov.br/app/editais/79373767000116/2026/95",
@@ -1131,12 +1182,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Licitação municipal em SC para fornecedor de ERP; fora do escopo e localização de todos os perfis.",
-      "id": "f7ad0a175688",
+      "motivo": "Locação de ERP municipal em SC; sem relação com os temas ou atuação dos perfis.",
+      "id": "6857e463487c",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00"
+      "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
       "titulo": "Chamada CNPq Nº 34/2026 - Auxílio à Promoção de Eventos Científicos, Tecnológicos e/ou de Inovação - ARC",
@@ -1242,8 +1293,8 @@
       "primeiro_visto": "2026-11-12T13:53:27-03:00"
     },
     {
-      "titulo": "Edital nº 00232/2026 – Município de Taboão da Serra (SP)",
-      "resumo": "Pregão eletrônico para licença de uso de sistema ERP eletrônico para a prefeitura de Taboão da Serra (SP).",
+      "titulo": "Edital nº 00232/2026 (Município de Taboão da Serra/SP)",
+      "resumo": "Pregão eletrônico para licença de uso de sistema eletrônico ERP para o Município de Taboão da Serra/SP.",
       "prazo": "2026-12-31",
       "valor": "R$ 5.814.858,32",
       "link": "https://pncp.gov.br/app/editais/46523122000163/2026/317",
@@ -1251,12 +1302,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Licitação municipal em SP para fornecedor de ERP; não se aplica a nenhum perfil.",
-      "id": "79376ced623e",
+      "motivo": "Compra de licença de ERP por município de SP; sem relação com os temas dos perfis.",
+      "id": "fbb7d1f5bca8",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00"
+      "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
       "titulo": "Edital de Chamamento Público nº 191/2026 (CPSI) – CAU/SP",
@@ -1462,40 +1513,6 @@
       "verificado_em": "2026-11-11T13:19:04-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": []
-    },
-    {
-      "titulo": "Edital de Chamamento Público nº 006/2026 – Município de Candiba (BA)",
-      "resumo": "Credenciamento de profissionais de saúde para atendimento médico ambulatorial, laboratorial, hospitalar e cirúrgico na rede pública de Candiba (BA).",
-      "prazo": "2027-07-22",
-      "valor": "R$ 9.688.200,00",
-      "link": "https://pncp.gov.br/app/editais/13982608000100/2026/50",
-      "documentos": [],
-      "aberto": true,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "Credenciamento de serviços médicos na Bahia, sem relação com tecnologia ou qualquer perfil.",
-      "id": "09432e50a2d3",
-      "fonte": "pncp-erp",
-      "fonte_nome": "PNCP – licitações de ERP",
-      "categoria": "licitacao",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00"
-    },
-    {
-      "titulo": "Edital de Chamamento Público nº 004/2026 – Município de Santarém (PA)",
-      "resumo": "Credenciamento de empresas especializadas para exames de ultrassonografia nas unidades de saúde de Santarém (PA), com pacientes regulados pelo sistema ERP da secretaria de saúde.",
-      "prazo": "2027-08-20",
-      "valor": "R$ 1.008.000,00",
-      "link": "https://pncp.gov.br/app/editais/05182233000176/2026/171",
-      "documentos": [],
-      "aberto": true,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "Credenciamento de serviços de saúde no Pará, sem relação com tecnologia ou nenhum dos perfis.",
-      "id": "7fe00d2d2e48",
-      "fonte": "pncp-erp",
-      "fonte_nome": "PNCP – licitações de ERP",
-      "categoria": "licitacao",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00"
     },
     {
       "titulo": "2026 Google Carbon Removal and Superpollutant Elimination R&D Awards",
@@ -2017,7 +2034,7 @@
     },
     {
       "titulo": "EDITAL DPI/BCE Nº 001/2026",
-      "resumo": "Edital conjunto do Decanato de Pesquisa e Inovação (DPI) com a Biblioteca Central (BCE) da UnB; o texto não especifica objeto, público-alvo, valores ou prazo.",
+      "resumo": "Edital conjunto do Decanato de Pesquisa e Inovação e da Biblioteca Central (BCE) da UnB; tema provável envolve acervo/produção editorial, mas o texto não detalha objeto, prazo ou valor.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/155-edital-001-2026",
@@ -2025,7 +2042,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Possível edital relacionado a biblioteca/repositório institucional, sem relação direta com os temas ou perfis elegíveis; não se aplica a empresas.",
+      "motivo": "tema provável de biblioteca/acervo não corresponde às áreas de pesquisa ou aos negócios dos perfis monitorados",
       "id": "fd9731ba6cc6",
       "fonte": "dpi-unb",
       "fonte_nome": "UnB (DPI/DPG) editais de pesquisa",
@@ -2034,7 +2051,7 @@
     },
     {
       "titulo": "EDITAL DPI/DPG Nº 004/2026 - PROGRAMA ISAAC ROITMAN",
-      "resumo": "Edital conjunto do Decanato de Pesquisa e Inovação (DPI) e do Decanato de Pós-Graduação (DPG) da UnB vinculado ao Programa Isaac Roitman; o texto da página não detalha objeto, público-alvo, valores ou cronograma.",
+      "resumo": "Edital institucional da UnB (Decanato de Pesquisa e Inovação/Decanato de Pós-Graduação) vinculado ao Programa Isaac Roitman, nome historicamente associado a estudos de biodiversidade e meio ambiente no Cerrado; o texto da página não traz objeto, público-alvo, prazo ou valor detalhados.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/167-edital-dpi-dpg-n-004-2026-programa-isaac-roitman",
@@ -2091,7 +2108,7 @@
     },
     {
       "titulo": "Edital DPI Nº 002/2026",
-      "resumo": "Edital do Decanato de Pesquisa e Inovação (DPI) da UnB; o texto não traz objeto, público-alvo, valores ou prazo.",
+      "resumo": "Edital do Decanato de Pesquisa e Inovação da UnB sem detalhamento de objeto, público-alvo, prazo ou valor no texto fornecido.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/156-edital-dpi-n-002-2026",
@@ -2149,23 +2166,6 @@
       "fonte_nome": "Ministério do Turismo",
       "categoria": "turismo",
       "primeiro_visto": "2026-11-06T13:00:46-03:00"
-    },
-    {
-      "titulo": "Edital nº 18/2026 – Câmara Municipal de Araucária (PR) [Revogado]",
-      "resumo": "Pregão eletrônico, revogado, para contratação de fornecimento, licenciamento e sustentação de ERP SaaS para a Câmara Municipal de Araucária (PR).",
-      "prazo": null,
-      "valor": null,
-      "link": "https://pncp.gov.br/app/editais/78134012000104/2026/59",
-      "documentos": [],
-      "aberto": false,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "Processo revogado (encerrado) em outro estado; não se aplica a nenhum perfil.",
-      "id": "5c7fb8185d98",
-      "fonte": "pncp-erp",
-      "fonte_nome": "PNCP – licitações de ERP",
-      "categoria": "licitacao",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00"
     },
     {
       "titulo": "Estudo de Ingressantes das Licenciaturas - Edital CAPES/INEP nº 26/2026",
