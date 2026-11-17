@@ -1,9 +1,9 @@
 {
-  "atualizado_em": "2026-11-16T15:40:47-03:00",
+  "atualizado_em": "2026-11-17T14:40:44-03:00",
   "editais": [
     {
       "titulo": "EDITAL DPI/DEX/DPG/DEG Nº 003/2026",
-      "resumo": "Edital interno da UnB envolvendo os Decanatos de Pesquisa e Inovação, Extensão, Pós-Graduação e Graduação; o texto não detalha objeto, público ou tema.",
+      "resumo": "Edital conjunto dos Decanatos de Pesquisa e Inovação, Extensão, Pós-Graduação e Graduação da UnB; não há no texto informações sobre tema, público-alvo, prazo ou valor.",
       "prazo": "2026-03-27",
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/158-edital003-2026",
@@ -226,7 +226,7 @@
       "aberto": false,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Período de inscrição já encerrado (26-30/10/2026) e destinado a representantes do trade turístico para feira, não a startups de tecnologia ou fintechs.",
+      "motivo": "Chamamento para participação em feira de turismo destinado ao trade turístico, não aos perfis de pesquisa, tecnologia, fintech ou alimentação.",
       "id": "e46d9e7d8757",
       "fonte": "embratur",
       "fonte_nome": "Embratur (inclui EmbraturLAB)",
@@ -234,79 +234,21 @@
       "primeiro_visto": "2026-11-11T13:19:04-03:00"
     },
     {
-      "titulo": "Edital de Concorrência nº 90001/2026",
-      "resumo": "Contratação de empresa prestadora de serviços de Comunicação Corporativa e Relações Públicas em território nacional para a Embratur.",
-      "prazo": "2026-11-11",
-      "valor": null,
-      "link": "https://embratur.com.br/arquivo/Edital-Concorrencia-90001-2026",
-      "documentos": [
-        "https://embratur.com.br/arquivo/Ata-e-anexos",
-        "https://embratur.com.br/arquivo/Ata-de-Sessao",
-        "https://embratur.com.br/arquivo/Edital-Sorteio-Subcomissao-Tecnica-Concorrencia-90001-A-2026",
-        "https://embratur.com.br/arquivo/Pedido-de-Esclarecimento-n-02_Resposta",
-        "https://embratur.com.br/arquivo/combinepdf-18",
-        "https://embratur.com.br/arquivo/Aviso-01-2026-Errata_Retificacao"
-      ],
-      "aberto": false,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "Licitação para contratação de agência de comunicação/relações públicas nacional; nenhum perfil atua nesse ramo e o processo já está em fase de sessões de avaliação.",
-      "id": "52eed778964a",
-      "fonte": "embratur",
-      "fonte_nome": "Embratur (inclui EmbraturLAB)",
-      "categoria": "turismo",
-      "primeiro_visto": "2026-11-11T13:19:04-03:00"
-    },
-    {
       "titulo": "Aviso de Sessão Pública nº 07/2026",
-      "resumo": "Sessão pública de abertura de envelopes para contratação de serviços especializados (agência de publicidade), com base no art. 14, §2º, da Lei nº 12.232/2010; não é um edital de fomento a empresas ou pesquisadores.",
+      "resumo": "Sessão pública para abertura de envelopes referentes à realização de serviços especializados pela Embratur, com base na Lei nº 12.232/2010.",
       "prazo": "2026-11-13",
       "valor": null,
       "link": "https://embratur.com.br/arquivo/Aviso-Sessao-Publica-08-2026",
       "documentos": [],
-      "aberto": true,
+      "aberto": false,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Procurimento de agência de publicidade/comunicação para a Embratur; nenhum dos perfis atua como agência de publicidade.",
+      "motivo": "Licitação de serviços especializados de comunicação; sem relação com pesquisa, tecnologia, fintech ou alimentação.",
       "id": "3263a0d3256c",
       "fonte": "embratur",
       "fonte_nome": "Embratur (inclui EmbraturLAB)",
       "categoria": "turismo",
       "primeiro_visto": "2026-11-13T13:33:12-03:00"
-    },
-    {
-      "titulo": "Aviso de Contratação Direta nº 179/2026 – Polícia Civil de SC",
-      "resumo": "Aquisição e instalação de dispositivos de engate de reboque para veículos da Polícia Civil de Santa Catarina.",
-      "prazo": "2026-11-17",
-      "valor": null,
-      "link": "https://pncp.gov.br/app/editais/15211786000163/2026/86",
-      "documentos": [],
-      "aberto": true,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "Compra de equipamento veicular estadual em SC, sem relação com os perfis.",
-      "id": "a5500ccd729e",
-      "fonte": "pncp-gestao-frota",
-      "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
-      "categoria": "licitacao",
-      "primeiro_visto": "2026-11-16T15:40:47-03:00"
-    },
-    {
-      "titulo": "Edital nº 000037/2026 – Município de Morro do Pilar/MG (Suspensa)",
-      "resumo": "Licença de sistema integrado de gestão pública (administrativo, contábil, financeiro, patrimonial e de pessoal) para o município.",
-      "prazo": "2026-11-17",
-      "valor": "R$ 999.776,29",
-      "link": "https://pncp.gov.br/app/editais/18303214000100/2026/60",
-      "documentos": [],
-      "aberto": false,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "Situação suspensa; ERP municipal em MG sem relação com os perfis.",
-      "id": "d14f85708742",
-      "fonte": "pncp-gestao-frota",
-      "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
-      "categoria": "licitacao",
-      "primeiro_visto": "2026-11-16T15:40:47-03:00"
     },
     {
       "titulo": "Edital nº 15/2026 (Município de Sulina/PR)",
@@ -360,8 +302,8 @@
       "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
-      "titulo": "Aviso de Contratação Direta nº 116/2026 – Campos do Jordão/SP",
-      "resumo": "Aquisição de equipamentos diversos para o departamento de gestão de frotas da prefeitura de Campos do Jordão.",
+      "titulo": "Aviso de Contratação Direta nº 116/2026 – Dispensa, Prefeitura de Campos do Jordão (SP)",
+      "resumo": "Aquisição de equipamentos diversos para o Departamento de Gestão de Frotas da prefeitura.",
       "prazo": "2026-11-18",
       "valor": "R$ 31.905,43",
       "link": "https://pncp.gov.br/app/editais/45699626000176/2026/592",
@@ -369,18 +311,35 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Compra de equipamentos de frota municipal em SP, fora do foco dos perfis.",
-      "id": "93541b3d2688",
+      "motivo": "Dispensa de licitação para compra de equipamentos de frota municipal em SP, sem relação com os perfis",
+      "id": "4b1827ba5d4a",
       "fonte": "pncp-gestao-frota",
       "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-16T15:40:47-03:00"
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
+    },
+    {
+      "titulo": "Aviso de Sessão Pública nº 08/2026",
+      "resumo": "Sessão pública para abertura de envelopes referentes à contratação de serviços especializados (produção de filmes para a campanha Feel Brasil/VisitBrasil), com base na Lei nº 12.232/2010.",
+      "prazo": "2026-11-23",
+      "valor": null,
+      "link": "https://embratur.com.br/arquivo/Briefing-Sessao-Publica_Filmes_Embratur_FEEL_BRASIL_VisitBrasil-2",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Licitação de serviços de produção audiovisual para campanha turística; não é edital de fomento a pesquisa, inovação, fintech ou PME de alimentação.",
+      "id": "6c9948e68cdb",
+      "fonte": "embratur",
+      "fonte_nome": "Embratur (inclui EmbraturLAB)",
+      "categoria": "turismo",
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
       "titulo": "CHAMADA CNPq/CAPES/FAPDF Nº 13/2026 - Programa de Apoio à Fixação de Doutores no Brasil (PROFIX - Conhecimento Brasil)",
       "resumo": "Chamada conjunta CNPq/CAPES/FAPDF para apoio à fixação de doutores recém-titulados em instituições do Distrito Federal, no âmbito do programa nacional PROFIX-Conhecimento Brasil.",
       "prazo": "2026-11-23",
-      "valor": "Bolsa Conhecimento Brasil (BCB-1): R$ 13.000,00/mês por até 48 meses (R$ 624.000,00 total); projeto pode somar até R$ 1.154.400,00, incluindo bolsas CAPES de mestrado/doutorado e complementação FAPDF de até R$ 6.900,00/mês (máx. R$ 331.200,00).",
+      "valor": "Bolsa BCB-1 (CNPq): R$ 13.000,00/mês por 48 meses (até R$ 624.000,00); bolsas CAPES de mestrado/doutorado quando houver (até R$ 199.200,00); complementação FAPDF ao Proponente/Coordenador e/ou bolsas IC/IT/Mestrado/Doutorado, até R$ 6.900,00/mês (até R$ 331.200,00); total máximo por proposta: R$ 1.154.400,00.",
       "link": "https://www.fap.df.gov.br/documents/d/fap/sei_212973162_chamada_publica_63-pdf",
       "documentos": [
         "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-40-pdf-1",
@@ -395,17 +354,17 @@
       "perfis": [
         "pesquisador"
       ],
-      "motivo": "Pesquisador segue elegível como Proponente/Coordenador BCB-1 (doutor, reside no DF, sem vínculo empregatício/funcional); OZ, CashPago e Ricco ficam fora por exigir proponente pessoa física doutora, não empresa.",
+      "motivo": "Pesquisador segue elegível como Proponente/Coordenador BCB-1 (doutor, reside no DF, sem vínculo empregatício/funcional); OZ, CashPago e Ricco ficam fora por exigir proponente pessoa física doutor, não empresa.",
       "id": "1b22b156d856",
       "fonte": "fapdf",
       "fonte_nome": "FAPDF",
       "categoria": "fap",
       "primeiro_visto": "2026-10-26T17:33:29-03:00",
       "avisado": true,
-      "requisitos": "Proponente deve ser doutor (brasileiro ou, após 1ª retificação, também estrangeiro), residir ou se comprometer a residir no DF/RIDE, e não ter vínculo empregatício ou funcional com instituição nacional no início da vigência da BCB-1, vinculado a Instituição Executora sediada no DF.",
+      "requisitos": "Proponente/Coordenador BCB-1 deve ser brasileiro (ou estrangeiro, conforme 1ª retificação) com título de doutor, residir no DF/RIDE ou declarar compromisso de fixação residencial, e não possuir vínculo empregatício ou funcional com instituição nacional no início da vigência da BCB-1.",
       "mudanca": "A 2ª retificação (11/11/2026) apenas flexibilizou a comprovação do diploma de doutorado obtido no exterior, sem alterar prazo, valores ou elegibilidade dos perfis avaliados.",
       "verificado": true,
-      "verificado_em": "2026-11-16T15:40:47-03:00",
+      "verificado_em": "2026-11-17T14:40:44-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": [
         "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-40-pdf-1",
@@ -431,8 +390,8 @@
       "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
-      "titulo": "Edital nº PCE 2/2026 – Câmara Municipal de Castro/PR",
-      "resumo": "Contratação de software de gestão pública (contábil/fiscal) com suporte técnico por 12 meses para a câmara municipal.",
+      "titulo": "Edital nº PCE 2/2026 – Pregão Eletrônico, Câmara Municipal de Castro (PR)",
+      "resumo": "Serviços de software de gestão pública com conversão de dados, suporte técnico e apoio a prestações de contas ao TCE-PR, para a câmara municipal.",
       "prazo": "2026-11-23",
       "valor": "R$ 311.311,76",
       "link": "https://pncp.gov.br/app/editais/77774685000158/2026/65",
@@ -440,12 +399,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Software contábil de legislativo municipal no PR, sem relação com os perfis.",
-      "id": "f1dadbf32526",
+      "motivo": "Licitação de software de gestão pública para câmara municipal do Paraná, fora do DF",
+      "id": "acc5b0dea0ee",
       "fonte": "pncp-gestao-frota",
       "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-16T15:40:47-03:00"
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
       "titulo": "Programa de Cooperação para Inovação da Rede EUREKA – Chamada bilateral (mineração sustentável, bioeconomia ou cidades sustentáveis) – Fase Nacional",
@@ -474,7 +433,7 @@
     },
     {
       "titulo": "Chamada do CONFAP para Apoio Complementar ao MSCA Doctoral Networks 2026",
-      "resumo": "Apoio financeiro complementar do CONFAP para pesquisadores e instituições brasileiras participantes de redes doutorais no âmbito do programa europeu MSCA Doctoral Networks (Marie Skłodowska-Curie Actions).",
+      "resumo": "Apoio complementar do CONFAP para instituições brasileiras participantes de redes de doutoramento (MSCA Doctoral Networks) em cooperação internacional, voltado à formação de doutorandos em redes europeias.",
       "prazo": "2026-11-24",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/120/chamada-do-confap-para-apoio-complementar-ao-msca-doctoral-networks-2026",
@@ -512,8 +471,8 @@
       "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
-      "titulo": "Edital nº RE135/2026 – Município de São Sebastião do Anta/MG",
-      "resumo": "Locação de sistema integrado de gestão pública municipal, incluindo módulo de gestão de frotas, contabilidade e pessoal.",
+      "titulo": "Edital nº RE135/2026 – Pregão Eletrônico, Município de São Sebastião do Anta (MG)",
+      "resumo": "Locação de sistema integrado de gestão pública municipal com módulos de contabilidade, compras, patrimônio, almoxarifado, frotas, pessoal e tributação.",
       "prazo": "2026-11-24",
       "valor": "R$ 190.899,36",
       "link": "https://pncp.gov.br/app/editais/01613123000160/2026/135",
@@ -523,29 +482,29 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "ERP municipal em MG (versão anterior R0135/2026 foi revogada); sem relação com os perfis.",
-      "id": "fc3054918924",
+      "motivo": "Licitação de sistema de gestão pública (inclui módulo de frotas) para município de MG, fora do DF; versão anterior (R0135) foi revogada e substituída por esta",
+      "id": "d75a5b842c7e",
       "fonte": "pncp-gestao-frota",
       "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-16T15:40:47-03:00"
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
-      "titulo": "Edital nº 113/2026 – Instituto Federal Sul-rio-grandense (Pelotas/RS)",
-      "resumo": "Registro de preços para serviços contínuos de gestão de frota de veículos oficiais de vários campi do IFSul via sistema web.",
+      "titulo": "Edital nº 113/2026 – Pregão Eletrônico/SRP, Instituto Federal Sul-rio-grandense (RS)",
+      "resumo": "Registro de preços para gestão de frota de veículos oficiais (abastecimento e manutenção) dos campi do instituto federal no Rio Grande do Sul.",
       "prazo": "2026-11-25",
       "valor": null,
-      "link": null,
+      "link": "https://pncp.gov.br/app/editais/10729992000146/2026/223",
       "documentos": [],
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Gestão de frota de instituição federal no RS, sem relação com os perfis.",
-      "id": "aeade34d9331",
+      "motivo": "Licitação de gestão de frota para instituto federal no Rio Grande do Sul, fora do DF",
+      "id": "9ab90df7d2e3",
       "fonte": "pncp-gestao-frota",
       "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-16T15:40:47-03:00"
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
       "titulo": "Finep Mais Inovação Brasil – Rodada 2 – Semicondutores",
@@ -566,25 +525,25 @@
       "avisado": true
     },
     {
-      "titulo": "Edital nº 000026/2026 – Município de Linhares/ES (SEMAM)",
-      "resumo": "Contratação de administração e manutenção de frota (veículos, reboques, embarcações) da Secretaria de Meio Ambiente de Linhares via sistema informatizado.",
+      "titulo": "Edital nº 000026/2026 – Pregão Eletrônico, Município de Linhares (ES)",
+      "resumo": "Administração e execução da manutenção de veículos, reboques, embarcações e motores da Secretaria de Meio Ambiente de Linhares via sistema informatizado de gestão de frota.",
       "prazo": "2026-11-26",
-      "valor": "R$ 3,00 (valor conforme consta no texto)",
+      "valor": null,
       "link": "https://pncp.gov.br/app/editais/27167410000188/2026/689",
       "documentos": [],
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Manutenção de frota de secretaria municipal no ES, sem relação com os perfis.",
-      "id": "7be28b42f53d",
+      "motivo": "Licitação de manutenção de frota para secretaria municipal do Espírito Santo, fora do DF",
+      "id": "0e608b1a06a8",
       "fonte": "pncp-gestao-frota",
       "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-16T15:40:47-03:00"
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
-      "titulo": "Edital nº 005/2026 – Câmara Municipal de Petrolina/PE",
-      "resumo": "Registro de preços para locação e gestão de frota de veículos de passeio, SUV e pick-up sem motorista para a câmara municipal.",
+      "titulo": "Edital nº 005/2026 – Pregão Eletrônico/SRP, Câmara Municipal de Petrolina (PE)",
+      "resumo": "Locação e gestão de frota de veículos de passeio, SUV e pick-up, sem motorista e sem combustível, para a Câmara Municipal de Petrolina.",
       "prazo": "2026-11-26",
       "valor": "R$ 3.558.216,24",
       "link": "https://pncp.gov.br/app/editais/11473675000174/2026/31",
@@ -592,16 +551,16 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Locação de frota para legislativo municipal em PE; fora do foco e do local dos perfis.",
-      "id": "70ff455dc36d",
+      "motivo": "Locação de veículos para câmara municipal em Pernambuco, fora do DF e sem ligação com os perfis",
+      "id": "8cf176f09bb0",
       "fonte": "pncp-gestao-frota",
       "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-16T15:40:47-03:00"
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
-      "titulo": "Edital nº 008/2026 – CIM-AMREC (Forquilhinha/SC)",
-      "resumo": "Contratação compartilhada de solução SaaS de gestão de frota pública (rastreamento, abastecimento, manutenção, condutores) para o consórcio intermunicipal CIM-AMREC.",
+      "titulo": "Edital nº 008/2026 – Pregão Eletrônico, CIM-AMREC (SC)",
+      "resumo": "Contratação compartilhada de solução SaaS de gestão de frota pública (rastreamento, abastecimento, manutenção, gestão de condutores) para consórcio intermunicipal de Santa Catarina.",
       "prazo": "2026-11-26",
       "valor": null,
       "link": "https://pncp.gov.br/app/editais/34629547000172/2026/12",
@@ -609,12 +568,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Licitação municipal de SaaS de frota em SC, fora do DF e fora do foco de qualquer perfil.",
-      "id": "13f0654bad57",
+      "motivo": "Licitação de compra pública de software de frota para consórcio de SC, fora do DF e sem perfil elegível",
+      "id": "c04b0b90a36f",
       "fonte": "pncp-gestao-frota",
       "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-16T15:40:47-03:00"
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
       "titulo": "Edital nº 01-CPSI/2026 (CIGA – Consórcio de Inovação na Gestão Pública)",
@@ -641,8 +600,8 @@
       "avisado": true
     },
     {
-      "titulo": "Edital nº 44/2026 – Município de Palmital/PR",
-      "resumo": "Registro de preços para solução SaaS de gestão da frota municipal com rastreamento GPS de veículos e máquinas.",
+      "titulo": "Edital nº 44/2026 – Pregão Eletrônico/SRP, Município de Palmital (PR)",
+      "resumo": "Solução SaaS de gestão da frota municipal com locação de dispositivos de monitoramento GPS para veículos e máquinas de todas as secretarias.",
       "prazo": "2026-11-26",
       "valor": "R$ 217.012,24",
       "link": "https://pncp.gov.br/app/editais/75680025000182/2026/76",
@@ -650,12 +609,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "SaaS de frota municipal no PR; tema de GPS/telemetria não é o foco central de nenhum perfil e é fora do DF.",
-      "id": "95318a1b64d0",
+      "motivo": "Licitação de software de gestão de frota para município do Paraná, fora do DF",
+      "id": "6f9eb9010594",
       "fonte": "pncp-gestao-frota",
       "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-16T15:40:47-03:00"
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
       "titulo": "Edital nº 97/2026 (Município de Primeiro de Maio/PR)",
@@ -692,8 +651,8 @@
       "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
-      "titulo": "Edital nº 097/2026 – Bragança Paulista/SP",
-      "resumo": "Contratação de serviços de gestão integrada de frotas (rastreamento, abastecimento, peças, manutenção) para o município.",
+      "titulo": "Edital nº 097/2026 – Pregão Eletrônico, Município de Bragança Paulista (SP)",
+      "resumo": "Serviços de gestão integrada de frotas com rastreamento veicular, controle de abastecimento, peças e manutenção via rede credenciada.",
       "prazo": "2026-11-30",
       "valor": null,
       "link": "https://pncp.gov.br/app/editais/46352746000165/2026/549",
@@ -701,16 +660,16 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Gestão de frota municipal em SP, sem relação com os perfis.",
-      "id": "6d72082ff438",
+      "motivo": "Licitação de gestão de frota para município de SP, fora do DF",
+      "id": "8693489ce1be",
       "fonte": "pncp-gestao-frota",
       "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-16T15:40:47-03:00"
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
-      "titulo": "Edital nº PCE 73/2026 – Município de Araucária/PR",
-      "resumo": "Contratação de plataforma integrada de gestão pública digital em nuvem para automação de processos administrativos do município.",
+      "titulo": "Edital nº PCE 73/2026 – Pregão Eletrônico/SRP, Município de Araucária (PR)",
+      "resumo": "Contratação de plataforma integrada de gestão pública digital (administrativa, orçamentária, financeira, de pessoal e tributária) para o município.",
       "prazo": "2026-11-30",
       "valor": "R$ 53.632.711,82",
       "link": "https://pncp.gov.br/app/editais/76105535000199/2026/376",
@@ -718,12 +677,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "ERP municipal no PR, sem relação temática com os perfis.",
-      "id": "35a09e775c2d",
+      "motivo": "Licitação de ERP de gestão pública para município do Paraná, fora do DF",
+      "id": "0022154973e3",
       "fonte": "pncp-gestao-frota",
       "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-16T15:40:47-03:00"
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
       "titulo": "Finep Mais Inovação Brasil – Rodada 2 – Transformação Mineral",
@@ -860,8 +819,8 @@
       "primeiro_visto": "2026-11-15T12:44:14-03:00"
     },
     {
-      "titulo": "Edital nº 7/2026 – ACESC (Cascavel/PR)",
-      "resumo": "Contratação de empresa para gestão de frota com peças, pneus, manutenção, lavagem e combustível para veículos da administração de cemitérios de Cascavel.",
+      "titulo": "Edital nº 7/2026 – Pregão Eletrônico, ACESC - Administração de Cemitérios de Cascavel (PR)",
+      "resumo": "Contratação de empresa de gestão de frota com peças, pneus, manutenção, lavagem, guincho e combustível para a frota da autarquia de Cascavel.",
       "prazo": "2026-12-01",
       "valor": "R$ 785.400,00",
       "link": "https://pncp.gov.br/app/editais/80880883000100/2026/23",
@@ -869,12 +828,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Serviço de manutenção/abastecimento de frota municipal no PR; nenhum perfil atua como prestador desse serviço.",
-      "id": "82c6b2b995fd",
+      "motivo": "Licitação de manutenção/abastecimento de frota para autarquia do Paraná, fora do DF",
+      "id": "f9f98d262601",
       "fonte": "pncp-gestao-frota",
       "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-16T15:40:47-03:00"
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
       "titulo": "Edital nº 78/2026 (Município de Senador Firmino/MG)",
@@ -892,6 +851,23 @@
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
       "primeiro_visto": "2026-11-15T12:44:14-03:00"
+    },
+    {
+      "titulo": "Edital nº 92/2026 – Pregão Eletrônico, Município de São Vicente (SP)",
+      "resumo": "Locação de veículos sem motorista e sem combustível com sistema de gestão de frota, para atender a Secretaria de Defesa Social e Guarda Civil Municipal.",
+      "prazo": "2026-12-01",
+      "valor": "R$ 1.730.159,40",
+      "link": "https://pncp.gov.br/app/editais/46177523000109/2026/295",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Licitação de locação de veículos para órgão municipal de São Vicente (SP), fora do DF e sem relação com fomento/pesquisa/inovação",
+      "id": "769821322ef3",
+      "fonte": "pncp-gestao-frota",
+      "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
+      "categoria": "licitacao",
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
       "titulo": "Subvenção Descentralizada Seleção de Parceiros em Fluxo Contínuo - Pró Amazônia Empreende",
@@ -913,7 +889,7 @@
     },
     {
       "titulo": "Chamada Transnacional Conjunta - FOREST 2026",
-      "resumo": "Chamada de cooperação internacional para financiamento conjunto de projetos de pesquisa na área florestal, em parceria entre agências de fomento de diferentes países.",
+      "resumo": "Chamada transnacional conjunta de cooperação internacional voltada a projetos de pesquisa sobre florestas/ecossistemas florestais, para equipes de pesquisa de países participantes.",
       "prazo": "2026-12-02",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/119/chamada-transnacional-conjunta-forest-2026",
@@ -935,8 +911,8 @@
       "docs_verificados": []
     },
     {
-      "titulo": "Edital nº PCE 373/2026 – Município de Rio do Sul/SC",
-      "resumo": "Contratação de ERP municipal em nuvem para gestão administrativa, contábil e financeira do município de Rio do Sul.",
+      "titulo": "Edital nº PCE 373/2026 – Pregão Eletrônico, Município de Rio do Sul (SC)",
+      "resumo": "Contratação de solução ERP de gestão pública em nuvem, sem limite de usuários, para o município de Rio do Sul e entidades vinculadas.",
       "prazo": "2026-12-02",
       "valor": "R$ 2.606.690,20",
       "link": "https://pncp.gov.br/app/editais/83102574000106/2026/630",
@@ -944,12 +920,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "ERP de prefeitura em SC; sem ligação com os perfis.",
-      "id": "8293019d9c6c",
+      "motivo": "Compra pública de ERP para município de SC, fora do DF e não é chamada de fomento",
+      "id": "061f5bf78c6c",
       "fonte": "pncp-gestao-frota",
       "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-16T15:40:47-03:00"
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
       "titulo": "Edital nº PCE 95/2026 (Município de Apiúna/SC)",
@@ -994,8 +970,8 @@
       "docs_verificados": []
     },
     {
-      "titulo": "Edital nº 45/2026 – Prefeitura de Tarauacá/AC",
-      "resumo": "Registro de preços para plataforma de gestão pública (módulos administrativos/web) com suporte e migração de dados para a prefeitura.",
+      "titulo": "Edital nº 45/2026 – Pregão Eletrônico/SRP, Prefeitura de Tarauacá (AC)",
+      "resumo": "Registro de preços para plataforma de gestão pública com módulos web, suporte e manutenção, para a prefeitura de Tarauacá.",
       "prazo": "2026-12-04",
       "valor": null,
       "link": "https://pncp.gov.br/app/editais/01674973000179/2026/39",
@@ -1003,12 +979,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "ERP municipal genérico no Acre, sem relação com os perfis e fora do DF.",
-      "id": "6f1ee4b4850b",
+      "motivo": "Licitação de software de gestão pública para município do Acre, sem relação com os perfis do DF",
+      "id": "3d33da66b820",
       "fonte": "pncp-gestao-frota",
       "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-16T15:40:47-03:00"
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
       "titulo": "COOPERAMAIS Tecnologia - ICT",
@@ -1044,6 +1020,23 @@
       "fonte_nome": "CNPq",
       "categoria": "federal",
       "primeiro_visto": "2026-11-11T13:19:04-03:00"
+    },
+    {
+      "titulo": "Edital nº 00026626/2026 – Pregão Eletrônico, Prefeitura de São João del Rei (MG)",
+      "resumo": "Contratação de empresa para monitoramento de frota via GPS/GSM/GPRS, com instalação de rastreadores, identificação de condutores por RFID e software de gestão web, para a prefeitura.",
+      "prazo": "2026-12-09",
+      "valor": "R$ 181.082,16",
+      "link": "https://pncp.gov.br/app/editais/17749896000109/2026/122",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Licitação pública de prestação de serviço (não é chamada de financiamento) e restrita ao município de São João del Rei (MG), fora do DF",
+      "id": "aa004e4eab20",
+      "fonte": "pncp-gestao-frota",
+      "fonte_nome": "PNCP – licitações de gestão de frota e abastecimento",
+      "categoria": "licitacao",
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
       "titulo": "Chamada Pública CNPq/CAPES Nº 30/2026 – Programa de Mestrado e Doutorado Acadêmico para Inovação – MAI/DAI",
@@ -1346,6 +1339,23 @@
       "primeiro_visto": "2026-11-11T13:19:04-03:00"
     },
     {
+      "titulo": "Agenda.Tech – Mapeamento de Oportunidades e Tecnologias para Powershoring no Brasil – 2025",
+      "resumo": "Chamada para mapeamento de oportunidades e tecnologias ligadas a powershoring no Brasil, voltada a alianças entre Institutos SENAI de Inovação/Tecnologia e ICTs.",
+      "prazo": null,
+      "valor": null,
+      "link": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/agendatech/",
+      "documentos": [],
+      "aberto": false,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Chamada de 2025, provavelmente encerrada, e restrita a alianças entre Institutos SENAI/ICTs, não a empresas ou pesquisadores individuais",
+      "id": "2533b2399a5e",
+      "fonte": "senai-inovacao",
+      "fonte_nome": "SENAI – Plataforma Inovação para a Indústria",
+      "categoria": "empresas",
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
+    },
+    {
       "titulo": "Brown University: Cátedra Fulbright-Guimarães Rosa",
       "resumo": "Cátedra Fulbright na Brown University para professor/pesquisador com experiência em Literatura Brasileira atuar em ensino e pesquisa no Departamento de Estudos Portugueses e Brasileiros.",
       "prazo": null,
@@ -1382,7 +1392,7 @@
     },
     {
       "titulo": "CPSI Nº 001/2026 – Desafio BNDES Inteligência de Dados em Saúde",
-      "resumo": "Contratação pública de inovação (CPSI) para teste de solução que ofereça inteligência de dados em saúde suplementar e ocupacional do BNDES, voltada a empresas inovadoras.",
+      "resumo": "Contratação de teste de solução inovadora de inteligência de dados para organização, análise e avaliação em saúde suplementar e ocupacional do BNDES, visando reduzir custos e aumentar a qualidade de saúde dos funcionários; dirigida a empresas/startups de tecnologia que desenvolvam soluções de dados/IA.",
       "prazo": null,
       "valor": null,
       "link": "https://www.worldlabs.org/opportunity/inteligencia-dados-saude",
@@ -1406,7 +1416,7 @@
     },
     {
       "titulo": "CPSI Nº 002/2025 – Desafio BNDES Score Inteligente de MEI e Microempresas",
-      "resumo": "Contratação pública de inovação (CPSI) para teste de solução que qualifique e segmente solicitações de crédito (leads) de MEI e microempresas no canal MPME do BNDES.",
+      "resumo": "Contratação de teste de solução inovadora para qualificação e segmentação das solicitações de crédito (leads) do canal MPME de MEI e microempresas do BNDES, com investimento total de até R$300 mil; dirigida a empresas de tecnologia/fintech.",
       "prazo": null,
       "valor": "R$300 mil",
       "link": "https://www.worldlabs.org/opportunity/desafio-bndes-score-inteligente-de-mei-e-micro",
@@ -1430,7 +1440,7 @@
     },
     {
       "titulo": "CPSI Nº 003/2025 – Desafio BNDES IA Jurídica",
-      "resumo": "Contratação pública de inovação (CPSI) para desenvolver solução de Inteligência Artificial que apoie a elaboração de manifestações jurídicas e petições no Sistema BNDES.",
+      "resumo": "Contratação de desenvolvimento de solução de Inteligência Artificial para apoiar elaboração de manifestações jurídicas e petições em todos os ramos do Direito, para uso de todo o Sistema BNDES, via Contrato Público de Solução Inovadora (Lei 182/2021); dirigida a empresas que desenvolvem soluções de IA.",
       "prazo": null,
       "valor": null,
       "link": "https://www.worldlabs.org/opportunity/desafio-bndes-ia-juridica",
@@ -1454,15 +1464,15 @@
     },
     {
       "titulo": "Chamada Interna nº 02 para Projetos de Alto Impacto em Economia Circular – Petrobras",
-      "resumo": "Chamada da Embrapii com a Petrobras para financiar projetos de PD&I em economia circular de estruturas submarinas, executados em Alianças entre duas ou mais Unidades Embrapii e pelo menos uma empresa ou startup, com a Petrobras como fonte principal de recursos.",
+      "resumo": "Mobiliza Unidades Embrapii e empresas (em Alianças Tecnológicas) para projetos de PD&I em economia circular de estruturas submarinas, demandados e cofinanciados pela Petrobras.",
       "prazo": null,
-      "valor": "R$ 12 milhões (recursos Petrobras, sem valor fixo por projeto)",
+      "valor": "R$ 12 milhões (recursos Petrobras, sem valor fixo por projeto, podendo ser ampliado)",
       "link": "https://embrapii.org.br/chamadas-publicas/chamada-publica-n02-2026-para-projetos-de-alto-impacto-em-economia-circular/",
       "documentos": [],
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Tema restrito a estruturas submarinas de petróleo e gás em aliança com Unidades Embrapii; não há encaixe para pesquisador individual, OZ, CashPago ou Ricco Burger.",
+      "motivo": "Voltado à indústria de petróleo e economia circular de estruturas submarinas; sem ligação direta com os perfis de IA/geo, fintech, alimentação ou sensoriamento remoto.",
       "id": "b0f8d7b6d1b6",
       "fonte": "embrapii",
       "fonte_nome": "EMBRAPII",
@@ -1471,15 +1481,15 @@
     },
     {
       "titulo": "Chamada Interna nº 03 para Projetos de Alto Impacto em Descarbonização e Circularidade nos Setores de Aço e Cimento – GIZ/IKI",
-      "resumo": "Embrapii e a GIZ (recursos da Iniciativa Internacional para o Clima/IKI do governo alemão), com apoio do MDIC, financiam com recursos não reembolsáveis projetos de PD&I para reduzir emissões e aumentar a circularidade nos setores de aço e cimento, executados por Alianças Tecnológicas entre pelo menos duas Unidades Embrapii e uma empresa industrial âncora do setor.",
+      "resumo": "Financia, com recursos não reembolsáveis da GIZ/IKI e Embrapii, projetos de PD&I para reduzir emissões de GEE e aumentar circularidade nos setores de aço e cimento, executados em Alianças Tecnológicas entre pelo menos duas Unidades Embrapii e uma empresa industrial âncora do setor (podendo incluir fornecedores, integradores, startups).",
       "prazo": null,
-      "valor": "R$ 81 milhões (valor global); até R$ 12,6 milhões de apoio Embrapii-IKI por projeto",
+      "valor": "Valor global R$ 81 milhões; projeto mínimo R$ 5,7 milhões; apoio máximo Embrapii-IKI de R$ 12,6 milhões por projeto",
       "link": "https://embrapii.org.br/chamadas-publicas/chamada-interna-no-03-para-projetos-de-alto-impacto-em-descarbonizacao-do-setor-de-aco-e-cimento-giz/",
       "documentos": [],
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Restrito a empresas industriais de aço/cimento em Aliança Tecnológica com Unidades Embrapii; fora do tema e do tipo de proponente de todos os perfis (pesquisador individual, IA/geo, fintech, hamburgueria).",
+      "motivo": "Restrito a empresas âncoras dos setores de aço e cimento; não há aderência temática com nenhum dos perfis (IA/geoprocessamento, fintech de turismo, alimentação ou sensoriamento remoto).",
       "id": "392985ade3c8",
       "fonte": "embrapii",
       "fonte_nome": "EMBRAPII",
@@ -1516,41 +1526,6 @@
       ]
     },
     {
-      "titulo": "Chamada Pública Unidades Embrapii nº 03/2025",
-      "resumo": "Processo de credenciamento de até 4 novas Unidades Embrapii (grupos de pesquisa em ICTs públicas ou privadas sem fins lucrativos), que passam a poder receber recursos financeiros para projetos de PD&I em parceria com empresas industriais.",
-      "prazo": null,
-      "valor": null,
-      "link": "https://embrapii.org.br/chamadas-publicas/chamada-publica-unidades-embrapii-no-03-2025/",
-      "documentos": [],
-      "aberto": true,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "Credenciamento institucional de grupos de pesquisa (ICTs), não de pesquisadores individuais nem de empresas como OZ, CashPago ou Ricco Burger.",
-      "id": "21de7b10f835",
-      "fonte": "embrapii",
-      "fonte_nome": "EMBRAPII",
-      "categoria": "inovacao",
-      "primeiro_visto": "2026-10-26T13:45:09-03:00",
-      "avisado": true
-    },
-    {
-      "titulo": "Chamada Pública para Capacitação em Maturidade para Grupos de Pesquisa em ICTs da Região Norte nº 01/2026",
-      "resumo": "Seleção de grupos de pesquisa em ICTs localizadas na Região Norte do Brasil para participarem do Programa de Capacitação em Maturidade Operacional da Embrapii, orientado pelo seu Sistema de Excelência Operacional.",
-      "prazo": null,
-      "valor": null,
-      "link": "https://embrapii.org.br/chamadas-publicas/chamada-publica-para-capacitacao-em-maturidade-para-grupos-de-pesquisa-em-icts-da-regiao-norte-n01-2026/",
-      "documentos": [],
-      "aberto": true,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "Restrito a ICTs sediadas na Região Norte; nenhum perfil (todos em Brasília-DF) é elegível e não é bolsa para pesquisador individual.",
-      "id": "b0e423748d3e",
-      "fonte": "embrapii",
-      "fonte_nome": "EMBRAPII",
-      "categoria": "inovacao",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00"
-    },
-    {
       "titulo": "Chamada Pública para Envio de Proposta de Curso Novo - Edital nº 20/2026",
       "resumo": "Convoca instituições de ensino superior a proporem novos cursos de pós-graduação para avaliação da CAPES.",
       "prazo": null,
@@ -1569,8 +1544,8 @@
       "avisado": true
     },
     {
-      "titulo": "Chamada Regional (SENAI/RJ) – Concurso de Inovação para Soluções em Eficiência Energética (SENAI RJ/ENBPAR) – Chamada 3",
-      "resumo": "Concurso regional do SENAI/RJ em parceria com a ENBPAR para selecionar soluções inovadoras em eficiência energética, destinado a empresas e instituições de inovação vinculadas à chamada regional.",
+      "titulo": "Chamada Regional (SENAI/RJ) – Concurso de Inovação para Soluções em Eficiência Energética – SENAI RJ/ENBPAR – Chamada 3",
+      "resumo": "Concurso de inovação para soluções em eficiência energética, promovido pelo SENAI/RJ em parceria com a ENBPAR, com compartilhamento de riscos financeiros e tecnológicos em projetos de PD&I.",
       "prazo": null,
       "valor": null,
       "link": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/chamada-regional-senai/",
@@ -1578,12 +1553,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Chamada operada e restrita ao SENAI/RJ (regional), sem elegibilidade clara para proponentes do DF; tema de eficiência energética também não bate com os perfis cadastrados.",
-      "id": "a8410392f85e",
+      "motivo": "Chamada regional restrita ao SENAI/RJ (Rio de Janeiro), fora do escopo dos perfis, todos sediados no DF",
+      "id": "daa779db9ecb",
       "fonte": "senai-inovacao",
       "fonte_nome": "SENAI – Plataforma Inovação para a Indústria",
       "categoria": "empresas",
-      "primeiro_visto": "2026-11-04T13:25:33-03:00"
+      "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
       "titulo": "Chamada institucional Fulbright DAI",
@@ -1847,7 +1822,7 @@
     },
     {
       "titulo": "EDITAL DPI/BCE Nº 001/2026",
-      "resumo": "Edital interno da UnB envolvendo o Decanato de Pesquisa e Inovação e a Biblioteca Central; o texto não traz detalhes do objeto ou público-alvo.",
+      "resumo": "Edital conjunto do Decanato de Pesquisa e Inovação e da Biblioteca Central (BCE) da UnB; não há no texto detalhes sobre tema, público-alvo, prazo ou valor.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/155-edital-001-2026",
@@ -1855,7 +1830,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Texto não fornece informações suficientes (tema, prazo, valor) para associar a algum perfil.",
+      "motivo": "Edital ligado à Biblioteca Central da UnB, sem relação aparente com os temas ou perfis de negócio/pesquisa informados.",
       "id": "fd9731ba6cc6",
       "fonte": "dpi-unb",
       "fonte_nome": "UnB (DPI/DPG) editais de pesquisa",
@@ -1864,7 +1839,7 @@
     },
     {
       "titulo": "EDITAL DPI/DPG Nº 004/2026 - PROGRAMA ISAAC ROITMAN",
-      "resumo": "Edital interno da UnB (DPI/DPG); o texto fornecido não traz descrição do objeto, público-alvo ou área temática.",
+      "resumo": "Edital do Decanato de Pesquisa e Inovação (DPI) e Decanato de Pós-Graduação (DPG) da UnB; o texto disponível traz apenas o título, sem detalhes sobre tema, público-alvo ou valores.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/167-edital-dpi-dpg-n-004-2026-programa-isaac-roitman",
@@ -1904,15 +1879,18 @@
     },
     {
       "titulo": "Edital 07/2026 - Reciclotech",
-      "resumo": "Chamamento público da SECTI-DF para seleção de organização da sociedade civil (parceria via MROSC) para execução de projeto voltado à economia circular e logística reversa (linha Reciclotech), dando continuidade a edições anteriores do programa.",
+      "resumo": "Chamamento público da SECTI-DF sobre economia circular e logística reversa (reciclagem/tecnologia de reciclagem), atualmente em fase de diligência e resultado provisório, não mais aceitando novas inscrições.",
       "prazo": null,
       "valor": null,
       "link": "https://www.secti.df.gov.br/documents/d/secti/edital-07-2026-reciclotech-pdf",
-      "documentos": [],
+      "documentos": [
+        "https://www.secti.df.gov.br/documents/d/secti/edital-reciclotech-resultado-provisorio-pdf",
+        "https://www.secti.df.gov.br/documents/d/secti/chamamento-publico-reciclotech-abertura-de-diligencia-pdf"
+      ],
       "aberto": false,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Restrito a organizações da sociedade civil (parceria MROSC) e sem prazo de submissão aberto; nenhum dos perfis (pesquisador PF, empresas) é elegível a esse tipo de chamamento, e o tema de reciclagem/logística reversa não coincide com seus focos.",
+      "motivo": "Submissão já encerrada (em fase de diligência/resultado provisório) e tema de reciclagem/economia circular não corresponde ao foco de nenhum dos perfis (sensoriamento remoto, IA/geotecnologia, fintech de turismo ou alimentação).",
       "id": "7fb1c6d987a7",
       "fonte": "secti-df",
       "fonte_nome": "SECTI-DF",
@@ -1921,7 +1899,7 @@
     },
     {
       "titulo": "Edital DPI Nº 002/2026",
-      "resumo": "Edital interno da UnB (Decanato de Pesquisa e Inovação); o texto não especifica objeto, público-alvo nem área temática.",
+      "resumo": "Edital do Decanato de Pesquisa e Inovação da UnB; o texto não fornece detalhes sobre tema, público-alvo, prazo ou valor.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/156-edital-dpi-n-002-2026",
@@ -1979,6 +1957,30 @@
       "fonte_nome": "Ministério do Turismo",
       "categoria": "turismo",
       "primeiro_visto": "2026-11-06T13:00:46-03:00"
+    },
+    {
+      "titulo": "Edital de Concorrência nº 90001/2026",
+      "resumo": "Contratação de empresa prestadora de serviços de Comunicação Corporativa e Relações Públicas em território nacional para a Embratur.",
+      "prazo": null,
+      "valor": null,
+      "link": "https://embratur.com.br/arquivo/Edital-Concorrencia-90001-2026",
+      "documentos": [
+        "https://embratur.com.br/arquivo/Ata-e-anexos",
+        "https://embratur.com.br/arquivo/Ata-de-Sessao",
+        "https://embratur.com.br/arquivo/Edital-Sorteio-Subcomissao-Tecnica-Concorrencia-90001-A-2026",
+        "https://embratur.com.br/arquivo/Pedido-de-Esclarecimento-n-02_Resposta",
+        "https://embratur.com.br/arquivo/combinepdf-18",
+        "https://embratur.com.br/arquivo/Aviso-01-2026-Errata_Retificacao"
+      ],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Licitação de serviços de comunicação corporativa/relações públicas; não é edital de fomento a pesquisa, tecnologia, fintech ou alimentação.",
+      "id": "52eed778964a",
+      "fonte": "embratur",
+      "fonte_nome": "Embratur (inclui EmbraturLAB)",
+      "categoria": "turismo",
+      "primeiro_visto": "2026-11-11T13:19:04-03:00"
     },
     {
       "titulo": "Estudo de Ingressantes das Licenciaturas - Edital CAPES/INEP nº 26/2026",
