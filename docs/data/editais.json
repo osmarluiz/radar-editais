@@ -1,9 +1,9 @@
 {
-  "atualizado_em": "2026-11-21T13:14:35-03:00",
+  "atualizado_em": "2026-11-22T13:24:20-03:00",
   "editais": [
     {
       "titulo": "EDITAL DPI/DEX/DPG/DEG Nº 003/2026",
-      "resumo": "Edital conjunto de quatro decanatos da UnB (Pesquisa e Inovação, Extensão, Pós-Graduação e Graduação); o texto disponível não especifica o tema, o público-alvo nem os critérios do edital.",
+      "resumo": "Edital conjunto dos Decanatos de Pesquisa e Inovação (DPI), Extensão (DEX), Pós-Graduação (DPG) e Ensino de Graduação (DEG) da UnB; a página não descreve o objeto, público-alvo ou área temática.",
       "prazo": "2026-03-27",
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/158-edital003-2026",
@@ -379,7 +379,7 @@
       "titulo": "Chamada CNPq/CAPES/FAPDF Nº 13/2026 - Programa de Apoio à Fixação de Doutores no Brasil (PROFIX-CB) - 3ª Retificação",
       "resumo": "Chamada conjunta CNPq/CAPES/FAPDF para apoio à fixação de doutores recém-titulados em instituições de ensino e pesquisa do Distrito Federal/RIDE, exigindo declaração de residência e compromisso de fixação no DF.",
       "prazo": "2026-11-23",
-      "valor": "Até R$ 1.154.400,00 por proposta (BCB-1 CNPq: R$13.000/mês por 48 meses, até R$624.000; bolsas CAPES mestrado/doutorado quando houver; até R$6.900/mês e R$331.200 de recursos FAPDF)",
+      "valor": "Até R$ 1.154.400,00 por proposta: Bolsa Conhecimento Brasil (BCB-1) do CNPq de R$ 13.000,00/mês por 48 meses (até R$ 624.000,00) ao Proponente/Coordenador; mais até R$ 199.200,00 em bolsas CAPES de mestrado/doutorado; e até R$ 331.200,00 da FAPDF (limite mensal R$ 6.900,00) para complementação da BCB-1 do próprio proponente e/ou bolsas de IC/IT/mestrado/doutorado de equipe.",
       "link": "https://www.fap.df.gov.br/documents/d/fap/sei_gdf-220216879-chamada-publica-pdf",
       "documentos": [
         "https://www.fap.df.gov.br/documents/d/fap/chamada_profix_3-_retificacao-pdf",
@@ -396,22 +396,23 @@
       "perfis": [
         "pesquisador"
       ],
-      "motivo": "Serve ao pesquisador (doutor, sem vínculo empregatício, residente no DF): o edital não exige tempo mínimo/máximo de titulação, apenas doutorado, residência no DF/RIDE e ausência de vínculo empregatício/funcional; empresas não se candidatam como proponentes desta bolsa individual.",
+      "motivo": "Serve ao pesquisador (doutor, sem vínculo empregatício, residente no DF): não há exigência de tempo mínimo/máximo de titulação; empresas (oz, cashpago, ricco) não podem ser Proponentes/Coordenadores BCB-1, só pessoas físicas doutoras.",
       "id": "b642459f5e0b",
       "fonte": "fapdf",
       "fonte_nome": "FAPDF",
       "categoria": "fap",
       "primeiro_visto": "2026-11-19T14:29:47-03:00",
-      "requisitos": "Proponente/Coordenador BCB-1 deve: ser brasileiro (ou estrangeiro em regularidade migratória), possuir título de doutor, residir no DF/RIDE (ou comprometer-se a fixar residência lá), e não possuir vínculo empregatício ou funcional com instituições nacionais no início da bolsa.",
+      "requisitos": "Proponente/Coordenador BCB-1 deve ser doutor (brasileiro ou estrangeiro), residir no DF/RIDE (ou comprometer-se a fixar residência até o início da BCB-1), não ter vínculo empregatício/funcional com instituições nacionais no início da bolsa, e vincular-se a uma Instituição Executora sediada no DF que emita Termo de Aceite; não há exigência de tempo mínimo ou máximo desde a titulação.",
       "verificado": true,
-      "verificado_em": "2026-11-21T13:14:35-03:00",
+      "verificado_em": "2026-11-22T13:24:20-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": [
         "https://www.fap.df.gov.br/documents/d/fap/chamada_profix_3-_retificacao-pdf",
         "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-40-pdf-1",
         "https://www.fap.df.gov.br/documents/d/fap/sei_219649913_chamada_publica_72-pdf"
       ],
-      "avisado": true
+      "avisado": true,
+      "mudanca": "3ª retificação apenas ajustou a redação do item 6.4 sobre comprovação do diploma de doutorado obtido no exterior (exigência documental), sem alterar prazo, valores ou requisitos de elegibilidade."
     },
     {
       "titulo": "Edital nº 00024026/2026 — Município de Barroso/MG",
@@ -491,7 +492,7 @@
     },
     {
       "titulo": "Chamada do CONFAP para Apoio Complementar ao MSCA Doctoral Networks 2026",
-      "resumo": "Chamada de cooperação internacional do CONFAP para apoio complementar a pesquisadores brasileiros participantes de redes doutorais no âmbito do programa europeu MSCA Doctoral Networks.",
+      "resumo": "Apoio complementar a instituições e pesquisadores brasileiros vinculados a redes doutorais MSCA (Marie Sklodowska-Curie Actions) no âmbito de cooperação internacional.",
       "prazo": "2026-11-24",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/120/chamada-do-confap-para-apoio-complementar-ao-msca-doctoral-networks-2026",
@@ -667,7 +668,12 @@
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-21T13:14:35-03:00"
+      "primeiro_visto": "2026-11-21T13:14:35-03:00",
+      "verificacao_hash": "bbb5158c",
+      "verificado_em": "2026-11-22T13:24:20-03:00",
+      "docs_verificados": [],
+      "requisitos": "edital completo não acessível; confira os requisitos no link",
+      "avisado": true
     },
     {
       "titulo": "Edital nº 021-2026/2026 – Prefeitura de Água Fria/BA",
@@ -1029,7 +1035,7 @@
     },
     {
       "titulo": "Chamada Transnacional Conjunta - FOREST 2026",
-      "resumo": "Chamada transnacional conjunta na área florestal (FOREST) para apoio a projetos de pesquisa em cooperação internacional; o texto não detalha o tema específico nem o público-alvo.",
+      "resumo": "Chamada transnacional conjunta para financiar projetos de pesquisa internacional sobre florestas, voltada a instituições e pesquisadores em cooperação multilateral.",
       "prazo": "2026-12-02",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/119/chamada-transnacional-conjunta-forest-2026",
@@ -2164,7 +2170,7 @@
     },
     {
       "titulo": "EDITAL DPI/BCE Nº 001/2026",
-      "resumo": "Edital conjunto do Decanato de Pesquisa e Inovação e da Biblioteca Central da UnB; o texto disponível não especifica o tema (possivelmente ligado a publicações/repositório institucional), público-alvo ou critérios.",
+      "resumo": "Edital conjunto do Decanato de Pesquisa e Inovação (DPI) com a Biblioteca Central (BCE) da UnB; o texto da página não detalha o objeto, público-alvo ou tema.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/155-edital-001-2026",
@@ -2172,7 +2178,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Envolvimento da Biblioteca Central sugere foco em publicações/acervo, sem ligação clara com os perfis de pesquisador ou empresas do DF; texto insuficiente para avaliar melhor.",
+      "motivo": "Sem informação sobre objeto ou elegibilidade no texto; provável foco em serviços de biblioteca, sem ligação clara aos perfis.",
       "id": "fd9731ba6cc6",
       "fonte": "dpi-unb",
       "fonte_nome": "UnB (DPI/DPG) editais de pesquisa",
@@ -2180,8 +2186,8 @@
       "primeiro_visto": "2026-11-12T13:53:27-03:00"
     },
     {
-      "titulo": "EDITAL DPI/DPG Nº 004/2026 - Programa Isaac Roitman",
-      "resumo": "Edital interno da UnB (Decanato de Pesquisa e Inovação/Decanato de Pós-Graduação) vinculado ao Programa Isaac Roitman de apoio à pesquisa; o texto disponível não traz detalhes sobre tema, público-alvo ou critérios de elegibilidade.",
+      "titulo": "EDITAL DPI/DPG Nº 004/2026 - PROGRAMA ISAAC ROITMAN",
+      "resumo": "Edital de pesquisa do Decanato de Pesquisa e Inovação (DPI) e Decanato de Pós-Graduação (DPG) da UnB, ligado ao Programa Isaac Roitman; o texto da página não traz descrição do objeto, público-alvo ou área temática.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/167-edital-dpi-dpg-n-004-2026-programa-isaac-roitman",
@@ -2241,7 +2247,7 @@
     },
     {
       "titulo": "Edital DPI Nº 002/2026",
-      "resumo": "Edital do Decanato de Pesquisa e Inovação da UnB; o texto disponível não especifica tema, público-alvo, valores ou prazos.",
+      "resumo": "Edital do Decanato de Pesquisa e Inovação (DPI) da UnB; o texto da página não especifica objeto, público-alvo, prazo ou valor.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/156-edital-dpi-n-002-2026",
