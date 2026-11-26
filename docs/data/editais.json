@@ -1,9 +1,9 @@
 {
-  "atualizado_em": "2026-11-25T15:42:31-03:00",
+  "atualizado_em": "2026-11-26T15:30:23-03:00",
   "editais": [
     {
       "titulo": "EDITAL DPI/DEX/DPG/DEG Nº 003/2026",
-      "resumo": "Edital conjunto de decanatos da UnB (Pesquisa e Inovação, Extensão, Pós-Graduação e Graduação); o texto fornecido não traz detalhes sobre objeto, público-alvo ou valores.",
+      "resumo": "Edital conjunto dos decanatos de Pesquisa e Inovação, Extensão, Pós-Graduação e Graduação da UnB; o texto disponível não especifica objeto, tema ou público-alvo.",
       "prazo": "2026-03-27",
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/158-edital003-2026",
@@ -26,7 +26,7 @@
     },
     {
       "titulo": "Chamada CONFAP-FAPDF Marie Sklodowska-Curie Intercâmbio de Pessoal 2026 (MSCA-SE 2026)",
-      "resumo": "Chamada CONFAP-FAPDF no âmbito do programa europeu Marie Sklodowska-Curie Staff Exchange, para financiar missões de intercâmbio de pesquisadores e equipes técnicas entre instituições do DF/Brasil e parceiros internacionais.",
+      "resumo": "Financia intercâmbio internacional de pessoal de pesquisa (staff exchange) no âmbito do programa europeu Marie Sklodowska-Curie, envolvendo instituições do DF em cooperação com parceiros no exterior, sem restrição temática específica.",
       "prazo": "2026-05-12",
       "valor": "Até €5.000 por proposta (recursos totais de €10.000, cofinanciando até 2 projetos)",
       "link": "https://www.fap.df.gov.br/documents/d/fap/chamada-confap-fapdf-msca-se-2026-pdf",
@@ -325,8 +325,8 @@
       "avisado": true
     },
     {
-      "titulo": "Programa de Cooperação para Inovação da Rede EUREKA – Chamada bilateral mineração sustentável, bioeconomia ou cidades sustentáveis (Fase Nacional)",
-      "resumo": "Subvenção econômica em cooperação internacional Brasil-Suécia para consórcios de PD&I em mineração sustentável, bioeconomia ou cidades sustentáveis.",
+      "titulo": "Programa de Cooperação para Inovação da Rede EUREKA – Chamada bilateral mineração sustentável, bioeconomia ou cidades sustentáveis (Brasil-Suécia)",
+      "resumo": "Subvenção econômica à inovação em cooperação internacional Brasil-Suécia para projetos de mineração sustentável, bioeconomia ou cidades sustentáveis, executados por consórcios de instituições dos dois países.",
       "prazo": "2026-11-23",
       "valor": null,
       "link": "https://www.finep.gov.br/e/chamada-publica/222684/1132029",
@@ -334,24 +334,24 @@
       "aberto": false,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Prazo de submissão já encerrado em 23/11/2026.",
-      "id": "5b8156f01dba",
+      "motivo": "Prazo já encerrado (23/11/2026); ligação com os perfis monitorados seria apenas hipotética.",
+      "id": "bb238561d772",
       "fonte": "finep",
       "fonte_nome": "FINEP",
       "categoria": "federal",
-      "primeiro_visto": "2026-11-25T15:42:31-03:00"
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
     },
     {
       "titulo": "Finep Mais Inovação Brasil – Rodada 2 – Semicondutores",
-      "resumo": "Subvenção econômica de R$ 100 milhões para empresas desenvolverem produtos ou processos inovadores na área de semicondutores.",
+      "resumo": "Subvenção econômica para empresas desenvolverem produtos ou processos inovadores na área de semicondutores.",
       "prazo": "2026-11-25",
       "valor": "R$ 100.000.000,00",
       "link": "https://www.finep.gov.br/e/chamada-publica/222684/755605",
       "documentos": [],
-      "aberto": true,
+      "aberto": false,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Foco em semicondutores, sem relação com IA/geoprocessamento, turismo/fintech ou alimentação dos perfis monitorados.",
+      "motivo": "Prazo encerrado em 25/11/2026; tema de semicondutores (hardware) não é foco de nenhum perfil monitorado.",
       "id": "19712a94ea8a",
       "fonte": "finep",
       "fonte_nome": "FINEP",
@@ -377,6 +377,25 @@
       "primeiro_visto": "2026-11-23T17:20:30-03:00"
     },
     {
+      "titulo": "Edital nº 01-CPSI/2026 — CIGA (Consórcio de Inovação na Gestão Pública)",
+      "resumo": "Seleção de uma proposta única para CPSI visando um MVP experimental, implantado na nuvem do CIGA, que transforme dados financeiros, fiscais, orçamentários e contábeis já existentes em alertas, previsões, cenários e análises explicáveis e auditáveis para apoiar o monitoramento institucional.",
+      "prazo": "2026-11-26",
+      "valor": "R$ 100.000,00",
+      "link": "https://pncp.gov.br/app/editais/09427503000112/2026/30",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "alta",
+      "perfis": [
+        "oz"
+      ],
+      "motivo": "CPSI nacional (sem restrição de local) sobre IA explicável/analytics para dados de gestão pública, encaixe direto com o foco da OZ em IA e dados; prazo encerra hoje (2026-11-26).",
+      "id": "b718feccb6e6",
+      "fonte": "pncp-cpsi",
+      "fonte_nome": "PNCP – contratações de solução inovadora (CPSI)",
+      "categoria": "ppp",
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
+    },
+    {
       "titulo": "Edital nº 68/2026 - Primeiro de Maio/PR",
       "resumo": "Locação de Sistema Integrado de Gestão Pública (ERP/SIAFIC) em SaaS para o Município de Primeiro de Maio (PR).",
       "prazo": "2026-11-27",
@@ -390,40 +409,6 @@
       "id": "a241969a0684",
       "fonte": "pncp-sistemas-gestao",
       "fonte_nome": "PNCP – licitações de sistema integrado de gestão",
-      "categoria": "licitacao",
-      "primeiro_visto": "2026-11-25T15:42:31-03:00"
-    },
-    {
-      "titulo": "Edital nº 97/2026 – Pregão Eletrônico (Primeiro de Maio/PR)",
-      "resumo": "Locação em SaaS de sistema ERP de gestão pública, incluindo módulo SIAFIC, para o Município de Primeiro de Maio/PR (processo distinto do edital nº 68/2026).",
-      "prazo": "2026-11-27",
-      "valor": null,
-      "link": "https://pncp.gov.br/app/editais/76245059000101/2026/205",
-      "documentos": [],
-      "aberto": true,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "licitação municipal de software ERP restrita a Primeiro de Maio/PR, sem relação com os perfis do DF",
-      "id": "40f929b2a3f2",
-      "fonte": "pncp-erp",
-      "fonte_nome": "PNCP – licitações de ERP",
-      "categoria": "licitacao",
-      "primeiro_visto": "2026-11-25T15:42:31-03:00"
-    },
-    {
-      "titulo": "Edital nº 000001/2026 – Pregão Eletrônico (Câmara Municipal de Iconha/ES)",
-      "resumo": "Prestação de serviços de licenciamento de sistema web de gestão pública integrada (ERP) para a Câmara Municipal de Iconha/ES.",
-      "prazo": "2026-11-30",
-      "valor": "R$ 196.793,52",
-      "link": "https://pncp.gov.br/app/editais/03251599000124/2026/39",
-      "documentos": [],
-      "aberto": true,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "licitação do legislativo municipal de Iconha/ES, sem relação com os perfis do DF",
-      "id": "af1f03fc8e31",
-      "fonte": "pncp-erp",
-      "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
       "primeiro_visto": "2026-11-25T15:42:31-03:00"
     },
@@ -446,7 +431,7 @@
     },
     {
       "titulo": "Finep Mais Inovação Brasil – Rodada 2 – Transformação Mineral",
-      "resumo": "Subvenção econômica para empresas, com parceria obrigatória de ICTs, destinada a projetos de PD&I em transformação mineral, minerais críticos e estratégicos e descarbonização.",
+      "resumo": "Subvenção econômica para empresas, com parceria obrigatória de ICTs, desenvolverem projetos de PD&I em transformação mineral, com foco em minerais críticos e descarbonização.",
       "prazo": "2026-11-30",
       "valor": null,
       "link": "https://www.finep.gov.br/e/chamada-publica/222684/754473",
@@ -454,7 +439,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Foco em mineração e transformação mineral, fora da área de atuação de qualquer perfil monitorado.",
+      "motivo": "Tema de mineração/transformação mineral não corresponde ao foco de nenhum perfil monitorado.",
       "id": "a53252392573",
       "fonte": "finep",
       "fonte_nome": "FINEP",
@@ -528,8 +513,8 @@
       "docs_verificados": []
     },
     {
-      "titulo": "Edital nº 009/2026 – Pregão Eletrônico (CONDER, Bahia)",
-      "resumo": "Contratação de serviços contábeis/tributários para adequação do plano de contas à Reforma Tributária (EC 132/2023), usando o sistema FIPLAN, para a CONDER/BA.",
+      "titulo": "Edital nº 009/2026 (CONDER – Companhia de Desenvolvimento Urbano da Bahia)",
+      "resumo": "Pregão eletrônico para serviços contábeis, financeiros e tributários de equiparação de plano de contas conforme Reforma Tributária, usando o sistema FIPLAN do Estado da Bahia.",
       "prazo": "2026-12-01",
       "valor": "R$ 1.325.000,00",
       "link": "https://pncp.gov.br/app/editais/13937032000160/2026/3098",
@@ -537,16 +522,16 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "serviço contábil para empresa estadual da Bahia, sem relação com nenhum perfil do DF",
-      "id": "de8848a5f6d5",
+      "motivo": "Serviço de consultoria contábil/tributária para órgão da Bahia; sem ligação com nenhum perfil.",
+      "id": "3be24e049aab",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-25T15:42:31-03:00"
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
     },
     {
-      "titulo": "Edital nº 0162026/2026 – Pregão Eletrônico (SIMEPAR, Curitiba/PR)",
-      "resumo": "Fornecimento de licenças SAP Business One Cloud, incluindo gerenciamento do licenciamento, para o Sistema Meteorológico do Paraná (SIMEPAR).",
+      "titulo": "Edital nº 0162026/2026 (SIMEPAR/Sistema Meteorológico do Paraná)",
+      "resumo": "Pregão eletrônico para licenciamento da solução SAP Business One Cloud (SAP B1) para o SIMEPAR.",
       "prazo": "2026-12-01",
       "valor": "R$ 131.460,24",
       "link": "https://pncp.gov.br/app/editais/19899556000190/2026/13",
@@ -554,31 +539,29 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "compra de licenças SAP por órgão estadual do Paraná, restrita a esse órgão e sem relação com os temas/local dos perfis",
-      "id": "85fd27301a46",
+      "motivo": "Licenciamento de ERP SAP para órgão do PR; não há perfil fornecedor de ERP.",
+      "id": "4e776e1ee576",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-25T15:42:31-03:00"
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
     },
     {
-      "titulo": "Edital nº 154/2026 – Pregão Eletrônico (Senador Firmino/MG) [republicação do nº 78/2026]",
-      "resumo": "Registro de preços para aquisição de ferramentas, EPIs, materiais de construção e equipamentos operacionais para a Secretaria de Obras de Senador Firmino/MG.",
+      "titulo": "Edital nº 154/2026 (Prefeitura de Senador Firmino/MG)",
+      "resumo": "Pregão eletrônico municipal para aquisição de ferramentas, EPIs, materiais de construção e equipamentos operacionais para a Secretaria de Obras.",
       "prazo": "2026-12-01",
       "valor": "R$ 3.892.750,91",
       "link": "https://pncp.gov.br/app/editais/18128231000140/2026/165",
-      "documentos": [
-        "https://pncp.gov.br/app/editais/18128231000140/2026/163"
-      ],
+      "documentos": [],
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "compra de ferramentas/EPIs para prefeitura de MG, sem relação com os perfis do DF",
-      "id": "524dcd291914",
+      "motivo": "Compra de materiais/ferramentas para obras municipais em MG; fora do escopo dos perfis.",
+      "id": "e853c3fd34a7",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-25T15:42:31-03:00"
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
     },
     {
       "titulo": "Edital nº 37/2026 - Uniflor/PR",
@@ -615,6 +598,23 @@
       "primeiro_visto": "2026-11-23T17:20:30-03:00"
     },
     {
+      "titulo": "Edital nº 78/2026 (Prefeitura de Senador Firmino/MG)",
+      "resumo": "Pregão eletrônico (registro de preços) municipal, objeto equivalente ao Edital 154/2026, para ferramentas, EPIs e materiais de construção da Secretaria de Obras.",
+      "prazo": "2026-12-01",
+      "valor": "R$ 3.892.750,91",
+      "link": "https://pncp.gov.br/app/editais/18128231000140/2026/163",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Mesmo objeto do Edital 154/2026 (ferramentas/materiais de obras) em outro número; fora do escopo dos perfis.",
+      "id": "74ea84bf6895",
+      "fonte": "pncp-erp",
+      "fonte_nome": "PNCP – licitações de ERP",
+      "categoria": "licitacao",
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
+    },
+    {
       "titulo": "Edital nº 92/2026 – Município de São Vicente/SP",
       "resumo": "Pregão eletrônico para locação de veículos com sistema de gestão de frota para a SEDOS e Guarda Civil de São Vicente/SP.",
       "prazo": "2026-12-01",
@@ -632,8 +632,8 @@
       "primeiro_visto": "2026-11-23T17:20:30-03:00"
     },
     {
-      "titulo": "Subvenção Descentralizada Seleção de Parceiros em Fluxo Contínuo - Pró Amazônia Empreende",
-      "resumo": "Seleção pública de agências de fomento que repassarão recursos de subvenção econômica a empresas sediadas na Amazônia Legal com faturamento anual de até R$ 16 milhões.",
+      "titulo": "Subvenção Descentralizada - Pró-Amazônia Empreende",
+      "resumo": "Seleção de agências de fomento que repassarão subvenção econômica a empresas com sede ou filial em municípios da Amazônia Legal, faturamento anual até R$16 milhões.",
       "prazo": "2026-12-01",
       "valor": null,
       "link": "https://www.finep.gov.br/e/chamada-publica/222684/972778",
@@ -641,17 +641,16 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Restrito a agências de fomento e empresas sediadas na Amazônia Legal (região Norte), fora do DF.",
-      "id": "3addcf6252d2",
+      "motivo": "Restrito a empresas sediadas em municípios da Amazônia Legal; o DF está fora da área elegível.",
+      "id": "5ebc9aba0d89",
       "fonte": "finep",
       "fonte_nome": "FINEP",
       "categoria": "federal",
-      "primeiro_visto": "2026-10-23T16:56:52-03:00",
-      "avisado": true
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
     },
     {
       "titulo": "Chamada Transnacional Conjunta - FOREST 2026",
-      "resumo": "Chamada internacional conjunta para apoio a projetos de pesquisa na área florestal (FOREST), permitindo cooperação entre pesquisadores de diferentes países em consórcios internacionais; a página não detalha o escopo exato, público elegível, prazo ou valores.",
+      "resumo": "Chamada internacional conjunta voltada a projetos de pesquisa e cooperação na área florestal; o texto da página não detalha público elegível, valores ou prazo específico.",
       "prazo": "2026-12-02",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/119/chamada-transnacional-conjunta-forest-2026",
@@ -707,23 +706,6 @@
       "primeiro_visto": "2026-11-23T17:20:30-03:00"
     },
     {
-      "titulo": "Edital nº PCE 95/2026 – Pregão Eletrônico (Apiúna/SC)",
-      "resumo": "Locação de sistema web ERP em nuvem, com implantação, suporte e treinamento, para o Município de Apiúna/SC, secretarias, Fundo de Saúde e Câmara de Vereadores.",
-      "prazo": "2026-12-03",
-      "valor": "R$ 491.070,85",
-      "link": "https://pncp.gov.br/app/editais/79373767000116/2026/95",
-      "documentos": [],
-      "aberto": true,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "licitação municipal restrita a Apiúna/SC, sem relação com os perfis do DF",
-      "id": "57734d93319a",
-      "fonte": "pncp-erp",
-      "fonte_nome": "PNCP – licitações de ERP",
-      "categoria": "licitacao",
-      "primeiro_visto": "2026-11-25T15:42:31-03:00"
-    },
-    {
       "titulo": "Chamada CNPq Nº 34/2026 - Auxílio à Promoção de Eventos Científicos, Tecnológicos e/ou de Inovação (ARC)",
       "resumo": "Apoia a realização no Brasil de eventos de grande porte (congressos, encontros) de ciência, tecnologia e inovação, em qualquer área.",
       "prazo": "2026-12-04",
@@ -775,8 +757,8 @@
       "primeiro_visto": "2026-11-25T15:42:31-03:00"
     },
     {
-      "titulo": "Edital nº 166/2026 – Pregão Eletrônico (Tangará/SC)",
-      "resumo": "Registro de preços para fornecimento de materiais elétricos para manutenção de edificações das secretarias municipais de Tangará/SC; não é contratação de ERP.",
+      "titulo": "Edital nº 166/2026 (Prefeitura de Tangará/SC)",
+      "resumo": "Pregão eletrônico (registro de preços) para fornecimento de materiais elétricos para manutenção de edificações municipais em Tangará/SC.",
       "prazo": "2026-12-04",
       "valor": "R$ 509.621,08",
       "link": "https://pncp.gov.br/app/editais/82827999000101/2026/67",
@@ -784,12 +766,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "compra de materiais elétricos para prefeitura de Tangará/SC, sem relação com nenhum perfil",
-      "id": "f34d1b365e92",
+      "motivo": "Compra de materiais elétricos para prefeitura de SC; sem relação com nenhum perfil.",
+      "id": "3e84de83edad",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-25T15:42:31-03:00"
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
     },
     {
       "titulo": "Edital nº 26/2026 – Município de Santa Cecília/PB",
@@ -877,8 +859,8 @@
       "primeiro_visto": "2026-11-25T15:42:31-03:00"
     },
     {
-      "titulo": "Edital nº 10/2026 – Pregão Eletrônico (Estação Naval do Rio Grande/RS)",
-      "resumo": "Contratação de serviços de elétrica e locação de geradores para a Estação Naval do Rio Grande (Comando da Marinha); não é uma contratação de sistema ERP.",
+      "titulo": "Edital nº 10/2026 (Comando da Marinha – Estação Naval do Rio Grande)",
+      "resumo": "Pregão eletrônico federal para serviços de elétrica e locação de geradores para a Marinha do Brasil (RS).",
       "prazo": "2026-12-07",
       "valor": "R$ 8.960.011,67",
       "link": "https://pncp.gov.br/app/editais/00394502000144/2026/13104",
@@ -886,12 +868,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "objeto de serviços elétricos/geradores para unidade da Marinha no RS, sem qualquer relação com os temas dos perfis",
-      "id": "23107f748176",
+      "motivo": "Serviço de elétrica/geradores para a Marinha, sem relação com nenhum dos quatro perfis.",
+      "id": "86f69501b20b",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-25T15:42:31-03:00"
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
     },
     {
       "titulo": "Edital nº 23/2026 - Carmo da Cachoeira/MG",
@@ -928,8 +910,8 @@
       "primeiro_visto": "2026-11-23T17:20:30-03:00"
     },
     {
-      "titulo": "Edital nº 31/2026 – Pregão Eletrônico (Bom Jardim/RJ)",
-      "resumo": "Fornecimento de solução ERP em SaaS/nuvem para gestão pública do Município de Bom Jardim/RJ.",
+      "titulo": "Edital nº 31/2026 (Prefeitura de Bom Jardim/RJ)",
+      "resumo": "Pregão eletrônico municipal para solução ERP em SaaS/nuvem, visando gestão pública integrada.",
       "prazo": "2026-12-07",
       "valor": "R$ 1.263.078,36",
       "link": "https://pncp.gov.br/app/editais/28561041000176/2026/46",
@@ -937,12 +919,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "licitação municipal restrita a Bom Jardim/RJ, sem relação com os perfis do DF",
-      "id": "ad699c165160",
+      "motivo": "Compra de ERP para município do RJ; não há perfil fornecedor de ERP.",
+      "id": "c25cd6cdcbfd",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-25T15:42:31-03:00"
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
     },
     {
       "titulo": "Edital nº 6/2026 - Consórcio Intermunicipal de Saúde (Campo Mourão/PR)",
@@ -963,21 +945,26 @@
     },
     {
       "titulo": "COOPERAMAIS Tecnologia - ICT",
-      "resumo": "Subvenção não reembolsável do FNDCT/CT-Agro, orçamento total de R$ 100 milhões, para projetos de P,D&I conduzidos por ICTs públicas e privadas em parceria obrigatória com cooperativas da agricultura familiar.",
+      "resumo": "Subvenção não reembolsável (FNDCT/CT-Agro) para projetos de P,D&I conduzidos por ICTs, obrigatoriamente em parceria com cooperativas da agricultura familiar, voltados a soluções tecnológicas para esse setor.",
       "prazo": "2026-12-08",
-      "valor": "R$ 100 milhões",
+      "valor": "R$ 3 milhões a R$ 15 milhões por projeto, prazo de execução até 36 meses",
       "link": "https://www.finep.gov.br/e/chamada-publica/222684/1060260",
       "documentos": [],
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Proponente precisa ser ICT (pública ou privada), não pessoa física nem empresa, fora dos perfis monitorados.",
+      "motivo": "Proposta só pode ser apresentada por ICT pública/privada com parceria formal prévia de 1+ ano com cooperativa da agricultura familiar; nenhum perfil é uma ICT (pesquisador é pessoa física, demais são empresas sem esse vínculo), logo nenhum é elegível como proponente.",
       "id": "543f94c8afd7",
       "fonte": "finep",
       "fonte_nome": "FINEP",
       "categoria": "federal",
       "primeiro_visto": "2026-10-23T16:56:52-03:00",
-      "avisado": true
+      "avisado": true,
+      "requisitos": "Proponente deve ser ICT pública ou privada com experiência em P&D/extensão/transferência de tecnologia para agricultura familiar, comprovando parceria formal prévia (mín. 1 ano) com cooperativa da agricultura familiar com CAF ativo (e 70% dos cooperados com CAF PF); projeto deve partir de TRL ≥3.",
+      "verificado": true,
+      "verificado_em": "2026-11-26T15:30:23-03:00",
+      "verificacao_hash": "bbb5158c",
+      "docs_verificados": []
     },
     {
       "titulo": "Chamada Pública CNPq/Petrobras Nº 31/2026 - Projeto InspirAÇÃO",
@@ -997,8 +984,8 @@
       "primeiro_visto": "2026-11-19T14:29:47-03:00"
     },
     {
-      "titulo": "Edital nº 000056-/2026 – Pregão Eletrônico (Tuneiras do Oeste/PR)",
-      "resumo": "Licenciamento de uso de plataforma ERP governamental em nuvem para o Município de Tuneiras do Oeste/PR.",
+      "titulo": "Edital nº 000056-/2026 (Prefeitura de Tuneiras do Oeste/PR)",
+      "resumo": "Pregão eletrônico municipal para licenciamento de plataforma de ERP governamental em nuvem (cloud computing).",
       "prazo": "2026-12-08",
       "valor": "R$ 469.180,00",
       "link": "https://pncp.gov.br/app/editais/76247329000113/2026/100",
@@ -1006,12 +993,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "licitação municipal restrita a Tuneiras do Oeste/PR, sem relação com os perfis do DF",
-      "id": "6eb8371b1e2c",
+      "motivo": "Compra de ERP para município do PR; não há perfil fornecedor de ERP.",
+      "id": "c013e810329b",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-25T15:42:31-03:00"
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
     },
     {
       "titulo": "Edital nº PCP 3/2026 - Seara/SC",
@@ -1116,8 +1103,8 @@
       "primeiro_visto": "2026-11-25T15:42:31-03:00"
     },
     {
-      "titulo": "Edital nº PCE 373/2026 – Pregão Eletrônico (Rio do Sul/SC)",
-      "resumo": "Fornecimento de solução ERP em nuvem, com licenciamento sem limite de usuários, para o Município de Rio do Sul/SC e entidades vinculadas.",
+      "titulo": "Edital nº PCE 373/2026 (Prefeitura de Rio do Sul/SC)",
+      "resumo": "Pregão eletrônico municipal para fornecimento de solução ERP nativa web, hospedada em nuvem, sem limitação de usuários, para o município e entidades vinculadas.",
       "prazo": "2026-12-09",
       "valor": "R$ 2.606.690,20",
       "link": "https://pncp.gov.br/app/editais/83102574000106/2026/630",
@@ -1125,16 +1112,16 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "licitação municipal restrita a Rio do Sul/SC, sem relação com os perfis do DF",
-      "id": "124fad84321e",
+      "motivo": "Compra de ERP para município de SC; fora do escopo de todos os perfis.",
+      "id": "290b52f2b768",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-25T15:42:31-03:00"
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
     },
     {
-      "titulo": "Edital nº 006/2026 – Pregão Eletrônico (Olinda/PE)",
-      "resumo": "Registro de preços corporativo para contratação de solução ERP de gestão pública (módulos administrativos, financeiros, fiscais e operacionais) para o Município de Olinda/PE.",
+      "titulo": "Edital nº 006/2026 (Prefeitura de Olinda/PE)",
+      "resumo": "Pregão eletrônico (registro de preços) para fornecimento, implantação, treinamento e suporte de solução ERP de gestão pública para o município de Olinda.",
       "prazo": "2026-12-10",
       "valor": "R$ 4.031.817,12",
       "link": "https://pncp.gov.br/app/editais/10404184000109/2026/657",
@@ -1142,12 +1129,12 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "licitação municipal de Olinda/PE para compra de ERP de gestão pública, restrita ao município e sem relação com os temas de nenhum perfil do DF",
-      "id": "75569b3f5a85",
+      "motivo": "Compra de ERP para prefeitura de Olinda/PE; nenhum perfil é fornecedor de ERP nesse estado.",
+      "id": "2bb9f5b0f12e",
       "fonte": "pncp-erp",
       "fonte_nome": "PNCP – licitações de ERP",
       "categoria": "licitacao",
-      "primeiro_visto": "2026-11-25T15:42:31-03:00"
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
     },
     {
       "titulo": "Edital nº 12.11.11/2026PE - Itaitinga/CE",
@@ -1208,6 +1195,42 @@
       "fonte_nome": "PNCP – licitações de sistema integrado de gestão",
       "categoria": "licitacao",
       "primeiro_visto": "2026-11-25T15:42:31-03:00"
+    },
+    {
+      "titulo": "Edital nº 14/2026 (Prefeitura de Tibau/RN)",
+      "resumo": "Pregão eletrônico municipal (com retificação/republicação) para contratação de ERP em SaaS, incluindo implantação, migração de dados, treinamento e suporte.",
+      "prazo": "2026-12-11",
+      "valor": "R$ 352.492,59",
+      "link": "https://pncp.gov.br/app/editais/01622882000190/2026/105",
+      "documentos": [
+        "https://pncp.gov.br/app/editais/01622882000190/2026/41"
+      ],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Licitação de ERP para o município de Tibau/RN; fora do escopo de todos os perfis.",
+      "id": "427336a029b4",
+      "fonte": "pncp-erp",
+      "fonte_nome": "PNCP – licitações de ERP",
+      "categoria": "licitacao",
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
+    },
+    {
+      "titulo": "Edital nº 40/2026 — Prefeitura de Chopinzinho/PR (Registro de Preços decorrente de CPSI)",
+      "resumo": "Registro de preços por 1 ano para aquisição e instalação de postes metálicos e estruturas de sustentação para os equipamentos de um sistema de videomonitoramento do município, decorrente de um CPSI já concluído; é fornecimento de material/obra, não uma chamada de inovação em si.",
+      "prazo": "2026-12-11",
+      "valor": "R$ 298.013,76 (valor total estimado)",
+      "link": "https://pncp.gov.br/app/editais/76995414000160/2026/243",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Compra de postes metálicos para um município do Paraná: fora do escopo de IA/geo/pagamentos/MPE dos perfis de Brasília e sem relação com nenhum deles.",
+      "id": "60482108ee69",
+      "fonte": "pncp-cpsi",
+      "fonte_nome": "PNCP – contratações de solução inovadora (CPSI)",
+      "categoria": "ppp",
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
     },
     {
       "titulo": "Edital nº 000017/2026 – Município de Mimoso do Sul/ES",
@@ -1278,25 +1301,49 @@
       "primeiro_visto": "2026-11-20T14:01:51-03:00"
     },
     {
-      "titulo": "Edital nº 19/2026 (CPSI) – SEFAZ-PI",
-      "resumo": "Contrato Público para Solução Inovadora (CPSI) da Secretaria da Fazenda do Piauí para contratar pessoa física ou jurídica (isoladamente ou em consórcio de até 2 empresas) que desenvolva e qualifique tecnologicamente uma solução inovadora para um desafio ligado a públicos distintos atendidos pela SEFAZ-PI.",
+      "titulo": "Edital nº 19/2026 — SEFAZ-PI (CPSI)",
+      "resumo": "Licitação especial para celebrar Contrato Público de Solução Inovadora (CPSI) com pessoa física ou jurídica (isolada ou em consórcio de até 2 empresas) para desenvolver e qualificar tecnologicamente uma solução que resolva um desafio da SEFAZ-PI, ampliável a outros públicos.",
       "prazo": "2026-12-23",
       "valor": "R$ 200.000,00",
       "link": "https://pncp.gov.br/app/editais/06553556000191/2026/23",
       "documentos": [],
       "aberto": true,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "Desafio genérico de fiscalização fiscal sem tema de IA/geoprocessamento, fintech/turismo ou comércio/alimentação explicitado, então não casa diretamente com nenhum dos perfis monitorados.",
-      "id": "8465ac9d1e17",
+      "relevancia": "media",
+      "perfis": [
+        "oz"
+      ],
+      "motivo": "CPSI nacional (sem restrição geográfica), tema do desafio não detalhado no texto; OZ é elegível e inovação/tecnologia em geral poderia gerar uma proposta, mas não há ligação direta com IA/geo descrita.",
+      "id": "bfd549c97f92",
       "fonte": "pncp-cpsi",
       "fonte_nome": "PNCP – contratações de solução inovadora (CPSI)",
       "categoria": "ppp",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00"
+      "primeiro_visto": "2026-11-26T15:30:23-03:00",
+      "verificacao_hash": "bbb5158c",
+      "verificado_em": "2026-11-26T15:30:23-03:00",
+      "docs_verificados": [],
+      "requisitos": "edital completo não acessível; confira os requisitos no link",
+      "avisado": true
     },
     {
-      "titulo": "Edital de Chamamento Público nº 191/2026 (CPSI) – CAU/SP",
-      "resumo": "CPSI do Conselho de Arquitetura e Urbanismo de São Paulo para contratar Provas de Conceito (PoC) de soluções inovadoras voltadas à identificação de irregularidades em ambientes digitais e à organização e análise de dados para apoiar decisões institucionais de fiscalização profissional.",
+      "titulo": "Edital nº 202632103/2026 (ETICE/CE)",
+      "resumo": "Pregão eletrônico do Estado do Ceará para contratação de licenciamento, instalação, treinamento e suporte de solução ERP; contratante é o governo estadual, fornecedor deve ser empresa de software.",
+      "prazo": "2026-12-23",
+      "valor": null,
+      "link": "https://pncp.gov.br/app/editais/07954480000179/2026/27728",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Licitação de compra de ERP para governo do CE; nenhum perfil é fornecedor de ERP nem está no CE.",
+      "id": "869fb65087f5",
+      "fonte": "pncp-erp",
+      "fonte_nome": "PNCP – licitações de ERP",
+      "categoria": "licitacao",
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
+    },
+    {
+      "titulo": "Edital de Chamamento Público nº 191/2026 — CAU/SP (CPSI)",
+      "resumo": "Contratação de soluções inovadoras via CPSI, com execução de Provas de Conceito, para apoiar a fiscalização profissional do CAU/SP: identificação de irregularidades em ambientes digitais e organização/análise de informações para tomada de decisão institucional.",
       "prazo": "2027-01-05",
       "valor": "R$ 200.000,00",
       "link": "https://pncp.gov.br/app/editais/15131560000152/2026/86",
@@ -1306,14 +1353,14 @@
       "perfis": [
         "oz"
       ],
-      "motivo": "Alta para OZ: contratação pública de solução de IA/análise de dados para detectar irregularidades e apoiar decisões, dentro do foco explícito da empresa em IA, dados e CPSI/compras públicas de inovação; demais perfis não se aplicam ao tema.",
-      "id": "6c5b86eedfbd",
+      "motivo": "CPSI nacional (sem restrição de local) cujo desafio é diretamente de IA/análise de dados para detectar irregularidades e apoiar decisões — foco central da OZ.",
+      "id": "b903ebc2f811",
       "fonte": "pncp-cpsi",
       "fonte_nome": "PNCP – contratações de solução inovadora (CPSI)",
       "categoria": "ppp",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00",
+      "primeiro_visto": "2026-11-26T15:30:23-03:00",
       "verificacao_hash": "bbb5158c",
-      "verificado_em": "2026-11-19T14:29:47-03:00",
+      "verificado_em": "2026-11-26T15:30:23-03:00",
       "docs_verificados": [],
       "requisitos": "edital completo não acessível; confira os requisitos no link",
       "avisado": true
@@ -1340,7 +1387,7 @@
     },
     {
       "titulo": "Programa Nacional de Incubadoras Tecnológicas de Cooperativas Populares (Proninc) / 2026",
-      "resumo": "Apoio financeiro não reembolsável a projetos institucionais de ICTs, por meio de Incubadoras Tecnológicas de Cooperativas Populares (ITCPs) e Núcleos de Inovação Tecnológica (NITs), para desenvolvimento ou adaptação de soluções tecnológicas voltadas à economia solidária.",
+      "resumo": "Apoio financeiro não reembolsável a projetos conduzidos por ICTs (via incubadoras ITCPs e núcleos de inovação NITs) para desenvolver tecnologias voltadas a empreendimentos de economia solidária.",
       "prazo": "2027-01-14",
       "valor": null,
       "link": "https://www.finep.gov.br/e/chamada-publica/222684/1057230",
@@ -1348,7 +1395,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Exige proponente institucional ICT voltado à economia solidária, fora do perfil de pessoa física ou empresa dos perfis monitorados.",
+      "motivo": "Restrito a ICTs atuando com incubadoras de economia solidária; sem ligação com os perfis monitorados.",
       "id": "95b63ea9dea1",
       "fonte": "finep",
       "fonte_nome": "FINEP",
@@ -1476,8 +1523,25 @@
       "avisado": true
     },
     {
+      "titulo": "Pesquisa Não Clínica e Clínica Estratégica para o SUS",
+      "resumo": "Recursos não reembolsáveis para ICTs fortalecerem a capacidade nacional de pesquisa clínica e não clínica estratégica para o SUS.",
+      "prazo": "2027-04-03",
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/1171625",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Tema de saúde/SUS sem relação com os perfis monitorados (sensoriamento remoto, IA/geo, fintech, alimentação).",
+      "id": "a5c8f68123f2",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
+    },
+    {
       "titulo": "Finep COOPERAMAIS Brasil Tecnologias – Empresas",
-      "resumo": "Subvenção econômica em fluxo contínuo para empresas brasileiras desenvolverem produtos e processos inovadores para a agroindústria e segurança alimentar, em parceria com cooperativas da agricultura familiar (CAF).",
+      "resumo": "Subvenção econômica em fluxo contínuo para empresas brasileiras desenvolverem produtos ou processos inovadores em parceria com cooperativas de agricultura familiar (CAF), voltados à segurança alimentar e à agroindústria.",
       "prazo": "2027-04-30",
       "valor": null,
       "link": "https://www.finep.gov.br/e/chamada-publica/222684/1060720",
@@ -1579,82 +1643,32 @@
       "avisado": true
     },
     {
-      "titulo": "CHAMADA CONFAP–BRASILLINOIS 2026",
-      "resumo": "Chamada de cooperação CONFAP-FAPDF com o consórcio Brasillinois (University of Illinois System) para mobilidade e intercâmbio de pesquisadores brasileiros nos EUA.",
-      "prazo": null,
-      "valor": null,
-      "link": "https://www.fap.df.gov.br/documents/d/fap/sei-00193-00000714_2026-17-chamada-publica-n-44-2026-confap-brasilllinois-2026-pdf",
-      "documentos": [
-        "https://www.fap.df.gov.br/documents/d/fap/chamada_confap-pdf",
-        "https://www.fap.df.gov.br/documents/d/fap/resultado-preliminar-da-habilitacao-chamada-confap-brasililinois-2026-pdf",
-        "https://www.fap.df.gov.br/documents/d/fap/sei-00193-00000714_2026-17-chamada-confap-brasillinois-pdf"
-      ],
-      "aberto": false,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "Resultado final já publicado (DODF Nº 177, 23/09/2026); chamada encerrada, não há mais inscrições em aberto.",
-      "id": "e18fea066110",
-      "fonte": "fapdf-internacional",
-      "fonte_nome": "FAPDF (chamadas internacionais)",
-      "categoria": "fap",
-      "primeiro_visto": "2026-11-24T16:34:51-03:00"
-    },
-    {
-      "titulo": "CHAMADA MCI – MOBILITY CONFAP ITALY 2026",
-      "resumo": "Chamada CONFAP para mobilidade de pesquisadores brasileiros à Itália, financiando estadias de pesquisa ou intercâmbio com instituições italianas.",
-      "prazo": null,
-      "valor": "Pós-doutorado: bolsa mensal de R$ 10.000,00 por até 3 meses + bilhete aéreo ida e volta limitado a R$ 9.000,00 (mestrado: R$ 6.000,00/mês; doutorado: R$ 8.000,00/mês, mesmas condições de bilhete)",
-      "link": "https://www.fap.df.gov.br/documents/d/fap/sei_216532652_chamada_publica_69-pdf",
-      "documentos": [
-        "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-37-pdf"
-      ],
-      "aberto": true,
-      "relevancia": "media",
-      "perfis": [
-        "pesquisador"
-      ],
-      "motivo": "Serve ao pesquisador (vínculo ativo, mesmo sem emprego, com ICT sediada no DF; residente no DF; recém-doutor elegível à bolsa de pós-doutorado de até 3 meses com anuência de supervisor italiano), mas exige mobilidade para a Itália, fora do tema específico; não serve a empresas (oz, cashpago, ricco), que não são o público desta chamada de pesquisadores",
-      "id": "677243468c94",
-      "fonte": "fapdf-internacional",
-      "fonte_nome": "FAPDF (chamadas internacionais)",
-      "categoria": "fap",
-      "primeiro_visto": "2026-10-23T17:03:01-03:00",
-      "avisado": true,
-      "requisitos": "Pesquisador com vínculo ativo (não necessariamente empregatício) com ICT/empresa de base tecnológica sediada no DF, residente e domiciliado no DF/RIDE-DF, com supervisor em universidade italiana; para pós-doutorado, basta vínculo ativo e anuência do supervisor italiano",
-      "verificado": true,
-      "verificado_em": "2026-11-25T15:42:31-03:00",
-      "verificacao_hash": "bbb5158c",
-      "docs_verificados": [
-        "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-37-pdf"
-      ]
-    },
-    {
       "titulo": "CPSI Nº 001/2026 – Desafio BNDES Inteligência de Dados em Saúde",
-      "resumo": "Contratação pública de teste de solução inovadora de inteligência de dados em saúde suplementar e ocupacional, para organização, análise e redução de custos de saúde dos funcionários do BNDES.",
+      "resumo": "Contratação pública de teste de solução inovadora de inteligência de dados para organização, análise e avaliação em saúde suplementar e ocupacional dos funcionários do BNDES.",
       "prazo": null,
       "valor": null,
-      "link": "https://www.worldlabs.org/opportunity/inteligencia-dados-saude",
+      "link": "https://bra01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.worldlabs.org%2Fopportunity%2Finteligencia-dados-saude&data=05%7C02%7Cinternet%40bndes.gov.br%7C7d4f700d3616445caae108def492bc25%7C7e2324c66925427eb56d4e6eda16752a%7C0%7C0%7C639217108245669434%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=cbEKC8erERSBDVMJ%2FhO4O2%2FyriRlAhnmzxNFQ74xZNA%3D&reserved=0",
       "documentos": [],
       "aberto": true,
       "relevancia": "alta",
       "perfis": [
         "oz"
       ],
-      "motivo": "OZ atende CPSIs de IA/dados para o setor público, sem restrição de local; demais perfis não se aplicam a este tipo de contratação.",
-      "id": "04c3b2e3223f",
+      "motivo": "CPSI nacional em IA/dados, instrumento e tema explicitamente servidos pela OZ (compras públicas de inovação em IA e dados).",
+      "id": "a51322cd772d",
       "fonte": "bndes",
       "fonte_nome": "BNDES",
       "categoria": "inovacao",
-      "primeiro_visto": "2026-11-25T15:42:31-03:00",
+      "primeiro_visto": "2026-11-26T15:30:23-03:00",
       "verificacao_hash": "bbb5158c",
-      "verificado_em": "2026-11-25T15:42:31-03:00",
+      "verificado_em": "2026-11-26T15:30:23-03:00",
       "docs_verificados": [],
       "requisitos": "edital completo não acessível; confira os requisitos no link",
       "avisado": true
     },
     {
       "titulo": "CPSI Nº 002/2025 – Desafio BNDES Score Inteligente de MEI e Microempresas",
-      "resumo": "Contratação de teste de solução inovadora de IA/dados para qualificação e segmentação de solicitações de crédito do Canal MPME de MEI e microempresas.",
+      "resumo": "Contratação pública de teste de solução inovadora para qualificação e segmentação das solicitações de crédito (leads) de MEI e microempresas no canal digital do BNDES, com investimento total de até R$300 mil.",
       "prazo": null,
       "valor": "R$300 mil",
       "link": "https://www.worldlabs.org/opportunity/desafio-bndes-score-inteligente-de-mei-e-micro",
@@ -1678,7 +1692,7 @@
     },
     {
       "titulo": "CPSI Nº 003/2025 – Desafio BNDES IA Jurídica",
-      "resumo": "Contratação de desenvolvimento de solução de Inteligência Artificial para apoiar elaboração de manifestações jurídicas e petições no Sistema BNDES.",
+      "resumo": "Contratação pública para desenvolvimento de solução baseada em Inteligência Artificial que apoie a elaboração de manifestações jurídicas e petições para o Sistema BNDES.",
       "prazo": null,
       "valor": null,
       "link": "https://www.worldlabs.org/opportunity/desafio-bndes-ia-juridica",
@@ -1702,20 +1716,20 @@
     },
     {
       "titulo": "Chamada ERC – CONFAP – 2026 (Research opportunities in Europe for active PhD researchers from Brazil)",
-      "resumo": "Chamada conjunta CONFAP/FAPDF com o ERC (European Research Council) para oferecer oportunidades de pesquisa na Europa a doutorandos (PhD) brasileiros em atividade.",
+      "resumo": "Financia estadia de pesquisa na Europa para doutorandos brasileiros com tese em andamento (active PhD researchers); não é destinada a pesquisadores que já concluíram o doutorado.",
       "prazo": null,
       "valor": null,
       "link": "https://www.fap.df.gov.br/documents/d/fap/sei_gdf-206678124-chamada-publica-diretrizes-fapdf-pdf",
       "documentos": [
         "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-41-pdf-1",
-        "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-25-1-pdf",
         "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-41-pdf",
+        "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-25-1-pdf",
         "https://www.fap.df.gov.br/documents/d/fap/extrato-da-chamada-erc-confap-2026-pdf"
       ],
       "aberto": false,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Resultado final já publicado (DODF nº 210, 12/11/2026) e exige doutorando(a) ainda em formação (PhD ativo), não se aplica ao pesquisador do perfil, que já concluiu o doutorado.",
+      "motivo": "Restrita a doutorandos com tese em andamento (não recém-doutores) e chamada já encerrada, com resultado final publicado em 12/11/2026.",
       "id": "729b40b1c0cd",
       "fonte": "fapdf-internacional",
       "fonte_nome": "FAPDF (chamadas internacionais)",
@@ -1755,6 +1769,37 @@
       "fonte_nome": "EMBRAPII",
       "categoria": "inovacao",
       "primeiro_visto": "2026-11-19T14:29:47-03:00"
+    },
+    {
+      "titulo": "Chamada MCI – Mobility CONFAP Italy 2026",
+      "resumo": "Financia mobilidade internacional de pesquisadores entre o DF e a Itália, no âmbito da cooperação CONFAP-Itália.",
+      "prazo": null,
+      "valor": "Bolsa de pós-doutorado: R$ 10.000,00/mês por até 3 meses + bilhete aéreo ida e volta limitado a R$ 9.000,00 (mestrado R$ 6.000,00/mês e doutorado R$ 8.000,00/mês, mesmas condições)",
+      "link": "https://www.fap.df.gov.br/documents/d/fap/sei_216532652_chamada_publica_69-pdf",
+      "documentos": [
+        "https://www.fap.df.gov.br/documents/d/fap/resultado_preliminar_confap-1-pdf",
+        "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-37-pdf"
+      ],
+      "aberto": true,
+      "relevancia": "media",
+      "perfis": [
+        "pesquisador"
+      ],
+      "motivo": "Serve ao pesquisador (vínculo ativo, mesmo sem emprego, com ICT sediada no DF; residente no DF; recém-doutor elegível à bolsa de pós-doutorado de até 3 meses com anuência de supervisor italiano), mas exige mobilidade para a Itália, fora do tema específico; não serve a empresas (oz, cashpago, ricco), que não são o público desta chamada de pesquisadores",
+      "id": "677243468c94",
+      "fonte": "fapdf-internacional",
+      "fonte_nome": "FAPDF (chamadas internacionais)",
+      "categoria": "fap",
+      "primeiro_visto": "2026-10-23T17:03:01-03:00",
+      "avisado": true,
+      "requisitos": "Proponente brasileiro ou com RNE permanente, residente no DF/RIDE-DF, com vínculo ativo (não necessariamente empregatício) com ICT/instituição sediada no DF; para pós-doutorado exige apenas anuência do supervisor italiano, bolsa de até 3 meses",
+      "verificado": true,
+      "verificado_em": "2026-11-26T15:30:23-03:00",
+      "verificacao_hash": "bbb5158c",
+      "docs_verificados": [
+        "https://www.fap.df.gov.br/documents/d/fap/resultado_preliminar_confap-1-pdf",
+        "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-37-pdf"
+      ]
     },
     {
       "titulo": "Chamada Pública Unidades Embrapii nº 03/2025",
@@ -1829,7 +1874,7 @@
     },
     {
       "titulo": "Conab: Florestas e Comunidades: Amazônia Viva (2026)",
-      "resumo": "Chamada em parceria com a Conab voltada a projetos sobre florestas e comunidades na Amazônia; o texto não detalha valor, prazo ou critérios de elegibilidade.",
+      "resumo": "Chamada pública em parceria com a Conab para projetos de florestas e comunidades na Amazônia; tema específico e público-alvo não detalhados no texto.",
       "prazo": null,
       "valor": null,
       "link": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/amazonia-viva/",
@@ -1837,7 +1882,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Foco em florestas e comunidades amazônicas, sem relação com os perfis de pesquisa em sensoriamento remoto, tecnologia, fintech ou alimentação em Brasília.",
+      "motivo": "Foco em florestas e comunidades amazônicas via Conab; não é bolsa de pesquisa individual nem edital de inovação para empresas do DF, ligação apenas hipotética.",
       "id": "71058b26f794",
       "fonte": "fundo-amazonia",
       "fonte_nome": "Fundo Amazônia",
@@ -2049,7 +2094,7 @@
     },
     {
       "titulo": "Desafios Tecnológicos para Agricultura Familiar",
-      "resumo": "Subvenção econômica para empresas brasileiras desenvolverem pacote tecnológico de baixo custo para agricultura, em parceria com ICTs e cooperativas, visando ampliar oferta de alimentos e combater a pobreza.",
+      "resumo": "Subvenção econômica para empresas brasileiras desenvolverem um pacote tecnológico de baixo custo para agricultura, em parceria com ICTs e cooperativas, visando combate à fome e à pobreza.",
       "prazo": null,
       "valor": null,
       "link": "https://www.finep.gov.br/e/chamada-publica/222684/754098",
@@ -2065,12 +2110,12 @@
       "fonte_nome": "FINEP",
       "categoria": "federal",
       "primeiro_visto": "2026-11-25T15:42:31-03:00",
+      "avisado": true,
       "requisitos": "edital completo não encontrado",
       "verificado": true,
       "verificado_em": "2026-11-25T15:42:31-03:00",
       "verificacao_hash": "bbb5158c",
-      "docs_verificados": [],
-      "avisado": true
+      "docs_verificados": []
     },
     {
       "titulo": "Doutorado sanduíche nos EUA",
@@ -2092,7 +2137,7 @@
     },
     {
       "titulo": "EDITAL DPI/BCE Nº 001/2026",
-      "resumo": "Edital conjunto do Decanato de Pesquisa e Inovação e da Biblioteca Central da UnB; o texto fornecido não traz detalhes sobre objeto, público-alvo ou valores.",
+      "resumo": "Edital conjunto do Decanato de Pesquisa e Inovação com a Biblioteca Central da UnB (BCE); o texto disponível não detalha objeto, tema, prazo ou valor.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/155-edital-001-2026",
@@ -2100,7 +2145,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Texto não traz informações suficientes sobre tema, público ou elegibilidade para avaliar relevância para qualquer perfil.",
+      "motivo": "Envolvimento da Biblioteca Central sugere foco em acervo/serviços de biblioteca, sem relação aparente com pesquisa em sensoriamento remoto ou com os negócios das empresas.",
       "id": "fd9731ba6cc6",
       "fonte": "dpi-unb",
       "fonte_nome": "UnB (DPI/DPG) editais de pesquisa",
@@ -2109,7 +2154,7 @@
     },
     {
       "titulo": "EDITAL DPI/DPG Nº 004/2026 - PROGRAMA ISAAC ROITMAN",
-      "resumo": "Edital da UnB (Decanato de Pesquisa e Inovação / Decanato de Pós-Graduação); o texto fornecido não traz detalhes sobre objeto, público-alvo ou valores.",
+      "resumo": "Edital institucional da UnB (DPI/DPG) ligado ao Programa Isaac Roitman; o texto disponível não traz detalhes sobre tema, público-alvo ou modalidade de apoio.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/167-edital-dpi-dpg-n-004-2026-programa-isaac-roitman",
@@ -2169,7 +2214,7 @@
     },
     {
       "titulo": "Edital DPI Nº 002/2026",
-      "resumo": "Edital da UnB (Decanato de Pesquisa e Inovação); o texto fornecido não traz detalhes sobre objeto, público-alvo ou valores.",
+      "resumo": "Edital do Decanato de Pesquisa e Inovação da UnB; o texto disponível não traz objeto, tema, prazo ou valor.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/156-edital-dpi-n-002-2026",
@@ -2190,6 +2235,23 @@
       "verificado_em": "2026-10-27T11:38:52-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": []
+    },
+    {
+      "titulo": "Edital FIP Nordeste Capital Semente",
+      "resumo": "Chamada da Finep/FNDCT e BNB para selecionar gestor de fundo de investimento em participações (FIP) voltado à região Nordeste.",
+      "prazo": null,
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/749273",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Chamada para gestores de fundos de investimento, não para empresas ou pesquisadores captarem recursos diretamente; sem perfil elegível.",
+      "id": "3cd07c864d30",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
     },
     {
       "titulo": "Edital Made in Quadrado",
@@ -2271,6 +2333,23 @@
       "categoria": "federal",
       "primeiro_visto": "2026-10-26T13:45:09-03:00",
       "avisado": true
+    },
+    {
+      "titulo": "FIP Bioeconomia e Sustentabilidade",
+      "resumo": "Chamada da Finep/FNDCT para selecionar gestores de fundos de investimento em participações voltados a bioeconomia e sustentabilidade.",
+      "prazo": null,
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/752980",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Chamada para gestores de fundos de investimento, não para empresas ou pesquisadores captarem recursos diretamente.",
+      "id": "019c41abc8d8",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
     },
     {
       "titulo": "FLTA: ensino de português nos EUA",
@@ -2362,7 +2441,7 @@
       "categoria": "inovacao",
       "primeiro_visto": "2026-10-29T12:18:33-03:00",
       "verificacao_hash": "bbb5158c",
-      "verificado_em": "2026-11-19T14:29:47-03:00",
+      "verificado_em": "2026-11-26T15:30:23-03:00",
       "docs_verificados": [],
       "requisitos": "edital completo não acessível; confira os requisitos no link",
       "avisado": true
@@ -2755,7 +2834,7 @@
     },
     {
       "titulo": "Programa Desafios da Amazônia (2026)",
-      "resumo": "Chamada do Fundo Amazônia (BNDES) para apoio a projetos voltados aos desafios de conservação e desenvolvimento sustentável na região amazônica; o texto da página não detalha público-alvo específico nem foco temático exato.",
+      "resumo": "Chamada pública do Fundo Amazônia (BNDES) para projetos na região amazônica; o texto da página não detalha tema específico, público-alvo ou valores.",
       "prazo": null,
       "valor": null,
       "link": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/programa-desafios-da-amazonia/",
@@ -2763,7 +2842,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Voltado a projetos na região amazônica, sem relação com os temas de sensoriamento remoto acadêmico, IA/geotecnologia, fintech de turismo ou alimentação dos perfis de Brasília.",
+      "motivo": "Chamada restrita a projetos na Amazônia, sem elegibilidade clara para pesquisador do DF em sensoriamento remoto nem para empresas/MPE de Brasília; ligação é apenas hipotética.",
       "id": "37ed6c8e9748",
       "fonte": "fundo-amazonia",
       "fonte_nome": "Fundo Amazônia",
@@ -2899,7 +2978,7 @@
     },
     {
       "titulo": "Prospera Amazônia (2026)",
-      "resumo": "Chamada do Fundo Amazônia para apoio a projetos de desenvolvimento sustentável na Amazônia; o texto não traz detalhes sobre valor, prazo ou público elegível.",
+      "resumo": "Chamada pública do Fundo Amazônia (BNDES) voltada a projetos na região amazônica; detalhes de tema, público e valores não constam no texto desta página.",
       "prazo": null,
       "valor": null,
       "link": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/prospera-amazonia/",
@@ -2907,7 +2986,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Foco em desenvolvimento sustentável na Amazônia, sem relação direta com os perfis de tecnologia, pesquisa, fintech ou alimentação em Brasília.",
+      "motivo": "Foco regional na Amazônia sem relação direta com os perfis de DF (pesquisa em sensoriamento remoto, tecnologia, fintech ou alimentação).",
       "id": "7d0ab6430003",
       "fonte": "fundo-amazonia",
       "fonte_nome": "Fundo Amazônia",
@@ -2977,7 +3056,7 @@
     },
     {
       "titulo": "Sanear Indígena (2026)",
-      "resumo": "Chamada do Fundo Amazônia para projetos de saneamento/água potável voltados a comunidades indígenas da Amazônia; sem mais detalhes no texto da página.",
+      "resumo": "Chamada pública do Fundo Amazônia (BNDES) para saneamento/água em comunidades indígenas da Amazônia; sem mais detalhes no texto da página.",
       "prazo": null,
       "valor": null,
       "link": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/sanear-amazonia-indigena/",
@@ -2985,7 +3064,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Restrito a saneamento em comunidades indígenas da Amazônia, sem elegibilidade ou tema que atenda aos perfis de Brasília.",
+      "motivo": "Voltado a comunidades indígenas da Amazônia, sem elegibilidade para pesquisador, empresas de tecnologia, fintech ou hamburgueria de Brasília.",
       "id": "9f968d7ba04e",
       "fonte": "fundo-amazonia",
       "fonte_nome": "Fundo Amazônia",
@@ -3009,6 +3088,23 @@
       "fonte_nome": "Sebrae DF",
       "categoria": "empresas",
       "primeiro_visto": "2026-11-19T14:29:47-03:00"
+    },
+    {
+      "titulo": "Seleção de Gestor para o FIP Complexo da Saúde",
+      "resumo": "Chamada da Finep, BNDESPAR e Fundação Butantan para selecionar gestor/administrador de fundo de investimento em participações voltado ao complexo da saúde.",
+      "prazo": null,
+      "valor": null,
+      "link": "https://www.finep.gov.br/e/chamada-publica/222684/752474",
+      "documentos": [],
+      "aberto": true,
+      "relevancia": "baixa",
+      "perfis": [],
+      "motivo": "Chamada destinada a gestores de fundos de investimento, sem ligação com os perfis monitorados.",
+      "id": "3bde7775c562",
+      "fonte": "finep",
+      "fonte_nome": "FINEP",
+      "categoria": "federal",
+      "primeiro_visto": "2026-11-26T15:30:23-03:00"
     },
     {
       "titulo": "University Winter Courses in Germany for Foreign Students and Graduates",
