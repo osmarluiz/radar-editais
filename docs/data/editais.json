@@ -1,9 +1,9 @@
 {
-  "atualizado_em": "2026-11-27T15:16:56-03:00",
+  "atualizado_em": "2026-11-28T13:58:45-03:00",
   "editais": [
     {
       "titulo": "EDITAL DPI/DEX/DPG/DEG Nº 003/2026",
-      "resumo": "Edital conjunto de diretorias da UnB (DPI/DEX/DPG/DEG); a página não especifica o objeto, público-alvo, prazo ou valor do edital.",
+      "resumo": "A página lista apenas o título e o link do edital, sem resumo, objeto, prazo ou valor descritos no texto fornecido.",
       "prazo": "2026-03-27",
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/158-edital003-2026",
@@ -244,41 +244,39 @@
       "primeiro_visto": "2026-11-17T14:40:44-03:00"
     },
     {
-      "titulo": "CHAMADA CNPq/CAPES/FAPDF Nº 13/2026 - Programa de Apoio à Fixação de Doutores no Brasil (PROFIX - Conhecimento Brasil/PROFIX-CB)",
-      "resumo": "Chamada conjunta CNPq/CAPES/FAPDF para apoio à fixação de doutores recém-titulados em instituições do Distrito Federal, por meio de bolsas/apoio financeiro a pesquisadores sem vínculo empregatício.",
+      "titulo": "Chamada Pública CNPq/CAPES/FAPDF Nº 13/2026 - Programa de Apoio à Fixação de Doutores no Brasil (PROFIX - Conhecimento Brasil / PROFIX-CB)",
+      "resumo": "Chamada em cooperação entre CNPq, CAPES e FAPDF para apoiar a fixação de doutores recém-titulados em instituições de pesquisa do Distrito Federal/RIDE, com exigência de residência/compromisso de fixação no DF.",
       "prazo": "2026-11-23",
-      "valor": "Até R$ 1.154.400,00 por proposta: BCB-1 (CNPq) R$ 13.000,00/mês por 48 meses (R$ 624.000,00); bolsas CAPES de mestrado (até R$ 50.400,00) e/ou doutorado (até R$ 148.800,00); e recursos FAPDF de até R$ 6.900,00/mês, limitados a R$ 331.200,00 por proposta.",
-      "link": "https://www.fap.df.gov.br/documents/d/fap/sei_212973162_chamada_publica_63-pdf",
+      "valor": "Até R$ 1.154.400,00 por proposta (BCB-1 CNPq: R$ 13.000,00/mês por 48 meses, total R$ 624.000,00; bolsas CAPES mestrado/doutorado até R$ 199.200,00; recursos FAPDF até R$ 331.200,00, limite mensal R$ 6.900,00)",
+      "link": "https://www.fap.df.gov.br/documents/d/fap/sei_gdf-220216879-chamada-publica-pdf",
       "documentos": [
         "https://www.fap.df.gov.br/documents/d/fap/chamada_profix_3-_retificacao-pdf",
-        "https://www.fap.df.gov.br/documents/d/fap/sei_gdf-220216879-chamada-publica-pdf",
-        "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-40-pdf-1",
         "https://www.fap.df.gov.br/documents/d/fap/sei_219649913_chamada_publica_72-pdf",
-        "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-30-pdf-1",
+        "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-40-pdf-1",
         "https://www.fap.df.gov.br/documents/d/fap/sei_gdf-215690529-extrato-pdf",
+        "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-30-pdf-1",
         "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-3-1-pdf",
-        "https://www.fap.df.gov.br/documents/d/fap/acordo-de-cooperacao-tecnica-celebrado-entre-cnpq-fapdf-e-capes-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb-pdf-1"
+        "https://www.fap.df.gov.br/documents/d/fap/acordo-de-cooperacao-tecnica-celebrado-entre-cnpq-fapdf-e-capes-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb-pdf-1",
+        "https://www.fap.df.gov.br/documents/d/fap/sei_212973162_chamada_publica_63-pdf"
       ],
       "aberto": false,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "O prazo de submissão (23/11/2026) já encerrou antes da data de hoje (24/11/2026) e nenhuma retificação prorrogou nova data, apenas ajustaram a comprovação de diploma obtido no exterior; mesmo sendo o perfil de pesquisador (doutor, residente no DF, sem vínculo empregatício) o único elegível aos requisitos, a chamada está fechada para novas propostas.",
-      "id": "ea6260cdaf4c",
+      "motivo": "O perfil pesquisador (doutor recém-titulado, sem vínculo empregatício, residente no DF) atenderia aos requisitos, mas o prazo de submissão (23/11/2026) já expirou em relação à data de hoje (28/11/2026), tornando a chamada encerrada para novas propostas.",
+      "id": "076ad2865b40",
       "fonte": "fapdf",
       "fonte_nome": "FAPDF",
       "categoria": "fap",
-      "primeiro_visto": "2026-11-23T17:20:30-03:00",
-      "requisitos": "Proponente/Coordenador deve ser pesquisador com título de doutor (brasileiro nato/naturalizado, ou, após as retificações, também estrangeiro), residir ou se comprometer a residir no DF/RIDE, não possuir vínculo empregatício/funcional com instituição nacional no início da bolsa, e vincular-se a Instituição Executora sediada no DF.",
+      "primeiro_visto": "2026-11-28T13:58:45-03:00",
+      "requisitos": "Proponente/Coordenador BCB-1: possuir título de doutor; residir no DF/RIDE ou firmar compromisso de fixação residencial no DF/RIDE; não ter vínculo empregatício ou funcional com instituição nacional no início da BCB-1; projeto a ser executado no DF, com apoio de Instituição Executora sediada no DF.",
       "verificado": true,
-      "verificado_em": "2026-11-24T16:34:51-03:00",
+      "verificado_em": "2026-11-28T13:58:45-03:00",
       "verificacao_hash": "bbb5158c",
       "docs_verificados": [
         "https://www.fap.df.gov.br/documents/d/fap/chamada_profix_3-_retificacao-pdf",
-        "https://www.fap.df.gov.br/documents/d/fap/sei_gdf-220216879-chamada-publica-pdf",
+        "https://www.fap.df.gov.br/documents/d/fap/sei_219649913_chamada_publica_72-pdf",
         "https://www.fap.df.gov.br/documents/d/fap/visualizar_pdf-40-pdf-1"
-      ],
-      "mudanca": "Retificação anterior (não detalhada nos extratos recebidos) prorrogou o prazo de submissão de 27/10/2026 para 23/11/2026 (hoje); a 2ª e 3ª retificações (de 12/11 e 19/11/2026) apenas ajustaram a exigência documental do diploma de doutorado obtido no exterior, sem alterar requisitos de elegibilidade para o perfil pesquisador.",
-      "avisado": true
+      ]
     },
     {
       "titulo": "Programa de Cooperação para Inovação da Rede EUREKA – Chamada bilateral para projetos nas áreas de mineração sustentável, bioeconomia ou cidades sustentáveis – Fase Nacional",
@@ -604,7 +602,7 @@
     },
     {
       "titulo": "Chamada Transnacional Conjunta - FOREST 2026",
-      "resumo": "Chamada conjunta de cooperação internacional em pesquisa, sem detalhes de tema, elegibilidade ou financiamento disponíveis no texto da página.",
+      "resumo": "Chamada de cooperação internacional voltada a projetos conjuntos de pesquisa na área de florestas (FOREST), articulada pelo CONFAP com agências de fomento parceiras no exterior.",
       "prazo": "2026-12-02",
       "valor": null,
       "link": "https://confap.org.br/pt/editais/119/chamada-transnacional-conjunta-forest-2026",
@@ -2086,8 +2084,8 @@
       "avisado": true
     },
     {
-      "titulo": "EDITAL DPI/BCE Nº 001/2026",
-      "resumo": "Edital conjunto da Diretoria de Pesquisa e Inovação e da Biblioteca Central da UnB; a página não especifica o objeto, público-alvo, prazo ou valor do edital.",
+      "titulo": "EDITAL DPI/BCE N. 001/2026",
+      "resumo": "A página lista apenas o título e o link do edital, sem resumo, objeto, prazo ou valor descritos no texto fornecido.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/155-edital-001-2026",
@@ -2095,35 +2093,29 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Texto não traz informações suficientes sobre objeto, elegibilidade, prazo ou tema para avaliar adequação a qualquer perfil.",
-      "id": "fd9731ba6cc6",
+      "motivo": "Texto da página não traz objeto, área ou critérios de elegibilidade para avaliar encaixe em nenhum perfil.",
+      "id": "3cfb353397ed",
       "fonte": "dpi-unb",
       "fonte_nome": "UnB (DPI/DPG) editais de pesquisa",
       "categoria": "fap",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00"
+      "primeiro_visto": "2026-11-28T13:58:45-03:00"
     },
     {
-      "titulo": "EDITAL DPI/DPG Nº 004/2026 - PROGRAMA ISAAC ROITMAN",
-      "resumo": "Edital da Diretoria de Pesquisa e Inovação/Decanato de Pós-Graduação da UnB referente ao Programa Isaac Roitman; o texto disponível na página não traz o objeto, público-alvo, prazo ou valor do edital.",
+      "titulo": "EDITAL DPI/DPG - Nº.004/2026 PROGRAMA ISAAC ROITMAN",
+      "resumo": "A página lista apenas o título e o link do edital, sem resumo, objeto, prazo ou valor descritos no texto fornecido.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/167-edital-dpi-dpg-n-004-2026-programa-isaac-roitman",
       "documentos": [],
-      "aberto": false,
+      "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "Pesquisador vinculado à UnB poderia ter afinidade com as linhas de IA e sustentabilidade/clima, mas o edital já passou da fase de submissão: o comunicado de 09/11/2026 traz o resultado provisório da homologação das propostas, ou seja, encerrado.",
-      "id": "3654ff7e407b",
+      "motivo": "Texto da página não traz objeto, área ou critérios de elegibilidade para avaliar encaixe em nenhum perfil.",
+      "id": "6543eebd3763",
       "fonte": "dpi-unb",
       "fonte_nome": "UnB (DPI/DPG) editais de pesquisa",
       "categoria": "fap",
-      "primeiro_visto": "2026-11-12T13:53:27-03:00",
-      "requisitos": "Apoio financeiro a pesquisadores/pesquisadoras da UnB para projetos em linhas temáticas estratégicas de internacionalização (justiça social/DH; sustentabilidade/biodiversidade/clima; saúde; educação/cultura/equidade; IA); o texto disponível não detalha o tipo de vínculo exigido.",
-      "mudanca": "Sucessivas retificações (01 a 04) e comunicados alteraram cronograma e anexos; comunicado nº 011/2026 (09/11/2026) mostra resultado provisório de homologação, indicando que a submissão já está encerrada.",
-      "verificado": true,
-      "verificado_em": "2026-11-13T13:33:12-03:00",
-      "verificacao_hash": "bbb5158c",
-      "docs_verificados": []
+      "primeiro_visto": "2026-11-28T13:58:45-03:00"
     },
     {
       "titulo": "ESA Science Hub Challenges – Call for Participation 2027",
@@ -2164,7 +2156,7 @@
     },
     {
       "titulo": "Edital DPI Nº 002/2026",
-      "resumo": "Edital da Diretoria de Pesquisa e Inovação da UnB; a página não especifica o objeto, público-alvo, prazo ou valor do edital.",
+      "resumo": "A página lista apenas o título e o link do edital, sem resumo, objeto, prazo ou valor descritos no texto fornecido.",
       "prazo": null,
       "valor": null,
       "link": "https://dpi.unb.br/editais/editais2026/156-edital-dpi-n-002-2026",
@@ -2205,7 +2197,7 @@
     },
     {
       "titulo": "Edital Made in Quadrado",
-      "resumo": "Edital do Sebrae no DF com inscrições permanentes para produtores do Distrito Federal, lançado durante a programação do Alimenta 2026.",
+      "resumo": "Edital com inscrições permanentes para produtores do Distrito Federal, lançado durante a programação do evento Alimenta 2026; o texto não detalha o que exatamente é financiado ou oferecido.",
       "prazo": null,
       "valor": null,
       "link": "https://df.agenciasebrae.com.br/cultura-empreendedora/edital-made-in-quadrado-abre-inscricoes-permanentes-para-produtores-do-distrito-federal/",
@@ -2213,7 +2205,7 @@
       "aberto": true,
       "relevancia": "baixa",
       "perfis": [],
-      "motivo": "edital genérico para produtores locais do DF (sem detalhes de setor/tecnologia), sem relação direta com os perfis de pesquisa, IA, fintech ou alimentação-tech listados",
+      "motivo": "destinado a produtores em geral do DF, sem detalhes sobre financiamento de tecnologia; não há correspondência clara com os temas específicos de pesquisa, IA/geotecnologia, fintech/turismo ou automação de estoque dos perfis monitorados.",
       "id": "15f2d0fd81da",
       "fonte": "sebrae-df",
       "fonte_nome": "Sebrae DF",
@@ -3021,23 +3013,6 @@
       "docs_verificados": []
     },
     {
-      "titulo": "Prêmio Café do Cerrado Central (2ª edição)",
-      "resumo": "Premiação promovida pelo Sebrae no DF em parceria com o Sistema Fape-DF/Senar/Sindicatos para incentivar a melhoria da produção e a identidade do café da região do Cerrado Central, destinada a produtores de café.",
-      "prazo": null,
-      "valor": null,
-      "link": "https://df.agenciasebrae.com.br/cultura-empreendedora/evento-marca-o-lancamento-da-segunda-edicao-do-premio-cafe-do-cerrado-central/",
-      "documentos": [],
-      "aberto": true,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "prêmio restrito a produtores de café do Cerrado, sem relação com pesquisa, IA/geoprocessamento, fintech ou tecnologia em alimentação",
-      "id": "3f67d18fb439",
-      "fonte": "sebrae-df",
-      "fonte_nome": "Sebrae DF",
-      "categoria": "empresas",
-      "primeiro_visto": "2026-11-11T13:19:04-03:00"
-    },
-    {
       "titulo": "Pé-de-meia Licenciaturas",
       "resumo": "Programa de incentivo financeiro a estudantes de licenciatura na educação básica.",
       "prazo": null,
@@ -3089,23 +3064,6 @@
       "categoria": "federal",
       "primeiro_visto": "2026-10-26T14:23:00-03:00",
       "avisado": true
-    },
-    {
-      "titulo": "Seja um expositor do Alimenta",
-      "resumo": "Chamada do Sebrae no DF para pequenos empresários e artesãos da cadeia produtiva de alimentação do Distrito Federal se tornarem expositores no evento Alimenta, realizado em 5, 6 e 7 de novembro de 2026.",
-      "prazo": null,
-      "valor": null,
-      "link": "https://df.agenciasebrae.com.br/cultura-empreendedora/seja-um-expositor-do-alimenta-maior-evento-da-cadeia-produtiva-de-alimentacao-do-df/",
-      "documentos": [],
-      "aberto": false,
-      "relevancia": "baixa",
-      "perfis": [],
-      "motivo": "oportunidade já encerrada: o evento (5 a 7 de novembro de 2026) já ocorreu antes da data de referência (19/11/2026)",
-      "id": "8b8adaff00de",
-      "fonte": "sebrae-df",
-      "fonte_nome": "Sebrae DF",
-      "categoria": "empresas",
-      "primeiro_visto": "2026-11-19T14:29:47-03:00"
     },
     {
       "titulo": "Seleção de Gestor para o FIP Complexo da Saúde",
